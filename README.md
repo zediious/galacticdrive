@@ -7,7 +7,7 @@ The "zediious" branch is where release developmental edits will occur. Whenever 
 
 **TESTER GUIDELINES**
 
-**1.** Testers are required to submit a "report" via a comment on an issue dedicated to them every time the are on the server. Create an issue, label it with TESTER REPORT PAGE and add it to the project for the current version. Create a comment and edit that comment to make your reports. Reports must start with the date you are writing it on. The more you get done and the longer you are on depends how long the report has to be. If a tester fails to add a report to their issue page each time they are online, they will no longer be a tester.
+**1.** Testers are required to submit a "report" via a comment on an issue dedicated to them every time the are on the server. Create an issue, label it with TESTER REPORT PAGE and add it to the project for the current version. You will edit this issue to add reports. Reports must start with the date you are writing it on. The more you get done and the longer you are on depends how long the report has to be. If a tester fails to add a report to their issue page each time they are online, they will no longer be a tester. Please check the example issue for a reference.
 
 **2.** Testers are required to log into the server at least every other day, unless you contact us with an express reason.
 
