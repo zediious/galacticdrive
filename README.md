@@ -9,8 +9,11 @@ TESTER GUIDELINES
 **3.** The reports are non-negotiable. Any bit of feedback/data you get will be useful and is needed.
 
 **4.** Your reports must include:
+
      A) Any bugs/dupes/exploits you find.
+     
      B) Any recipes that you think need changed, made more difficult, etc.
+     
      C) Any suggestions for the pack progression/branching on progression. We want to provide variety.
 
 **5.** If you are only online for a short period of time, you may submit your report noting that you were AFK or did not do much. You MUST still submit the report every time you are on, no matter how little data you got if any.
