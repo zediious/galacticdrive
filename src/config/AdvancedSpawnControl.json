@@ -1,5 +1,5 @@
 {
-  "Print All Registered Entities": false,
+  "Print All Registered Entities": true,
   "Monster Max": 70,
   "Creature Max": 10,
   "Ambient Max": 15,
