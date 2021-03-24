@@ -1,0 +1,165 @@
+{
+	"images": {
+		"title": {
+			"image" : "wwm:textures/logo.png",
+			"posX" : -186,
+			"posY" : 5,
+			"width" : 372,
+			"height" : 110,
+			"alignment" : "top_center"
+		}
+	},
+	
+	"buttons": {
+		"singleplayer": {
+			"text" : "menu.singleplayer",
+			"texture" : "wwm:textures/button_main.png",
+			"alignment" : "button",
+			"posX" : -100,
+			"posY" : 60,
+			"width" : 200,
+			"height" : 20,
+			"normalTextColor" : 4009774,
+			"hoverTextColor" : 14845308,
+			"action" : {
+				"type" : "openGui",
+				"gui" : "singleplayer"
+			}
+		},
+		
+		"multiplayer": {
+			"text" : "menu.multiplayer",
+			"tooltip": "Join the official server!",
+			"texture" : "wwm:textures/button_main.png",
+			"alignment" : "button",
+			"posX" : -100,
+			"posY" : 84,
+			"width" : 200,
+			"height" : 20,
+			"normalTextColor" : 4009774,
+			"hoverTextColor" : 14845308,
+			"action" : {
+				"type" : "openGui",
+				"gui" : "multiplayer"
+			}
+		},
+		
+		"options": {
+			"text" : "menu.options",
+			"texture" : "wwm:textures/button_main.png",
+			"alignment" : "button",
+			"posX" : -100,
+			"posY" : 108,
+			"width" : 200,
+			"height" : 20,
+			"normalTextColor" : 4009774,
+			"hoverTextColor" : 14845308,
+			"action" : {
+				"type" : "openGui",
+				"gui" : "options"
+			}
+		},
+		
+		"forum": {
+			"text": "",
+			"tooltip": "Join the website to team up\nand request support",
+			"texture" : "wwm:textures/button_forum.png",
+			"alignment" : "button",
+			"posX": -124,
+			"posY": 108,
+			"width": 20,
+			"height": 20,
+			"action": {
+				"type": "openLink",
+				"link": "http://worldwarminecraft.net/forum"
+			}
+		},
+		
+		"mods": {
+			"text" : "",
+			"texture" : "wwm:textures/button_mod.png",
+			"alignment" : "button",
+			"posX" : 104,
+			"posY" : 108,
+			"width" : 20,
+			"height" : 20,
+			"action" : {
+				"type" : "openGui",
+				"gui" : "mods"
+			}
+		},
+		
+		"quit": {
+			"text" : "menu.quit",
+			"texture" : "wwm:textures/button_main.png",
+			"alignment" : "button",
+			"posX" : -100,
+			"posY" : 132,
+			"width" : 200,
+			"height" : 20,
+			"normalTextColor" : 4009774,
+			"hoverTextColor" : 14845308,
+			"action" : {
+				"type" : "quit"
+			}
+		},
+		
+		"language": {
+			"text" : "",
+			"tooltip" : "Language",
+			"texture" : "wwm:textures/button_language.png",
+			"alignment" : "button",
+			"posX" : -124,
+			"posY" : 132,
+			"width" : 20,
+			"height" : 20,
+			"action" : {
+				"type" : "openGui",
+				"gui" : "languages"
+			}
+		}
+	},
+	
+	"texts": {
+		"buttons": {
+			"text" : "§8Buttons by Hisaya",
+			"posX" : -73,
+			"posY" : -30,
+			"color" : -1,
+			"fontSize" : 0.8,
+			"alignment" : "bottom_right"
+		},
+		
+		"background": {
+			"text" : "§8Background by For4jen",
+			"posX" : -98,
+			"posY" : -20,
+			"color" : -1,
+			"fontSize" : 0.8,
+			"alignment" : "bottom_right"
+		},
+		
+		"mojang": {
+			"text" : "§8Copyright Mojang AB. Do not distribute!",
+			"posX" : -158,
+			"posY" : -10,
+			"color" : -1,
+			"fontSize" : 0.8,
+			"alignment" : "bottom_right"
+		},
+		
+		"version": {
+			"text" : "Mods #modsactive# / #modsloaded#\nMinecraft #mcversion#\nForge #forgeversion#\n§4§lW§corld§4§lW§car§4§lM§cinecraft §4§l10 §1Magic planets",
+			"posX" : 2,
+			"posY" : -36,
+			"color" : -1,
+			"alignment" : "bottom_left"
+		}
+	},
+	
+	"other": {        
+		"background": {
+			"image" : "wwm:textures/background.jpg"
+		} 
+	}
+}
