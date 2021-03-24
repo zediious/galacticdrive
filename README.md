@@ -5,7 +5,7 @@ When you want to make new edits, you MUST create a new branch and start your com
 
 ============================================================================================
 
-**TESTER GUIDELINES**
+**ALPHA TESTER GUIDELINES**
 
 **1.** Testers are required to submit a "report" via a comment on an issue dedicated to them every time the are on the server. Create an issue, label it with TESTER REPORT PAGE and add it to the project for the current version. You will edit this issue to add reports. Reports must start with the date you are writing it on. The more you get done and the longer you are on depends how long the report has to be. If a tester fails to add a report to their issue page each time they are online, they will no longer be a tester. Please check the example issue for a reference.
 
