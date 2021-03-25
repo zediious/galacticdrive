@@ -1,9 +1,12 @@
 # Galactic Drive - Custom 1.7.0 modpack based on Warpdrive.
 **DEV GUIDELINES**
 
-https://gdevs.io/ | GD Launcher is the preferred launcher for alpha releases. MultiMC will work as well.
+Alpha releases are exports from the Curseforge client. You can download these with Curseforge, GDLauncher, or MultiMC
+https://curseforge.overwolf.com/
+https://gdevs.io/
+https://multimc.org/#Download
 
-When you want to make new edits, you MUST create a new branch and start your commits from there after cloning main. NEVER COMMIT DIRECTLY TO MAIN. After this, you will create a pull request from your commit, which will allow all of us to view the edits and make changes collaboratively on the branch first before pushing the commit onto the main branch after approval. **After a pull request has been created, further commits can be added to the pull request by commiting to the branch the pull request was made on.** The main branch contains our unmolested current version from which we work from in a dev "bubble". Whenever you create a pull request, add it to the project for the version in dev, and apply the correct labels. You can perform personal testing on your own branches, we must ALWAYS keep an intact main repository from which to pull our testing environments from. If you need to add a folder to the main repo to start working from, you need to do it from the desktop client.
+When you want to make new edits, you must commit to the development branch or a branch you create. NEVER COMMIT DIRECTLY TO MAIN. After this, you will create a pull request from your commit, which will allow all of us to view the edits and make changes collaboratively on the branch first before pushing the commit onto the main branch after approval. **After a pull request has been created, further commits can be added to the pull request by commiting to the branch the pull request was made on.** The main branch contains our unmolested current version from which we work from in a dev "bubble". Whenever you create a pull request, add it to the project for the version in dev, and apply the correct labels. You can perform personal testing on your own branches, we must ALWAYS keep an intact main repository from which to pull our testing environments from. If you need to add a folder to the main repo to start working from, you need to do it from the desktop client.
 
 ============================================================================================
 
