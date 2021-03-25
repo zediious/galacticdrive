@@ -1,4 +1,4 @@
-# Galactic Drive - Custom 1.7.10 modpack based on Warpdrive.
+# (WHITELIST ALPHA) Galactic Drive - Custom 1.7.10 modpack based on Warpdrive.
 **DEV GUIDELINES**
 
 Alpha releases are exports from the Curseforge client. You can download these with Curseforge, GDLauncher, or MultiMC
