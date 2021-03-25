@@ -2,6 +2,7 @@
 **DEV GUIDELINES**
 
 Alpha releases are exports from the Curseforge client. You can download these with Curseforge, GDLauncher, or MultiMC
+
 https://curseforge.overwolf.com/
 
 https://gdevs.io/
