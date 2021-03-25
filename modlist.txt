@@ -1,3 +1,6 @@
+0.0alpha | 1.7.10
+
+
 ModTweaker | 0.9.6
 Numina | 0.4.1.106
 Admin Commands Toolbox | 0.0.2a_1.7.10
@@ -56,8 +59,6 @@ INpureCore | 1.0.0B9
 Inventory Tweaks | 1.59-dev-152
 Iron Chests | 6.0.62.742-universal
 JABBA | 1.2.2
-0.0alpha | 1.7.10
-
 JourneyMap | 5.1.4p2-unlimited
 MalisisCore | 0.14.3
 MalisisDoors | 1.13.2
@@ -70,6 +71,7 @@ Modular Powersuits | 0.11.1.117
 Morpheus | 1.6.21
 Mouse Tweaks | 2.4.4
 NotEnoughItems | 1.0.5.120-universal
+NotEnoughResources | 0.1.0-122
 NotEnoughThaumcraftTabs | 1.0.2
 NoMoreRecipeConflict | 0.3
 (IC2)Nuclear Control 2 | 2.4.3a
