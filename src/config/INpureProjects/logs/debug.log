@@ -228,34 +228,6 @@ Found creative tab: mobcrystal
 Found creative tab: GalacticraftItems
 Found creative tab: GalacticraftBlocks
 Found creative tab: CreativeTabName
-Found creative tab: Official.aek971
-Found creative tab: GunCus.bullets
-Found creative tab: Official.g17
-Found creative tab: Official.g18
-Found creative tab: Official.l96
-Found creative tab: Official.m16a3
-Found creative tab: Official.sv98
-Found creative tab: WholyGunCustom.AK-47
-Found creative tab: WholyGunCustom.Barret_M82A1
-Found creative tab: WholyGunCustom.Desert_Eagle
-Found creative tab: WholyGunCustom.FAMAS
-Found creative tab: WholyGunCustom.Flame-thrower
-Found creative tab: WholyGunCustom.HAMR
-Found creative tab: WholyGunCustom.HK416
-Found creative tab: WholyGunCustom.HK_USP_9mm
-Found creative tab: WholyGunCustom.HV-404
-Found creative tab: WholyGunCustom.IMI_Galil
-Found creative tab: WholyGunCustom.M1911
-Found creative tab: WholyGunCustom.M249
-Found creative tab: WholyGunCustom.M4A1
-Found creative tab: WholyGunCustom.MP5
-Found creative tab: WholyGunCustom.P90
-Found creative tab: WholyGunCustom.SPAS-12
-Found creative tab: WholyGunCustom.Steyr_AUG_a3
-Found creative tab: WholyGunCustom.UMP45
-Found creative tab: WholyGunCustom.XM8
-Found creative tab: WholyGunCustom.magnumrifle
-Found creative tab: GunCus.modifications
 Found creative tab: Nuclear Control 2
 Found creative tab: ImmersiveEngineering
 Found creative tab: jabba
@@ -300,7 +272,6 @@ Found creative tab: aether_food
 Found creative tab: aether_weapons
 Found creative tab: aether_tools
 Found creative tab: aether_armor
-Found creative tab: WWNDustsAndOres
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
 Found creative tab: Ars Magica Items
@@ -337,24 +308,6 @@ Setting up Applied Energistics 2 Library...
 Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
 Bootstrap setting found. Loading: Bootstrap.js
 Loading: vanilla.js
-hide called. Params: minecraft, portal
-Regex match found! minecraft:portal matches minecraft:portal.
-Found ItemStack minecraft:portal. 64xtile.portal@0
-hide called. Params: minecraft, end_portal
-Regex match found! minecraft:end_portal matches minecraft:end_portal.
-Found ItemStack minecraft:end_portal. 64xtile.null@0
-hide called. Params: minecraft, fire
-Regex match found! minecraft:fire matches minecraft:fire.
-Found ItemStack minecraft:fire. 64xtile.fire@0
-hide called. Params: minecraft, water
-Regex match found! minecraft:water matches minecraft:water.
-Found ItemStack minecraft:water. 64xtile.water@0
-hide called. Params: minecraft, lava
-Regex match found! minecraft:lava matches minecraft:lava.
-Found ItemStack minecraft:lava. 64xtile.lava@0
-hide called. Params: minecraft, mob_spawner
-Regex match found! minecraft:mob_spawner matches minecraft:mob_spawner.
-Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
 Loading: ThermalExpansion.js
 Loading: Mekanism.js
 override called. Params: Mekanism, GasTank, 100
@@ -378,12 +331,12 @@ override called. Params: Mekanism, GlowPanel, 0
 Regex match found! Mekanism:GlowPanel matches Mekanism:GlowPanel.
 Found ItemStack Mekanism:GlowPanel. 64xitem.GlowPanel@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ImmersiveEngineering:storage_1
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:storage_1
+getRandomMaterial called. Returned: ImmersiveEngineering:storage_3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:storage_3
 Loading: ExtraUtilities.js
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 5199
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 680
+getFacadesSize called. Returned: 5189
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 2909
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -519,8 +472,8 @@ Found ItemStack BiblioCraft:tile.BiblioFramedChest. 64xtile.BiblioFramedChest@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2196
-override called. Params: appliedenergistics2, item.ItemFacade, 1202
+getNumberOfTypes called. Returned: 2208
+override called. Params: appliedenergistics2, item.ItemFacade, 225
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
