@@ -8,8 +8,7 @@ Advanced Solar Panel for 1.7.10 (Unofficial) | 1.7.10 Edition
 Advanced Spawn Control | 0.9.1 (NOT ON CURSE)
 AE2 Stuff | 0.5.0.56
 AgriCraft | 1.5.0
-AnimationAPI | 1.2.4
-AppleCore | 3.1.1
+AnimationAPI | 1.2.4 
 Applied Energestics 2 | rv3-beta-6
 Ars Magica 2 | 1.4.0.009
 Atomic Science | 3.0.5b8
@@ -25,7 +24,6 @@ Buildcraft | 7.1.23
 Carpenter's Blocks | 3.3.8.2
 Chisel | 2.9.5.11
 CodeChickenCore | 1.0.7.47
-CoFH Core | 3.1.4-329
 ComputerCraft | 1.75 (ABANDONED, CURSE WON'T PULL)
 Controlling | 1.0.0
 CraftTweaker (MineTweaker) | 3.1.0-legacy
@@ -35,7 +33,6 @@ DiscordIntegration | 3.0.5
 DragonAPI | V29B
 DummyCore | 1.13
 Dynamic Surroundings | 1.0.6.4
-EnderCore | 0.2.0.39_beta
 EvilCraft | 0.9.13
 ExtraCells 2 Patched | 2.3.14b200
 ExtraPlanets | 2.1.4
