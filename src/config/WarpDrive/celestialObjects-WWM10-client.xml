@@ -50,7 +50,7 @@
 				</parent>
 				<size x="1000000" z="1000000" />
 				<name>Earth</name>
-				<description>Resets every 30 days.</description>
+				<description>A dangerous place to be.</description>
 				<dimension id="0" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>

@@ -3,3 +3,7 @@
 #Only define one seed per line, meta is optional. Example: minecraft:melon_seeds,10
 AgriCraft:seedCarrot,10
 AgriCraft:seedPotato,10
+AgriCraft:seedSugarcane,2
+harvestcraft:cropSunflower,4
+minecraft:melon_seeds,2
+
