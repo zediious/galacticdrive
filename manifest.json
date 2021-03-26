@@ -296,12 +296,6 @@
             "required": true
         },
         {
-            "alias": "WorldEdit (worldedit-forge-mc1.7.10-6.1.1-dist.jar)",
-            "fileID": 2309699,
-            "projectID": 225608,
-            "required": true
-        },
-        {
             "alias": "Mantle (Mantle-1.7.10-0.3.2b.jar)",
             "fileID": 2264244,
             "projectID": 74924,
