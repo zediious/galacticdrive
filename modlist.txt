@@ -110,6 +110,7 @@ Waystones | 1.0.12
 Witching Gadgets | 1.1.10
 WorldEdit | 6.1.1-dist
 WorldEditCUI Forge | 10.13.4.1566
+World Stripper | 1.0.0-1.7.10 (for testing oregen tweaks)
 WTF's Expedition: CaveBiomes, Ores, Trees, and Tweaks | 1.6
 WTF's Expedition: Gameplay | 1.4
 WTFTextureGeneratorLib | vBeta2
