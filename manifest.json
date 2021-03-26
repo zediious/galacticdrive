@@ -1,0 +1,666 @@
+{
+    "author": "Zediious",
+    "files": [
+        {
+            "alias": "Ars Magica 2 (1.7.10_AM2-1.4.0.009.jar)",
+            "fileID": 2280862,
+            "projectID": 67313,
+            "required": true
+        },
+        {
+            "alias": "WorldEditCUI Forge Edition (WorldEditCuiFe-v1.0.7-mf-1.7.10-10.13.4.1566.jar)",
+            "fileID": 2390420,
+            "projectID": 242932,
+            "required": true
+        },
+        {
+            "alias": "WTFCore (WTFCore-1.7.10_v1.7.jar)",
+            "fileID": 2300203,
+            "projectID": 231301,
+            "required": true
+        },
+        {
+            "alias": "OpenModsLib (OpenModsLib-1.7.10-0.10.1.jar)",
+            "fileID": 2765573,
+            "projectID": 228815,
+            "required": true
+        },
+        {
+            "alias": "OpenBlocks (OpenBlocks-1.7.10-1.6.jar)",
+            "fileID": 2386733,
+            "projectID": 228816,
+            "required": true
+        },
+        {
+            "alias": "Open Modular Turrets (OpenModularTurrets-1.7.10-2.2.11-245.jar)",
+            "fileID": 2549788,
+            "projectID": 224663,
+            "required": true
+        },
+        {
+            "alias": "CustomOreGen (CustomOreGen-1.7.10-1.2.26.jar)",
+            "fileID": 2335337,
+            "projectID": 237130,
+            "required": true
+        },
+        {
+            "alias": "EnderCore (EnderCore-1.7.10-0.2.0.39_beta.jar)",
+            "fileID": 2331048,
+            "projectID": 231868,
+            "required": true
+        },
+        {
+            "alias": "Witching Gadgets (WitchingGadgets-1.7.10-1.1.10.jar)",
+            "fileID": 2262119,
+            "projectID": 228268,
+            "required": true
+        },
+        {
+            "alias": "ExtraPlanets (ExtraPlanets-1.7.10-2.1.4.jar)",
+            "fileID": 3214411,
+            "projectID": 241291,
+            "required": true
+        },
+        {
+            "alias": "FastCraft (fastcraft-1.25.jar)",
+            "fileID": 2522249,
+            "projectID": 242677,
+            "required": true
+        },
+        {
+            "alias": "Guardian Chests (guardianchest-1.6.jar)",
+            "fileID": 2259848,
+            "projectID": 233261,
+            "required": true
+        },
+        {
+            "alias": "PneumaticCraft (PneumaticCraft-1.7.10-1.12.7-152-universal.jar)",
+            "fileID": 2513763,
+            "projectID": 224125,
+            "required": true
+        },
+        {
+            "alias": "Immersive Integration (immersiveintegration-0.6.8.jar)",
+            "fileID": 2289306,
+            "projectID": 232159,
+            "required": true
+        },
+        {
+            "alias": "WTF's TextureGeneratorLib (TextureGeneratorLib-1.7.10_vBeta2.jar)",
+            "fileID": 2268414,
+            "projectID": 237978,
+            "required": true
+        },
+        {
+            "alias": "ReAuth (ReAuth-3.5.0.jar)",
+            "fileID": 2433392,
+            "projectID": 237701,
+            "required": true
+        },
+        {
+            "alias": "ExtraCells 2 Patched (ExtraCells-1.7.10-2.3.14b200.jar)",
+            "fileID": 2733380,
+            "projectID": 325789,
+            "required": true
+        },
+        {
+            "alias": "Buildcraft (buildcraft-7.1.23.jar)",
+            "fileID": 2502739,
+            "projectID": 61811,
+            "required": true
+        },
+        {
+            "alias": "Tainted Magic (Tainted-Magic-r7.82.jar)",
+            "fileID": 2462744,
+            "projectID": 231061,
+            "required": true
+        },
+        {
+            "alias": "Advanced Spawn Control (AdvancedSpawnControl-0.9.1.jar)",
+            "fileID": 2260568,
+            "projectID": 236053,
+            "required": true
+        },
+        {
+            "alias": "WarpDrive (WarpDrive-1.7.10-1.4.2.-.jar)",
+            "fileID": 2578306,
+            "projectID": 233565,
+            "required": true
+        },
+        {
+            "alias": "FTB Library (FTBLib-1.7.10-1.0.18.3.jar)",
+            "fileID": 2291433,
+            "projectID": 237167,
+            "required": true
+        },
+        {
+            "alias": "Waystones (Waystones-mc1.7.10-1.0.12.jar)",
+            "fileID": 2559125,
+            "projectID": 245755,
+            "required": true
+        },
+        {
+            "alias": "BiblioCraft (BiblioCraft[v1.11.7][MC1.7.10].jar)",
+            "fileID": 2423369,
+            "projectID": 228027,
+            "required": true
+        },
+        {
+            "alias": "NotEnoughItems (NotEnoughItems-1.7.10-1.0.5.120-universal.jar)",
+            "fileID": 2302312,
+            "projectID": 222211,
+            "required": true
+        },
+        {
+            "alias": "CodeChickenCore (CodeChickenCore-1.7.10-1.0.7.47-universal.jar)",
+            "fileID": 2262089,
+            "projectID": 222213,
+            "required": true
+        },
+        {
+            "alias": "NotEnoughResources (NotEnoughResources-1.7.10-0.1.0-128.jar)",
+            "fileID": 2323485,
+            "projectID": 225815,
+            "required": true
+        },
+        {
+            "alias": "Waila Harvestability (WailaHarvestability-mc1.7.10-1.1.6.jar)",
+            "fileID": 2270923,
+            "projectID": 79287,
+            "required": true
+        },
+        {
+            "alias": "Thaumic Bases (ThaumicBases-1.3.1710.4.jar)",
+            "fileID": 2250677,
+            "projectID": 232192,
+            "required": true
+        },
+        {
+            "alias": "Traveller's Gear (TravellersGear-1.7.10-1.16.6.jar)",
+            "fileID": 2262112,
+            "projectID": 224440,
+            "required": true
+        },
+        {
+            "alias": "Signpost (signpost-1.7.10-1.08.4.jar)",
+            "fileID": 2922217,
+            "projectID": 261837,
+            "required": true
+        },
+        {
+            "alias": "MalisisDoors (malisisdoors-1.7.10-1.13.2.jar)",
+            "fileID": 2284380,
+            "projectID": 223891,
+            "required": true
+        },
+        {
+            "alias": "MalisisCore (malisiscore-1.7.10-0.14.3.jar)",
+            "fileID": 2283267,
+            "projectID": 223896,
+            "required": true
+        },
+        {
+            "alias": "Waila (Waila-1.5.10_1.7.10.jar)",
+            "fileID": 2230518,
+            "projectID": 73488,
+            "required": true
+        },
+        {
+            "alias": "WAILA Plugins (WAILAPlugins-MC1.7.10-0.2.0-25.jar)",
+            "fileID": 2351717,
+            "projectID": 226119,
+            "required": true
+        },
+        {
+            "alias": "Thaumcraft (Thaumcraft-1.7.10-4.2.3.5.jar)",
+            "fileID": 2227552,
+            "projectID": 223628,
+            "required": true
+        },
+        {
+            "alias": "FpsPlus (fpsplus.zip)",
+            "fileID": 2211275,
+            "projectID": 66016,
+            "required": true
+        },
+        {
+            "alias": "EvilCraft (EvilCraft-1.7.10-0.9.13.jar)",
+            "fileID": 2409469,
+            "projectID": 74610,
+            "required": true
+        },
+        {
+            "alias": "Immersive Engineering (ImmersiveEngineering-0.7.7.jar)",
+            "fileID": 2299019,
+            "projectID": 231951,
+            "required": true
+        },
+        {
+            "alias": "AppleCore (AppleCore-mc1.7.10-3.1.1.jar)",
+            "fileID": 2530879,
+            "projectID": 224472,
+            "required": true
+        },
+        {
+            "alias": "Jabba (Jabba-1.2.2_1.7.10.jar)",
+            "fileID": 2302354,
+            "projectID": 73510,
+            "required": true
+        },
+        {
+            "alias": "Chisel (Chisel-2.9.5.11.jar)",
+            "fileID": 2287442,
+            "projectID": 235279,
+            "required": true
+        },
+        {
+            "alias": "Inventory Tweaks [1.12 only]  (InventoryTweaks-1.59-dev-152.jar)",
+            "fileID": 2210792,
+            "projectID": 223094,
+            "required": true
+        },
+        {
+            "alias": "Tinkers Construct (TConstruct-1.7.10-1.8.8.build991.jar)",
+            "fileID": 2277012,
+            "projectID": 74072,
+            "required": true
+        },
+        {
+            "alias": "TiC Tooltips (TiCTooltips-mc1.7.10-1.2.5.jar)",
+            "fileID": 2246472,
+            "projectID": 76845,
+            "required": true
+        },
+        {
+            "alias": "Dynamic Surroundings (DynamicSurroundings-1.7.10-1.0.6.4.jar)",
+            "fileID": 2642381,
+            "projectID": 238891,
+            "required": true
+        },
+        {
+            "alias": "NotEnoughThaumcraftTabs (NotEnoughThaumcraftTabs-1.0.2.jar)",
+            "fileID": 2266711,
+            "projectID": 237232,
+            "required": true
+        },
+        {
+            "alias": "Thaumic Energistics (thaumicenergistics-1.1.3.0.jar)",
+            "fileID": 2563527,
+            "projectID": 223666,
+            "required": true
+        },
+        {
+            "alias": "Carpenter's Blocks (Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar)",
+            "fileID": 2719376,
+            "projectID": 228932,
+            "required": true
+        },
+        {
+            "alias": "WorldEdit (worldedit-forge-mc1.7.10-6.1.1-dist.jar)",
+            "fileID": 2309699,
+            "projectID": 225608,
+            "required": true
+        },
+        {
+            "alias": "Mantle (Mantle-1.7.10-0.3.2b.jar)",
+            "fileID": 2264244,
+            "projectID": 74924,
+            "required": true
+        },
+        {
+            "alias": "ICBM - Classic (ICBM-classic-1.7.10-2.16.4b3.jar)",
+            "fileID": 2723628,
+            "projectID": 244451,
+            "required": true
+        },
+        {
+            "alias": "BdLib (bdlib-1.9.4.109-mc1.7.10.jar)",
+            "fileID": 2269259,
+            "projectID": 70496,
+            "required": true
+        },
+        {
+            "alias": "DragonAPI (DragonAPI 1.7.10 V29c.jar)",
+            "fileID": 3251537,
+            "projectID": 235591,
+            "required": true
+        },
+        {
+            "alias": "JourneyMap (journeymap-1.7.10-5.1.4p2-unlimited.jar)",
+            "fileID": 2367915,
+            "projectID": 32274,
+            "required": true
+        },
+        {
+            "alias": "DiscordIntegration (DiscordIntegration-mc1.7.10-3.0.5.jar)",
+            "fileID": 2542338,
+            "projectID": 245288,
+            "required": true
+        },
+        {
+            "alias": "ReactorCraft (ReactorCraft 1.7.10 V29c.jar)",
+            "fileID": 3251535,
+            "projectID": 235593,
+            "required": true
+        },
+        {
+            "alias": "Forbidden Magic (Forbidden Magic-1.7.10-0.575.jar)",
+            "fileID": 2303822,
+            "projectID": 224237,
+            "required": true
+        },
+        {
+            "alias": "Blood Magic  (BloodMagic-1.7.10-1.3.3-17.jar)",
+            "fileID": 2264826,
+            "projectID": 224791,
+            "required": true
+        },
+        {
+            "alias": "Morpheus (Morpheus-1.7.10-1.6.21.jar)",
+            "fileID": 2280761,
+            "projectID": 69118,
+            "required": true
+        },
+        {
+            "alias": "RotaryCraft (RotaryCraft 1.7.10 V29c.jar)",
+            "fileID": 3251534,
+            "projectID": 235596,
+            "required": true
+        },
+        {
+            "alias": "CraftTweaker (CraftTweaker-1.7.10-3.1.0-legacy.jar)",
+            "fileID": 2838720,
+            "projectID": 239197,
+            "required": true
+        },
+        {
+            "alias": "Mekanism (Mekanism-1.7.10-9.1.1.1031.jar)",
+            "fileID": 2475797,
+            "projectID": 268560,
+            "required": true
+        },
+        {
+            "alias": "Mekanism Generators (MekanismGenerators-1.7.10-9.1.1.1031.jar)",
+            "fileID": 2475792,
+            "projectID": 268566,
+            "required": true
+        },
+        {
+            "alias": "ExtraTiC (ExtraTiC-1.7.10-1.4.6.jar)",
+            "fileID": 2299292,
+            "projectID": 72728,
+            "required": true
+        },
+        {
+            "alias": "AgriCraft (AgriCraft-1.7.10-1.5.0.jar)",
+            "fileID": 2284130,
+            "projectID": 225635,
+            "required": true
+        },
+        {
+            "alias": "Gadomancy (gadomancy-1.7.10-1.0.7.3.jar)",
+            "fileID": 2338768,
+            "projectID": 237271,
+            "required": true
+        },
+        {
+            "alias": "Techguns (Techguns.beta.1.2_alphatest4.1.jar)",
+            "fileID": 2429662,
+            "projectID": 244201,
+            "required": true
+        },
+        {
+            "alias": "Atomic Science (Atomic-Science-1.7.10-3.0.6b21.jar)",
+            "fileID": 2620721,
+            "projectID": 293507,
+            "required": true
+        },
+        {
+            "alias": "Botania (Botania r1.8-249.jar)",
+            "fileID": 2283837,
+            "projectID": 225643,
+            "required": true
+        },
+        {
+            "alias": "Pressure Pipes (pressure-1.3.0.fix1-mc1.7.10.jar)",
+            "fileID": 2475630,
+            "projectID": 221214,
+            "required": true
+        },
+        {
+            "alias": "Thaumcraft NEI Plugin (thaumcraftneiplugin-1.7.10-1.7a.jar)",
+            "fileID": 2241913,
+            "projectID": 225095,
+            "required": true
+        },
+        {
+            "alias": "Advanced Solar Panel For 1.7.10 (Unofficial) (AdvancedSolarPanel_1.7.10_Edition.jar)",
+            "fileID": 2885953,
+            "projectID": 362768,
+            "required": true
+        },
+        {
+            "alias": "stimmedcow : NoMoreRecipeConflict (NoMoreRecipeConflict-0.3(1.7.10).jar)",
+            "fileID": 2267374,
+            "projectID": 238123,
+            "required": true
+        },
+        {
+            "alias": "Better Builder's Wands (BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar)",
+            "fileID": 2356820,
+            "projectID": 238403,
+            "required": true
+        },
+        {
+            "alias": "AnimationAPI (AnimationAPI-1.7.10-1.2.4.jar)",
+            "fileID": 2221721,
+            "projectID": 77191,
+            "required": true
+        },
+        {
+            "alias": "ModTweaker (ModTweaker2-0.9.6.jar)",
+            "fileID": 2313730,
+            "projectID": 220954,
+            "required": true
+        },
+        {
+            "alias": "Voltz Engine (VoltzEngine-1.7.10-1.11.0b491.jar)",
+            "fileID": 2694951,
+            "projectID": 227048,
+            "required": true
+        },
+        {
+            "alias": "Thaumcraft Node Tracker (tcnodetracker-1.7.10-1.1.2.jar)",
+            "fileID": 2247224,
+            "projectID": 227328,
+            "required": true
+        },
+        {
+            "alias": "CoFH Core (CoFHCore-[1.7.10]3.1.4-329.jar)",
+            "fileID": 2388750,
+            "projectID": 69162,
+            "required": true
+        },
+        {
+            "alias": "The Aether (aether-1.7.10-v1.1.2.1.jar)",
+            "fileID": 3158334,
+            "projectID": 255308,
+            "required": true
+        },
+        {
+            "alias": "ComputerCraft (ComputerCraft1.75.jar)",
+            "fileID": 2269339,
+            "projectID": 67504,
+            "required": true
+        },
+        {
+            "alias": "DummyCore (DummyCore-2.0.1710.0A.jar)",
+            "fileID": 2256966,
+            "projectID": 230103,
+            "required": true
+        },
+        {
+            "alias": "Hardcore Darkness (HardcoreDarkness-MC1.7.10-1.7.jar)",
+            "fileID": 2262352,
+            "projectID": 225957,
+            "required": true
+        },
+        {
+            "alias": "Ore Excavation (OreExcavation-1.1.134.jar)",
+            "fileID": 2673691,
+            "projectID": 250898,
+            "required": true
+        },
+        {
+            "alias": "Thaumic Horizons (thaumichorizons-1.7.10-1.1.9.jar)",
+            "fileID": 2265882,
+            "projectID": 227914,
+            "required": true
+        },
+        {
+            "alias": "ForgeEssentials (forgeessentials-1.7.10-1.4.6.1357-server.jar)",
+            "fileID": 2659141,
+            "projectID": 74735,
+            "required": true
+        },
+        {
+            "alias": "BNBGamingLib (BNBGamingLib-2.3.2.jar)",
+            "fileID": 2270342,
+            "projectID": 229587,
+            "required": true
+        },
+        {
+            "alias": "Iron Chests (ironchest-1.7.10-6.0.62.742-universal.jar)",
+            "fileID": 2230908,
+            "projectID": 228756,
+            "required": true
+        },
+        {
+            "alias": "WTF's Expedition: CaveBiomes, Ores, Trees, and Tweaks (WTFCaveBiomes-1.7.10_v1.6.jar)",
+            "fileID": 2300204,
+            "projectID": 227931,
+            "required": true
+        },
+        {
+            "alias": "WTF's Expedition: Gameplay (WTFTweaks-1.7.10_v1.4.jar)",
+            "fileID": 2300205,
+            "projectID": 225718,
+            "required": true
+        },
+        {
+            "alias": "INpureCore (INpureCore-[1.7.10]1.0.0B9-62.jar)",
+            "fileID": 2238507,
+            "projectID": 223792,
+            "required": true
+        },
+        {
+            "alias": "Thaumic Tinkerer (ThaumicTinkerer-2.5-1.7.10-164.jar)",
+            "fileID": 2232793,
+            "projectID": 75598,
+            "required": true
+        },
+        {
+            "alias": "Applied Energistics 2 (appliedenergistics2-rv3-beta-6.jar)",
+            "fileID": 2296430,
+            "projectID": 223794,
+            "required": true
+        },
+        {
+            "alias": "Nuclear Control 2 (IC2NuclearControl-2.4.3a.jar)",
+            "fileID": 2464673,
+            "projectID": 236813,
+            "required": true
+        },
+        {
+            "alias": "Mouse Tweaks (MouseTweaks-2.4.4-mc1.7.10.jar)",
+            "fileID": 2209265,
+            "projectID": 60089,
+            "required": true
+        },
+        {
+            "alias": "Pam's HarvestCraft (Pam's HarvestCraft 1.7.10Lb.jar)",
+            "fileID": 2270206,
+            "projectID": 221857,
+            "required": true
+        },
+        {
+            "alias": "Ding (Ding-MC1.7.10v2.jar)",
+            "fileID": 2283572,
+            "projectID": 231275,
+            "required": true
+        },
+        {
+            "alias": "MmmMmmMmmMmm (MmmMmmMmmMmm-1.7.10-1.9.jar)",
+            "fileID": 2265493,
+            "projectID": 225738,
+            "required": true
+        },
+        {
+            "alias": "Admin Commands Toolbox (AdminCommandsToolbox-0.0.2a_1.7.10.jar)",
+            "fileID": 2212871,
+            "projectID": 221584,
+            "required": true
+        },
+        {
+            "alias": "Iguanas Tinker Tweaks (IguanaTinkerTweaks-1.7.10-2.1.6.jar)",
+            "fileID": 2288329,
+            "projectID": 223248,
+            "required": true
+        },
+        {
+            "alias": "Industrial Craft (industrialcraft-2-2.2.827-experimental.jar)",
+            "fileID": 2353971,
+            "projectID": 242638,
+            "required": true
+        },
+        {
+            "alias": "Numina (Numina-0.4.1.106.jar)",
+            "fileID": 2681246,
+            "projectID": 235440,
+            "required": true
+        },
+        {
+            "alias": "Controlling (Controlling-1.7.10-1.0.0.jar)",
+            "fileID": 2328181,
+            "projectID": 250398,
+            "required": true
+        },
+        {
+            "alias": "FTB Utilities (FTBUtilities-1.7.10-1.0.18.3.jar)",
+            "fileID": 2291494,
+            "projectID": 237102,
+            "required": true
+        },
+        {
+            "alias": "Modular Powersuits (ModularPowersuits-1.7.10-0.11.1.117.jar)",
+            "fileID": 2666986,
+            "projectID": 235442,
+            "required": true
+        },
+        {
+            "alias": "AE2 Stuff (ae2stuff-0.5.1.61-mc1.7.10.jar)",
+            "fileID": 2272496,
+            "projectID": 225194,
+            "required": true
+        },
+        {
+            "alias": "Automagy (Automagy-1.7.10-0.28.2.jar)",
+            "fileID": 2285272,
+            "projectID": 222153,
+            "required": true
+        }
+    ],
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "minecraft": {
+        "modLoaders": [
+            {
+                "id": "forge-10.13.4.1614",
+                "primary": true
+            }
+        ],
+        "version": "1.7.10"
+    },
+    "name": "Galactic Drive",
+    "version": "0.0alpha"
+}

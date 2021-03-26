@@ -1,11 +1,11 @@
-0.0alpha | 1.7.10
+0.1alpha | 1.7.10
 
 
 ModTweaker | 0.9.6
 Numina | 0.4.1.106
 Admin Commands Toolbox | 0.0.2a_1.7.10
 Advanced Solar Panel for 1.7.10 (Unofficial) | 1.7.10 Edition
-Advanced Spawn Control | 0.9.1 (NOT ON CURSE)
+Advanced Spawn Control | 0.9.1
 AE2 Stuff | 0.5.0.56
 AgriCraft | 1.5.0
 AnimationAPI | 1.2.4 
@@ -13,7 +13,7 @@ Applied Energestics 2 | rv3-beta-6
 Ars Magica 2 | 1.4.0.009
 Atomic Science | 3.0.5b8
 Automagy | 0.28.2
-Baubles | 1.0.1.10
+Baubles | 1.0.1.10 OVERRIDE
 BdLib | 1.9.4.109
 Better Builder's Wands | r92+aec06c3
 BiblioCraft | 1.11.7
@@ -24,7 +24,9 @@ Buildcraft | 7.1.23
 Carpenter's Blocks | 3.3.8.2
 Chisel | 2.9.5.11
 CodeChickenCore | 1.0.7.47
-ComputerCraft | 1.75 (ABANDONED, CURSE WON'T PULL)
+CodeChickenLib 1.1.3.138 OVERRIDE
+CodingLib | 0.2.8b50/51 OVERRIDE
+ComputerCraft | 1.75
 Controlling | 1.0.0
 CraftTweaker (MineTweaker) | 3.1.0-legacy
 CustomOreGen | 1.2.26
@@ -33,6 +35,7 @@ DiscordIntegration | 3.0.5
 DragonAPI | V29B
 DummyCore | 1.13
 Dynamic Surroundings | 1.0.6.4
+EJMLCore | 0.26 OVERRIDE
 EvilCraft | 0.9.13
 ExtraCells 2 Patched | 2.3.14b200
 ExtraPlanets | 2.1.4
@@ -40,10 +43,13 @@ ExtraTiC | 1.4.6
 FastCraft | 1.25
 Forbidden Magic | 0.575
 ForgeEssentials | 1.4.6.1357
+ForgeMultipart | 1.1.2.331 OVERRIDE
 FpsPlus | v1
 FTB Library | 1.0.18.3
 FTB Utilities | 1.0.18.3
 Gadomancy | 1.0.7.3
+Galacticraft-Core | 3.0.12.504 OVERRIDE
+Galacticraft-Planets | 3.0.12.504 OVERRIDE
 Guardian Chests | 1.6
 Hardcore Darkness | 1.7
 ICBM - Classic | 2.16.4b3
@@ -59,10 +65,11 @@ JABBA | 1.2.2
 JourneyMap | 5.1.4p2-unlimited
 MalisisCore | 0.14.3
 MalisisDoors | 1.13.2
-Lucky Block | 5-1-0 (NOT ON CURSE)
+Lucky Block | 5-1-0
 Mantle | 0.3.2b
 Mekanism | 9.1.1.1031
 Mekanism Generators | 9.1.1.1031
+MicdoodleCore | 3.0.12.504 OVERRIDE
 MmmMmmMmmMmm | 1.9
 Modular Powersuits | 0.11.1.117
 Morpheus | 1.6.21
@@ -92,15 +99,15 @@ Thaumic Bases | 1.3.1710.4
 Thaumic Energestics | 1.1.3.0
 Thaumic Horizons | 1.1.9
 Thaumic Tinkerer | 2.5-1.7.10-164
-MicdoodleCore | 3.0.12.504 (NOT ON CURSE)
-GalacticraftCore | 3.0.12.504 (NOT ON CURSE)
-Galacticraft-Planets | 3.0.12.504 (NOT ON CURSE)
+MicdoodleCore | 3.0.12.504 OVERRIDE
+GalacticraftCore | 3.0.12.504 OVERRIDE
+Galacticraft-Planets | 3.0.12.504 OVERRIDE
 Thaumcraft | 4.2.3.5
 The Aether | 1.1.2.1
 Tinkers Construct | 1.8.8
 TiC Tooltips | 1.2.5
 Traveller's Gear | 1.16.6
-(Lem Edit) Underground Biomes | 0.8-hyro-exp-1.14
+(Lem Edit)Underground Biomes | 0.8-hyro-exp-1.14 OVERRIDE
 Voltz Engine | 1.11.0b491
 Waila | 1.5.10
 Waila Harvestablity | 1.1.6
