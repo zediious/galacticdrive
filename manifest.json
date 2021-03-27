@@ -44,12 +44,6 @@
             "required": true
         },
         {
-            "alias": "EnderCore (EnderCore-1.7.10-0.2.0.39_beta.jar)",
-            "fileID": 2331048,
-            "projectID": 231868,
-            "required": true
-        },
-        {
             "alias": "Witching Gadgets (WitchingGadgets-1.7.10-1.1.10.jar)",
             "fileID": 2262119,
             "projectID": 228268,
@@ -236,12 +230,6 @@
             "required": true
         },
         {
-            "alias": "AppleCore (AppleCore-mc1.7.10-3.1.1.jar)",
-            "fileID": 2530879,
-            "projectID": 224472,
-            "required": true
-        },
-        {
             "alias": "Jabba (Jabba-1.2.2_1.7.10.jar)",
             "fileID": 2302354,
             "projectID": 73510,
@@ -293,6 +281,12 @@
             "alias": "Carpenter's Blocks (Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar)",
             "fileID": 2719376,
             "projectID": 228932,
+            "required": true
+        },
+        {
+            "alias": "WorldEdit (worldedit-forge-mc1.7.10-6.1.1-dist.jar)",
+            "fileID": 2309699,
+            "projectID": 225608,
             "required": true
         },
         {
@@ -470,12 +464,6 @@
             "required": true
         },
         {
-            "alias": "CoFH Core (CoFHCore-[1.7.10]3.1.4-329.jar)",
-            "fileID": 2388750,
-            "projectID": 69162,
-            "required": true
-        },
-        {
             "alias": "The Aether (aether-1.7.10-v1.1.2.1.jar)",
             "fileID": 3158334,
             "projectID": 255308,
@@ -509,6 +497,12 @@
             "alias": "Thaumic Horizons (thaumichorizons-1.7.10-1.1.9.jar)",
             "fileID": 2265882,
             "projectID": 227914,
+            "required": true
+        },
+        {
+            "alias": "ForgeEssentials (forgeessentials-1.7.10-1.4.6.1357-server.jar)",
+            "fileID": 2659141,
+            "projectID": 74735,
             "required": true
         },
         {
