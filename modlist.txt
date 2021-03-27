@@ -42,7 +42,7 @@ ExtraPlanets | 2.1.4
 ExtraTiC | 1.4.6
 FastCraft | 1.25
 Forbidden Magic | 0.575
-ForgeEssentials | 1.4.6.1357
+ForgeEssentials | 1.4.6.1187
 ForgeMultipart | 1.1.2.331 OVERRIDE
 FpsPlus | v1
 FTB Library | 1.0.18.3
