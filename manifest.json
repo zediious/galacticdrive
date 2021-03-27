@@ -314,8 +314,8 @@
             "required": true
         },
         {
-            "alias": "DragonAPI (DragonAPI 1.7.10 V29c.jar)",
-            "fileID": 3251537,
+            "alias": "DragonAPI (DragonAPI 1.7.10 V29d.jar)",
+            "fileID": 3252492,
             "projectID": 235591,
             "required": true
         },
@@ -332,8 +332,8 @@
             "required": true
         },
         {
-            "alias": "ReactorCraft (ReactorCraft 1.7.10 V29c.jar)",
-            "fileID": 3251535,
+            "alias": "ReactorCraft (ReactorCraft 1.7.10 V29d.jar)",
+            "fileID": 3252490,
             "projectID": 235593,
             "required": true
         },
@@ -356,8 +356,8 @@
             "required": true
         },
         {
-            "alias": "RotaryCraft (RotaryCraft 1.7.10 V29c.jar)",
-            "fileID": 3251534,
+            "alias": "RotaryCraft (RotaryCraft 1.7.10 V29d.jar)",
+            "fileID": 3252489,
             "projectID": 235596,
             "required": true
         },
@@ -509,12 +509,6 @@
             "alias": "Thaumic Horizons (thaumichorizons-1.7.10-1.1.9.jar)",
             "fileID": 2265882,
             "projectID": 227914,
-            "required": true
-        },
-        {
-            "alias": "ForgeEssentials (forgeessentials-1.7.10-1.4.6.1357-server.jar)",
-            "fileID": 2659141,
-            "projectID": 74735,
             "required": true
         },
         {
