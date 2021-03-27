@@ -630,6 +630,12 @@
             "fileID": 2285272,
             "projectID": 222153,
             "required": true
+        },
+        {
+            "alias": "EnderCore (EnderCore-1.7.10-0.2.0.39_beta.jar)",
+            "fileID": 2331048,
+            "projectID": 231868,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

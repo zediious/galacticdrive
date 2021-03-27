@@ -36,6 +36,7 @@ DragonAPI | V29B
 DummyCore | 1.13
 Dynamic Surroundings | 1.0.6.4
 EJMLCore | 0.26 OVERRIDE
+EnderCore | 0.2.0.29_beta
 EvilCraft | 0.9.13
 ExtraCells 2 Patched | 2.3.14b200
 ExtraPlanets | 2.1.4
