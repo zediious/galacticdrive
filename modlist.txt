@@ -32,7 +32,7 @@ CraftTweaker (MineTweaker) | 3.1.0-legacy
 CustomOreGen | 1.2.26
 Ding | v2
 DiscordIntegration | 3.0.5
-DragonAPI | V29B
+DragonAPI | V29g
 DummyCore | 1.13
 Dynamic Surroundings | 1.0.6.4
 EJMLCore | 0.26 OVERRIDE
@@ -87,9 +87,9 @@ Ore Excavation | 1.1.134
 Pam's HarvestCraft | 1.7.10Lb
 PneumaticCraft | 1.12.7-152-universal
 Pressure Pipes | 1.3.0.fix1
-ReactorCraft | V29B
+ReactorCraft | V29e
 ReAuth | 3.5.0
-RotaryCraft | V29B
+RotaryCraft | V29g
 Signpost | 1.08.4
 Tainted Magic | r7.82
 Techguns | beta.1.2_alphatest4.1
