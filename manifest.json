@@ -636,6 +636,12 @@
             "fileID": 2388750,
             "projectID": 69162,
             "required": true
+        },
+        {
+            "alias": "SG Craft (SGCraft-1.13.3-mc1.7.10.jar)",
+            "fileID": 2365301,
+            "projectID": 241583,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
