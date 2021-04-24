@@ -458,8 +458,8 @@
             "required": true
         },
         {
-            "alias": "The Aether (aether-1.7.10-v1.1.2.1.jar)",
-            "fileID": 3158334,
+            "alias": "The Aether (aether-1.7.10-v1.1.2.2.jar)",
+            "fileID": 3280117,
             "projectID": 255308,
             "required": true
         },
@@ -641,6 +641,12 @@
             "alias": "SG Craft (SGCraft-1.13.3-mc1.7.10.jar)",
             "fileID": 2365301,
             "projectID": 241583,
+            "required": true
+        },
+        {
+            "alias": "No Mob Spawning on Trees (NoMobSpawningOnTrees-1.2.0-mc1.7.10.jar)",
+            "fileID": 2362270,
+            "projectID": 226779,
             "required": true
         }
     ],

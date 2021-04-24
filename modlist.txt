@@ -78,6 +78,7 @@ Mouse Tweaks | 2.4.4
 NotEnoughItems | 1.0.5.120-universal
 NotEnoughResources | 0.1.0-122
 NotEnoughThaumcraftTabs | 1.0.2
+NoMobSpawningonTrees | 1.2.0
 NoMoreRecipeConflict | 0.3
 (IC2)Nuclear Control 2 | 2.4.3a
 Open Modular Turrets | 2.2.11-245
