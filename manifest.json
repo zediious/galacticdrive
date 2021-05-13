@@ -122,12 +122,6 @@
             "required": true
         },
         {
-            "alias": "FTB Library (FTBLib-1.7.10-1.0.18.3.jar)",
-            "fileID": 2291433,
-            "projectID": 237167,
-            "required": true
-        },
-        {
             "alias": "Waystones (Waystones-mc1.7.10-1.0.12.jar)",
             "fileID": 2559125,
             "projectID": 245755,
@@ -146,8 +140,8 @@
             "required": true
         },
         {
-            "alias": "CodeChickenCore (CodeChickenCore-1.7.10-1.0.7.47-universal.jar)",
-            "fileID": 2262089,
+            "alias": "CodeChickenCore (CodeChickenCore-1.7.10-1.0.7.48-universal.jar)",
+            "fileID": 3293859,
             "projectID": 222213,
             "required": true
         },
@@ -302,12 +296,6 @@
             "required": true
         },
         {
-            "alias": "DragonAPI (DragonAPI 1.7.10 V29g.jar)",
-            "fileID": 3255384,
-            "projectID": 235591,
-            "required": true
-        },
-        {
             "alias": "JourneyMap (journeymap-1.7.10-5.1.4p2-unlimited.jar)",
             "fileID": 2367915,
             "projectID": 32274,
@@ -317,12 +305,6 @@
             "alias": "DiscordIntegration (DiscordIntegration-mc1.7.10-3.0.5.jar)",
             "fileID": 2542338,
             "projectID": 245288,
-            "required": true
-        },
-        {
-            "alias": "ReactorCraft (ReactorCraft 1.7.10 V29e.jar)",
-            "fileID": 3253459,
-            "projectID": 235593,
             "required": true
         },
         {
@@ -341,12 +323,6 @@
             "alias": "Morpheus (Morpheus-1.7.10-1.6.21.jar)",
             "fileID": 2280761,
             "projectID": 69118,
-            "required": true
-        },
-        {
-            "alias": "RotaryCraft (RotaryCraft 1.7.10 V29g.jar)",
-            "fileID": 3255385,
-            "projectID": 235596,
             "required": true
         },
         {
@@ -389,12 +365,6 @@
             "alias": "Techguns (Techguns.beta.1.2_alphatest4.1.jar)",
             "fileID": 2429662,
             "projectID": 244201,
-            "required": true
-        },
-        {
-            "alias": "Atomic Science (Atomic-Science-1.7.10-3.0.6b21.jar)",
-            "fileID": 2620721,
-            "projectID": 293507,
             "required": true
         },
         {
@@ -446,7 +416,7 @@
             "required": true
         },
         {
-            "alias": "Voltz Engine (VoltzEngine-1.7.10-1.11.0b491.jar)",
+            "alias": "[DEAD] Voltz Engine (VoltzEngine-1.7.10-1.11.0b491.jar)",
             "fileID": 2694951,
             "projectID": 227048,
             "required": true
@@ -572,12 +542,6 @@
             "required": true
         },
         {
-            "alias": "Admin Commands Toolbox (AdminCommandsToolbox-0.0.2a_1.7.10.jar)",
-            "fileID": 2212871,
-            "projectID": 221584,
-            "required": true
-        },
-        {
             "alias": "Iguanas Tinker Tweaks (IguanaTinkerTweaks-1.7.10-2.1.6.jar)",
             "fileID": 2288329,
             "projectID": 223248,
@@ -599,12 +563,6 @@
             "alias": "Controlling (Controlling-1.7.10-1.0.0.jar)",
             "fileID": 2328181,
             "projectID": 250398,
-            "required": true
-        },
-        {
-            "alias": "FTB Utilities (FTBUtilities-1.7.10-1.0.18.3.jar)",
-            "fileID": 2291494,
-            "projectID": 237102,
             "required": true
         },
         {
