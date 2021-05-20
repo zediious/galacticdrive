@@ -2,7 +2,9 @@
 
 **DEV GUIDELINES**
 
-**Downloading the current pack dev build:** Open the development branch, download the current ZIP, and add it as a profile to one of the following launchers.
+**Downloading the current pack dev build** Actual build releases will not have this process.
+1) Open the development branch, and download the current ZIP.
+2) Take the contents of the folder within the downloaded ZIP, and move them/rezip them such that they are at the root of the ZIP. MultiMC is the only launcher that read the ZIP as it is downloaded.
 
 https://gdevs.io/ (Recommended)
 
