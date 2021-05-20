@@ -576,6 +576,12 @@
             "fileID": 2698688,
             "projectID": 229587,
             "required": true
+        },
+        {
+            "alias": "Resource Loader (ResourceLoader-MC1.12.1-1.5.3.jar)",
+            "fileID": 2477566,
+            "projectID": 226447,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

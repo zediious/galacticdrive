@@ -1,1 +1,2 @@
 mipmapLevels:0
+soundCategory_music:0.02
