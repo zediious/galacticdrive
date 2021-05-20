@@ -1,21 +1,24 @@
-# (WHITELIST ALPHA) Galactic Drive - Custom 1.7.10 modpack based on Warpdrive.
-**DEV GUIDELINES** (Keep in mind the the 0.0 main branch configs are VERY messy currently. Work from development.
+# (WHITELIST ALPHA) Galactic Drive - Custom 1.12.2 modpack based on Warpdrive.
 
-Alpha releases are exports from the Curseforge client. You can install these with Curseforge, GDLauncher, or MultiMC
+**DEV GUIDELINES**
+
+**Downloading the current pack dev build** Actual build releases will not have this process.
+1) Open the development branch, and download the current ZIP.
+2) Take the contents of the folder within the downloaded ZIP, and move them/rezip them such that they are at the root of the ZIP. MultiMC is the only launcher that read the ZIP as it is downloaded.
+
+https://gdevs.io/ (Recommended)
 
 https://curseforge.overwolf.com/
 
-https://gdevs.io/
-
 https://multimc.org/#Download
 
-When you want to make new edits, you must commit to the development branch or a branch you create. NEVER COMMIT DIRECTLY TO MAIN. After this, you will create a pull request from your commit, which will allow all of us to view the edits and make changes collaboratively on the branch first before pushing the commit onto the main branch after approval. **After a pull request has been created, further commits can be added to the pull request by commiting to the branch the pull request was made on.** The main branch contains our unmolested current version from which we work from in a dev "bubble". Whenever you create a pull request, add it to the project for the version in dev, and apply the correct labels. You can perform personal testing on your own branches, we must ALWAYS keep an intact main repository from which to pull our testing environments from. If you need to add a folder to the main repo to start working from, you need to do it from the desktop client.
+When you want to make new edits, you must commit to the development branch or a branch you create. **NEVER COMMIT DIRECTLY TO MAIN.** After this, you can add the commit to an exisiting pull request or make your own from your commit, which will allow all of us to view the edits and make changes collaboratively on the branch first before pushing the commit onto the main branch after approval. **After a pull request has been created, further commits can be added to the pull request by commiting to the branch the pull request was made on.** The main branch contains our unmolested current version from which we work from in a dev "bubble". Whenever you create a pull request, add it to the project for the version in dev, and apply the correct labels. You can perform personal testing on your own branches, we must ALWAYS keep an intact main repository from which to pull our testing environments from.
 
-============================================================================================
+===========================================================================
 
 **ALPHA TESTER GUIDELINES**
 
-**1.** Testers are required to submit a "report" via a comment on an issue dedicated to them every time the are on the server. Create an issue, label it with TESTER REPORT PAGE and add it to the project for the current version. You will edit this issue to add reports. Reports must start with the date you are writing it on. The more you get done and the longer you are on depends how long the report has to be. If a tester fails to add a report to their issue page each time they are online, they will no longer be a tester. Please check the example issue for a reference.
+**1.** Testers are required to submit a "report" via a comment on an issue dedicated to them every time the are on the server. Create an issue, label it with TESTER REPORT PAGE and add it to the project for the current version. You will edit this issue to add reports. Reports must start with the date you are writing it on. The more you get done and the longer you are on depends how long the report has to be. Please check the example issue for a reference.
 
 **2.** Testers are required to log into the server at least every other day, unless you contact us with an express reason.
 
