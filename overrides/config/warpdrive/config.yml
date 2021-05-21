@@ -535,7 +535,7 @@ logging {
     B:enable_chunk_loading_logs=true
 
     # Report in logs when a chunk is reloaded shortly after being unloaded, usually associated with server lag.
-    B:enable_chunk_reloading_logs=true
+    B:enable_chunk_reloading_logs=false
 
     # Detailed collection logs to help debug the mod, enable it before reporting a bug
     B:enable_collection_logs=false
