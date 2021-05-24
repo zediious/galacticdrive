@@ -2,6 +2,7 @@
 mods.jei.JEI.removeAndHide(<mekanism:anchorupgrade>);
 <mekanism:anchorupgrade>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
 recipes.remove(<opencomputers:upgrade:4>);
+mods.jei.JEI.removeAndHide(<opencomputers:upgrade:4>);
 <warpdrive:chunk_loader.basic>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
 <warpdrive:chunk_loader.advanced>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
 <warpdrive:chunk_loader.superior>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
