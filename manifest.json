@@ -98,8 +98,8 @@
             "required": true
         },
         {
-            "alias": "Foam\u200bFix (foamfix-0.10.11-1.12.2.jar)",
-            "fileID": 3137883,
+            "alias": "Foam\u200bFix (foamfix-0.10.12a-1.12.2.jar)",
+            "fileID": 3319452,
             "projectID": 278494,
             "required": true
         },
@@ -128,8 +128,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.10_mc1.12.2.jar)",
-            "fileID": 3309400,
+            "alias": "LittleTiles (LittleTiles_v1.5.13_mc1.12.2.jar)",
+            "fileID": 3321759,
             "projectID": 257818,
             "required": true
         },
@@ -356,8 +356,8 @@
             "required": true
         },
         {
-            "alias": "CreativeCore (CreativeCore_v1.10.59_mc1.12.2.jar)",
-            "fileID": 3309291,
+            "alias": "CreativeCore (CreativeCore_v1.10.61_mc1.12.2.jar)",
+            "fileID": 3321760,
             "projectID": 257814,
             "required": true
         },
@@ -545,12 +545,6 @@
             "alias": "More Overlays (moreoverlays-1.15.1-mc1.12.2.jar)",
             "fileID": 2745657,
             "projectID": 243478,
-            "required": true
-        },
-        {
-            "alias": "Neat (Neat 1.4-17.jar)",
-            "fileID": 2595310,
-            "projectID": 238372,
             "required": true
         },
         {
