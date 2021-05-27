@@ -1,12 +1,36 @@
+//Hide AE2 Facades
+val baseFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
+for facade in <appliedenergistics2:facade>.definition.subItems {
+    if (facade.hasTag && !(baseFacade.matchesExact(facade))) {
+        mods.jei.JEI.hide(facade);
+    }
+}
+<appliedenergistics2:facade>.addTooltip(format.red("Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block."));
+
+//Tropicraft Balance.
+recipes.remove(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 9 as byte}, {IngredientID: 11 as byte}], Color: 15724527, DrinkID: 6 as byte}), true);
+recipes.remove(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 9 as byte}, {IngredientID: 12 as byte}], Color: 15724527, DrinkID: 6 as byte}), true);
+recipes.remove(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 10 as byte}, {IngredientID: 11 as byte}], Color: 15724527, DrinkID: 6 as byte}), true);
+recipes.remove(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 10 as byte}, {IngredientID: 12 as byte}], Color: 15724527, DrinkID: 6 as byte}), true);
+recipes.remove(<tropicraft:drink_mixer>);
+recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 11 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 7 as byte}), [<tropicraft:coconut>, <tropicraft:tropics_water_bucket>, <tropicraft:bamboo_mug>]);
+recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 6 as byte}, {IngredientID: 13 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 4 as byte}), [<tropicraft:lime>, <minecraft:reeds>, <tropicraft:bamboo_mug>, <tropicraft:tropics_water_bucket>]);
+recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 0 as byte}, {IngredientID: 6 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 2 as byte}), [<tropicraft:lime>,<minecraft:sugar>,<tropicraft:bamboo_mug>,<tropicraft:tropics_water_bucket>]);
+recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 0 as byte}, {IngredientID: 7 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 3 as byte}), [<tropicraft:orange>, <minecraft:sugar>, <tropicraft:bamboo_mug>, <tropicraft:tropics_water_bucket>]);
+recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 14 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 5 as byte}), [<tropicraft:coffee_beans:1>, <tropicraft:tropics_water_bucket>, <tropicraft:bamboo_mug>]);
+recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 0 as byte}, {IngredientID: 5 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 1 as byte}), [<tropicraft:lemon>,<minecraft:sugar>,<tropicraft:bamboo_mug>,<tropicraft:tropics_water_bucket>]);
+recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 6 as byte}, {IngredientID: 7 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 8 as byte}), [<tropicraft:lime>,<tropicraft:orange>,<tropicraft:bamboo_mug>,<tropicraft:tropics_water_bucket>]);
+<tropicraft:cocktail>.withTag({DrinkID: 6}).addTooltip(format.red("Heard of only in Legends..."));
+<tropicraft:drink_mixer>.addTooltip(format.red("Disabled under the Equilibrium act"));
+
 // *** Chunkloading through plugins only
-mods.jei.JEI.removeAndHide(<mekanism:anchorupgrade>);
-<mekanism:anchorupgrade>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
+recipes.remove(<mekanism:anchorupgrade>);
+<mekanism:anchorupgrade>.addTooltip(format.red("ChunkLoader Disabled."));
 recipes.remove(<opencomputers:upgrade:4>);
-mods.jei.JEI.removeAndHide(<opencomputers:upgrade:4>);
+<opencomputers:upgrade:4>.addTooltip(format.red("ChunkLoader Disabled."));
 <warpdrive:chunk_loader.basic>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
 <warpdrive:chunk_loader.advanced>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
 <warpdrive:chunk_loader.superior>.addTooltip(format.red("Place an iron block then right click it with a blaze rod to make a chunkloader"));
-
 // *** Corruption
 // ICBM rejuvenation for balance and world corruption
 recipes.remove(<icbmclassic:explosives:12>);
@@ -15,7 +39,7 @@ recipes.remove(<icbmclassic:missile:12>);
 <icbmclassic:missile:12>.addTooltip(format.red("Member of the corruptolic anonymous"));
 
 // Mekanism Robit voiding items
-mods.jei.JEI.removeAndHide(<mekanism:robit>);
+recipes.remove(<mekanism:robit>);
 <mekanism:robit>.addTooltip(format.red("Member of the corruptolic anonymous"));
 
 // *** Crashing items/blocks
@@ -23,17 +47,17 @@ mods.jei.JEI.removeAndHide(<mekanism:robit>);
 <appliedenergistics2:security_station>.addTooltip(format.red("Randomly breaks blocks when reloading chunks!"));
 
 // Mekanism cardboard box
-mods.jei.JEI.removeAndHide(<mekanism:cardboardbox>);
+recipes.remove(<mekanism:cardboardbox>);
 <mekanism:cardboardbox>.addTooltip(format.red("Member of the crasholic anonymous"));
 
 // ICBM Xmas grenades
-mods.jei.JEI.removeAndHide(<icbmclassic:grenade:29>);
+recipes.remove(<icbmclassic:grenade:29>);
 <icbmclassic:grenade:29>.addTooltip(format.red("Member of the crasholic anonymous"));
-mods.jei.JEI.removeAndHide(<icbmclassic:grenade:30>);
+recipes.remove(<icbmclassic:grenade:30>);
 <icbmclassic:grenade:30>.addTooltip(format.red("Member of the crasholic anonymous"));
 
 // OpenModularTurrets relativistic turret head
-mods.jei.JEI.removeAndHide(<openmodularturrets:relativistic_turret>);
+recipes.remove(<openmodularturrets:relativistic_turret>);
 <openmodularturrets:relativistic_turret>.addTooltip(format.red("Member of the crasholic anonymous"));
 
 // TechGuns guidded missile launcher
@@ -58,18 +82,18 @@ mods.botania.ManaInfusion.removeRecipe(<botania:tinypotato>);
 <appliedenergistics2:part:320>.addTooltip(format.red("Disabled under the Equilibrium act"));
 
 // Building gadget Exchanging gadget instant breaking hull blocks
-mods.jei.JEI.removeAndHide(<buildinggadgets:exchangertool>);
+recipes.remove(<buildinggadgets:exchangertool>);
 <buildinggadgets:exchangertool>.addTooltip(format.red("Disabled under the Equilibrium act"));
 
 // Mekanism digital miner bypassing unbreakable blocks
-mods.jei.JEI.removeAndHide(<mekanism:machineblock:4>);
+recipes.remove(<mekanism:machineblock:4>);
 <mekanism:machineblock:4>.addTooltip(format.red("Disabled under the Equilibrium act"));
 
 // Mekanism Personal chest is actually public
 <mekanism:machineblock:13>.displayName = "Public chest";
 
 // Mekanism Security desk (unraidable blocks)
-mods.jei.JEI.removeAndHide(<mekanism:basicblock2:9>);
+recipes.remove(<mekanism:basicblock2:9>);
 <mekanism:basicblock2:9>.addTooltip(format.red("Disabled under the Equilibrium act"));
 
 // Mekanism recyling torches into coal, making diamonds from wood > charcoal > torch > coal > diamond
@@ -80,7 +104,7 @@ recipes.remove(<nuclearcraft:dominos>);
 <nuclearcraft:dominos>.addTooltip(format.aqua("Illegal in most places, but..."));
 
 // Thermal Signalum security lock (unraidable satchel)
-mods.jei.JEI.removeAndHide(<thermalfoundation:security>);
+recipes.remove(<thermalfoundation:security>);
 <thermalfoundation:security>.addTooltip(format.red("Disabled under the Equilibrium act"));
 
 // TechGuns CamoBench gives free dye through Thermal Pulverizer
@@ -120,5 +144,5 @@ mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:string> * 4, <minecraft:wo
 
 // *** Protection bypass
 // Tinker's Construct ELFN bypassing protections
-mods.jei.JEI.removeAndHide(<tconstruct:throwball:1>);
+recipes.remove(<tconstruct:throwball:1>);
 <tconstruct:throwball:1>.addTooltip(format.red("Disabled under the Spawn preservation act"));
