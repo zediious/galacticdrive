@@ -98,8 +98,8 @@
             "required": true
         },
         {
-            "alias": "Foam\u200bFix (foamfix-0.10.12a-1.12.2.jar)",
-            "fileID": 3319452,
+            "alias": "Foam\u200bFix (foamfix-0.10.14-1.12.2.jar)",
+            "fileID": 3327893,
             "projectID": 278494,
             "required": true
         },
@@ -128,8 +128,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.13_mc1.12.2.jar)",
-            "fileID": 3321759,
+            "alias": "LittleTiles (LittleTiles_v1.5.14_mc1.12.2.jar)",
+            "fileID": 3326691,
             "projectID": 257818,
             "required": true
         },
@@ -206,8 +206,8 @@
             "required": true
         },
         {
-            "alias": "NuclearCraft (NuclearCraft-2.18y-1.12.2.jar)",
-            "fileID": 3074246,
+            "alias": "NuclearCraft (NuclearCraft-2.18z-1.12.2.jar)",
+            "fileID": 3328174,
             "projectID": 226254,
             "required": true
         },
@@ -575,6 +575,42 @@
             "alias": "Resource Loader (ResourceLoader-MC1.12.1-1.5.3.jar)",
             "fileID": 2477566,
             "projectID": 226447,
+            "required": true
+        },
+        {
+            "alias": "Nether Overload (netheroverload-1.12.2-0.0.7.jar)",
+            "fileID": 2536586,
+            "projectID": 264925,
+            "required": true
+        },
+        {
+            "alias": "Inventory Sorter (inventorysorter-1.12.2-1.13.3+57.jar)",
+            "fileID": 2546769,
+            "projectID": 240633,
+            "required": true
+        },
+        {
+            "alias": "Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151.jar)",
+            "fileID": 2923460,
+            "projectID": 223094,
+            "required": true
+        },
+        {
+            "alias": "The One Probe (theoneprobe-1.12-1.4.28.jar)",
+            "fileID": 2667280,
+            "projectID": 245211,
+            "required": true
+        },
+        {
+            "alias": "TOP Addons (topaddons-1.12.2-1.13.0.jar)",
+            "fileID": 2887479,
+            "projectID": 247111,
+            "required": true
+        },
+        {
+            "alias": "It's the little things (itlt-1.12.2-1.0.3.jar)",
+            "fileID": 3172984,
+            "projectID": 232791,
             "required": true
         }
     ],
