@@ -20,8 +20,12 @@ recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID:
 recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 14 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 5 as byte}), [<tropicraft:coffee_beans:1>, <tropicraft:tropics_water_bucket>, <tropicraft:bamboo_mug>]);
 recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 0 as byte}, {IngredientID: 5 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 1 as byte}), [<tropicraft:lemon>,<minecraft:sugar>,<tropicraft:bamboo_mug>,<tropicraft:tropics_water_bucket>]);
 recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 6 as byte}, {IngredientID: 7 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 8 as byte}), [<tropicraft:lime>,<tropicraft:orange>,<tropicraft:bamboo_mug>,<tropicraft:tropics_water_bucket>]);
-<tropicraft:cocktail>.withTag({DrinkID: 6}).addTooltip(format.red("Heard of only in Legends..."));
+<tropicraft:cocktail>.withTag({DrinkID: 6}).addTooltip(format.red("Heard of only in legends..."));
 <tropicraft:drink_mixer>.addTooltip(format.red("Disabled under the Equilibrium act"));
+
+//Atum Balance
+recipes.remove(<atum:scarab>);
+<atum:scarab>.addTooltip(format.red("Heard of only in legends..."));
 
 // *** Chunkloading through plugins only
 recipes.remove(<mekanism:anchorupgrade>);
