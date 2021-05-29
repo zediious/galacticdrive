@@ -8,6 +8,7 @@ Atum-1.12.2-2.0.20.jar
 Baubles-1.12-1.5.2.jar
 baubley-heart-canisters-1.12.2-2.0.3.jar
 bdlib-1.14.3.12-mc1.12.2.jar
+bedfix_V1.2_1.12.2.jar
 BetterAdvancements-1.12.2-0.1.0.77.jar
 BetterFps-1.4.8.jar
 blockcraftery-1.12.2-1.3.1.jar
@@ -72,6 +73,7 @@ omlib-1.12.2-3.2.0-256.jar
 OpenComputers-MC1.12.2-1.7.5.192.jar
 OpenComputersICBMAddon-1.3.jar
 openmodularturrets-1.12.2-3.2.0-379.jar
+Patchouli-1.0-23.6.jar
 plethora-1.12.2-1.2.3.jar
 randompatches-1.12.2-1.22.1.10.jar
 randomtweaks-1.12.2-2.8.3.1.jar

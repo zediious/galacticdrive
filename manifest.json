@@ -612,6 +612,18 @@
             "fileID": 3172984,
             "projectID": 232791,
             "required": true
+        },
+        {
+            "alias": "Bed Correction (originally BedFix) (bedfix_V1.2_1.12.2.jar)",
+            "fileID": 3143614,
+            "projectID": 427420,
+            "required": true
+        },
+        {
+            "alias": "Patchouli (Patchouli-1.0-23.6.jar)",
+            "fileID": 3162874,
+            "projectID": 306770,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
