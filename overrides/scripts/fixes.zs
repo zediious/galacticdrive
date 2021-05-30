@@ -36,6 +36,13 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     }
 });
 
+//Tropicraft Shaka ore > Cobblestone
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
+    if(event.blockState has <item:tropicraft:ore>.asBlock().definition.getStateFromMeta(4)) {
+        event.drops = <minecraft:cobblestone> % 100];
+    }
+});
+
 //Tropicraft Manganese ore removed.
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <tropicraft:ore:3>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <tropicraft:ore:3>);
