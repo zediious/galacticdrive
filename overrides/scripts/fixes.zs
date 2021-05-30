@@ -36,6 +36,18 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     }
 });
 
+//Tropicraft Manganese ore removed.
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <tropicraft:ore:3>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <tropicraft:ore:3>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <tropicraft:ore:3>);
+mods.tconstruct.Melting.removeRecipe(<liquid:manganese>);
+recipes.removeByRecipeName("thermalfoundation:dust_16");
+recipes.removeByRecipeName("thermalfoundation:ingot_24");
+recipes.removeByRecipeName("thermalfoundation:ingot_26");
+mods.thermalexpansion.Pulverizer.removeRecipe(<tropicraft:ore:3>);
+mods.nuclearcraft.manufactory.removeRecipeWithInput(<tropicraft:ore:3>);
+mods.nuclearcraft.melter.removeRecipeWithInput(<tropicraft:ore:3>);
+
 //Atum Balance
 recipes.remove(<atum:scarab>);
 <atum:scarab>.addTooltip(format.red("Heard of only in legends..."));
