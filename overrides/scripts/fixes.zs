@@ -1,3 +1,7 @@
+//Imports
+import crafttweaker.event.BlockHarvestDropsEvent;
+import crafttweaker.block.IBlockState;
+
 //Hide AE2 Facades
 val baseFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
 for facade in <appliedenergistics2:facade>.definition.subItems {
@@ -24,6 +28,13 @@ recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID:
 recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 6 as byte}, {IngredientID: 7 as byte}, {IngredientID: 15 as byte}], Color: 16777215, DrinkID: 8 as byte}), [<tropicraft:lime>,<tropicraft:orange>,<tropicraft:bamboo_mug>,<tropicraft:tropics_water_bucket>]);
 <tropicraft:cocktail>.withTag({DrinkID: 6}).addTooltip(format.red("Heard of only in legends..."));
 <tropicraft:drink_mixer>.addTooltip(format.red("Disabled under the Equilibrium act"));
+
+//Tropicraft Manganese ore > 2 dust
+events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
+    if(event.blockState has <item:tropicraft:ore>.asBlock().definition.getStateFromMeta(3)) {
+        event.drops = [<nuclearcraft:dust:11> % 100, <nuclearcraft:dust:11> % 100];
+    }
+});
 
 //Atum Balance
 recipes.remove(<atum:scarab>);
