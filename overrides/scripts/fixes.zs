@@ -39,7 +39,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
 //Tropicraft Shaka ore > Cobblestone
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     if(event.blockState has <item:tropicraft:ore>.asBlock().definition.getStateFromMeta(4)) {
-        event.drops = <minecraft:cobblestone> % 100];
+        event.drops = [<minecraft:cobblestone> % 100];
     }
 });
 
