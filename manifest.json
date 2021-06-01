@@ -44,8 +44,8 @@
             "required": true
         },
         {
-            "alias": "Botania (Botania r1.10-363.jar)",
-            "fileID": 2846950,
+            "alias": "Botania (Botania r1.10-364.4.jar)",
+            "fileID": 3330934,
             "projectID": 225643,
             "required": true
         },
@@ -68,8 +68,8 @@
             "required": true
         },
         {
-            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.27.jar)",
-            "fileID": 3308062,
+            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.28.jar)",
+            "fileID": 3329593,
             "projectID": 283377,
             "required": true
         },
@@ -608,8 +608,8 @@
             "required": true
         },
         {
-            "alias": "It's the little things (itlt-1.12.2-1.0.3.jar)",
-            "fileID": 3172984,
+            "alias": "It's the little things (itlt-1.12.x-1.0.4.jar)",
+            "fileID": 3330021,
             "projectID": 232791,
             "required": true
         },
@@ -623,6 +623,30 @@
             "alias": "Patchouli (Patchouli-1.0-23.6.jar)",
             "fileID": 3162874,
             "projectID": 306770,
+            "required": true
+        },
+        {
+            "alias": "WarForge Factions (warforge-1.2.0.jar)",
+            "fileID": 3329160,
+            "projectID": 460916,
+            "required": true
+        },
+        {
+            "alias": "Recurrent Complex (RecurrentComplex-1.4.8.2.jar)",
+            "fileID": 2689602,
+            "projectID": 223150,
+            "required": true
+        },
+        {
+            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.0ALPHA14.jar)",
+            "fileID": 3306668,
+            "projectID": 348025,
+            "required": true
+        },
+        {
+            "alias": "Flan's Mod (Flan's Mod-1.12.2-5.10.0.jar)",
+            "fileID": 3278090,
+            "projectID": 317310,
             "required": true
         }
     ],
