@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "dimension": 17,
+    "mobs": [
+      {
+        "mob": "srparasites:anged"
+      },
+      {
+        "mob": "srparasites:hull"
+      }
+    ]
+  }
+]

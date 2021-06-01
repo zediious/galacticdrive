@@ -1,1 +1,34 @@
-[]
+[
+// Scape and Run Parasites spawning in Atum (Vigilante, Manducator)
+// This will be greatly expanded upon for all dimensions. Can also be formatted like potentialspawn.json, but I am lazy.
+  {
+    "dimension": 17,
+    "mob": "srparasites:anged",
+    "block": "atum:sand",
+    "groupcountmin": 1,
+    "groupcountmax": 3,
+    "maxcount": 6,
+    "result": "allow",
+    "weight": 0.8
+  },
+  {
+    "dimension": 17,
+    "mob": "srparasites:hull",
+    "block": "atum:sand",
+    "groupcountmin": 2,
+    "groupcountmax": 4,
+    "maxcount": 12,
+    "result": "allow",
+    "weight": 1
+  },
+  {
+  	"dimension": 17,
+  	"mob": "srparasites:anged",
+  	"result": "deny"
+  },
+  {
+  	"dimension": 17,
+  	"mob": "srparasites:hull",
+  	"result": "deny"
+  }
+]
