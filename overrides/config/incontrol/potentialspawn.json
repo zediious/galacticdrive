@@ -3,10 +3,10 @@
     "dimension": 17,
     "mobs": [
       {
-        "mob": "srparasites:anged"
+        "mob": "srparasites:vigilante"
       },
       {
-        "mob": "srparasites:hull"
+        "mob": "srparasites:pri_manducater"
       }
     ]
   }

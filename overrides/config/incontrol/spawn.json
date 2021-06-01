@@ -3,7 +3,7 @@
 // This will be greatly expanded upon for all dimensions. Can also be formatted like potentialspawn.json, but I am lazy.
   {
     "dimension": 17,
-    "mob": "srparasites:anged",
+    "mob": "srparasites:vigilante",
     "block": "atum:sand",
     "groupcountmin": 1,
     "groupcountmax": 3,
@@ -13,7 +13,7 @@
   },
   {
     "dimension": 17,
-    "mob": "srparasites:hull",
+    "mob": "srparasites:pri_manducater",
     "block": "atum:sand",
     "groupcountmin": 2,
     "groupcountmax": 4,
@@ -23,12 +23,12 @@
   },
   {
   	"dimension": 17,
-  	"mob": "srparasites:anged",
+  	"mob": "srparasites:vigilante",
   	"result": "deny"
   },
   {
   	"dimension": 17,
-  	"mob": "srparasites:hull",
+  	"mob": "srparasites:pri_manducater",
   	"result": "deny"
   }
 ]
