@@ -6,10 +6,10 @@
     "mob": "srparasites:vigilante",
     "block": "atum:sand",
     "groupcountmin": 1,
-    "groupcountmax": 3,
+    "groupcountmax": 2,
     "maxcount": 6,
     "result": "allow",
-    "weight": 0.8
+    "weight": 0.5
   },
   {
     "dimension": 17,
@@ -17,9 +17,9 @@
     "block": "atum:sand",
     "groupcountmin": 2,
     "groupcountmax": 4,
-    "maxcount": 12,
+    "maxcount": 8,
     "result": "allow",
-    "weight": 1
+    "weight": 0.7
   },
   {
   	"dimension": 17,
