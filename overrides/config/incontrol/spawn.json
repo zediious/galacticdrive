@@ -1,34 +1,133 @@
+//Galactic Drive Mob Spawning Control
 [
-// Scape and Run Parasites spawning in Atum (Vigilante, Manducator)
-// This will be greatly expanded upon for all dimensions. Can also be formatted like potentialspawn.json, but I am lazy.
+  //Limiting Techguns night spawns to the Overworld.
+  {
+    "dimension": ["20","17","-127","-1","1"],
+    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:psychosteve","techguns:bandit"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  // *** Mob buffs | Parasites can be buffed via SRParasites.cfg
+  // Atum
+  {
+    "mob": ["atum:barbarian","atum:brigand","atum:assassin"],
+    "healthmultiply": 1.4
+  },
+  // ****** Planetary mob distribution
+  // Atum
+  // Parasites and Atum NPC weights
   {
     "dimension": 17,
     "mob": "srparasites:vigilante",
     "block": "atum:sand",
-    "groupcountmin": 1,
-    "groupcountmax": 2,
     "maxcount": 6,
-    "result": "allow",
-    "weight": 0.5
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 17,
+    "mob": "srparasites:vigilante",
+    "onjoin": true,
+    "result": "deny"
   },
   {
     "dimension": 17,
     "mob": "srparasites:pri_manducater",
     "block": "atum:sand",
-    "groupcountmin": 2,
-    "groupcountmax": 4,
-    "maxcount": 8,
-    "result": "allow",
-    "weight": 0.7
+    "maxcount": 14,
+    "onjoin": true,
+    "result": "allow"
   },
   {
-  	"dimension": 17,
-  	"mob": "srparasites:vigilante",
-  	"result": "deny"
+    "dimension": 17,
+    "mob": "srparasites:pri_manducater",
+    "onjoin": true,
+    "result": "deny"
   },
   {
-  	"dimension": 17,
-  	"mob": "srparasites:pri_manducater",
-  	"result": "deny"
+    "dimension": 17,
+    "mob": "srparasites:rupter",
+    "block": "atum:sand",
+    "maxcount": 24,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 17,
+    "mob": "srparasites:rupter",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 17,
+    "mob": "atum:brigand",
+    "block": "atum:sand",
+    "maxcount": 18,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 17,
+    "mob": "atum:brigand",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 17,
+    "mob": "atum:barbarian",
+    "block": "atum:sand",
+    "maxcount": 14,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 17,
+    "mob": "atum:barbarian",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // Tropicraft
+  // Parasites
+  {
+    "dimension": -127,
+    "mob": "srparasites:pri_reeker",
+    "block": "minecraft:grass",
+    "maxcount": 12,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "srparasites:pri_reeker",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -127,
+    "mob": "srparasites:pri_longarms",
+    "block": "minecraft:grass",
+    "maxcount": 14,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "srparasites:pri_longarms",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -127,
+    "mob": "srparasites:carrier_heavy",
+    "block": "minecraft:grass",
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "srparasites:carrier_heavy",
+    "onjoin": true,
+    "result": "deny"
   }
 ]

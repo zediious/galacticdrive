@@ -392,8 +392,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.646.jar)",
-            "fileID": 3294372,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.647.jar)",
+            "fileID": 3335030,
             "projectID": 239197,
             "required": true
         },
@@ -431,12 +431,6 @@
             "alias": "Atum 2: Return to the Sands (Atum-1.12.2-2.0.20.jar)",
             "fileID": 3116599,
             "projectID": 59621,
-            "required": true
-        },
-        {
-            "alias": "Hwyla (Hwyla-1.8.26-B41_1.12.2.jar)",
-            "fileID": 2568751,
-            "projectID": 253449,
             "required": true
         },
         {
@@ -623,12 +617,6 @@
             "alias": "Patchouli (Patchouli-1.0-23.6.jar)",
             "fileID": 3162874,
             "projectID": 306770,
-            "required": true
-        },
-        {
-            "alias": "WarForge Factions (warforge-1.2.0.jar)",
-            "fileID": 3329160,
-            "projectID": 460916,
             "required": true
         },
         {

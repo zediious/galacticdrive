@@ -1,12 +1,65 @@
+//Galactic Drive Mob Spawning Control
 [
+  // ****** Planetary mob distribution
+  // Atum
+  // Parasites and Atum NPC weights
   {
     "dimension": 17,
     "mobs": [
       {
-        "mob": "srparasites:vigilante"
+        "mob": "srparasites:vigilante",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
-        "mob": "srparasites:pri_manducater"
+        "mob": "srparasites:pri_manducater",
+        "weight": 5,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "srparasites:rupter",
+        "weight": 5,
+        "groupcountmin": 4,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "atum:brigand",
+        "weight": 10,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "atum:barbarian",
+        "weight": 10,
+        "groupcountmin": 2,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  // Tropicraft
+  // Parasites
+  {
+    "dimension": -127,
+    "mobs": [
+      {
+        "mob": "srparasites:pri_reeker",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:pri_longarms",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "srparasites:carrier_heavy",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   }
