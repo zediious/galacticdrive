@@ -29,7 +29,7 @@
 			</parent>
 			<size x="100000" z="100000" />
 			<name>Space</name>
-			<description>The void, filled with §6resources§r.</description>
+			<description>The safest place to be, at least from parasites. Filled with §6resources§r.</description>
 			<dimension id="-101" isBreathable="false" gravity="legacySpace">
 				<center x="0" z="0" />
 				<provider type="WarpDriveSpace" />
@@ -85,7 +85,7 @@
 				</parent>
 				<size x="4000" z="4000" />
 				<name>Venus</name>
-				<description>Humanity nuclear garbage depot, open 24/7, might still be liveable...</description>
+				<description>Humans made a mistake using this planet as their nuclear waste depot...</description>
 				<dimension id="4598" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
@@ -102,7 +102,7 @@
 				</parent>
 				<size x="4000" z="4000" />
 				<name>The Moon</name>
-				<description>It was nice after the terraforming... until it blew off and became even better!</description>
+				<description>It was nice after the terraforming... until it blew up and became even better!</description>
 				<dimension id="130" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
@@ -119,7 +119,7 @@
 				</parent>
 				<size x="10000" z="10000" />
 				<name>Undead Earth</name>
-				<description>The age of the Zombie is here, space is much safer.</description>
+				<description>The age of the zombie will never pass!</description>
 				<dimension id="0" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
@@ -156,7 +156,7 @@
 				</parent>
 				<size x="7000" z="7000" />
 				<name>Atum</name>
-				<description>Space-Camel paradise.</description>
+				<description>Space-Camel un-paradise.</description>
 				<dimension id="17" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
@@ -174,7 +174,7 @@
 				</parent>
 				<size x="4000" z="4000" />
 				<name>BetweenLands</name>
-				<description>Lost in time.</description>
+				<description>Something in the air keeps the parasites away, to say nothing of the local residents.</description>
 				<dimension id="20" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
@@ -208,6 +208,8 @@
 					<center x="-38000" z="-6800" />
 				</parent>
 				<size x="4000" z="4000" />
+				<name>Pluto</name>
+				<description>Some are born...to the endless night.</description>
 				<dimension id="1" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
