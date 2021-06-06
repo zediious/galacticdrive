@@ -1,65 +1,222 @@
-//Galactic Drive Mob Spawning Control
+// ****** Galactic Drive Mob Spawning Control ******
 [
-  // ****** Planetary mob distribution
-  // Atum
-  // Parasites and Atum NPC weights
+  // ****** Planetary mob distribution ******
+  //Each parasite has venus defined as a spawn
+  //wherever it is placed here.
+  //
+  // *** Global Solar System spawns ***
   {
-    "dimension": 17,
+    "dimension": ["0","-1","17","-127","4598"],
     "mobs": [
-      {
-        "mob": "srparasites:vigilante",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "srparasites:pri_manducater",
-        "weight": 5,
-        "groupcountmin": 2,
-        "groupcountmax": 4
-      },
-      {
-        "mob": "srparasites:rupter",
-        "weight": 5,
-        "groupcountmin": 4,
-        "groupcountmax": 4
-      },
-      {
-        "mob": "atum:brigand",
-        "weight": 10,
-        "groupcountmin": 2,
-        "groupcountmax": 4
-      },
-      {
-        "mob": "atum:barbarian",
-        "weight": 10,
-        "groupcountmin": 2,
-        "groupcountmax": 3
-      }
-    ]
-  },
-  // Tropicraft
-  // Parasites
-  {
-    "dimension": -127,
-    "mobs": [
-      {
-        "mob": "srparasites:pri_reeker",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "srparasites:pri_longarms",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
       {
         "mob": "srparasites:carrier_heavy",
         "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:carrier_flying",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:rupter",
+        "weight": 15,
+        "groupcountmin": 3,
+        "groupcountmax": 8
+      },
+      {
+        "mob": "srparasites:anc_dreadnaut",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  // *** VENUS | PARASITE HIVE ***
+  {
+    "dimension": 4598,
+    "mobs": [
+      {
+        "mob": "srparasites:beckon_sii",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_bolster",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:warden",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "srparasites:bomber_light",
+        "weight": 15,
+        "groupcountmin": 2,
+        "groupcountmax": 5
+      }
+    ]
+  },
+  // *** EARTH ***
+  // Contains techgun spawn changes to allow day spawns.
+  {
+    "dimension": 0,
+    "mobs": [
+      {
+        "mob": "techguns:zombiefarmer",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "techguns:zombieminer",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "techguns:zombiesoldier",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "techguns:skeletonsoldier",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "techguns:bandit",
+        "weight": 50,
+        "groupcountmin": 2,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "techguns:psychosteve",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": ["0","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:ada_summoner",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "srparasites:overseer",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  // *** MERCURY ***
+  // Techguns Pigman Soldier spawn increased
+  {
+    "dimension": ["-1","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:ada_arachnida",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_yelloweye",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "mobs": [
+      {
+        "mob": "techguns:zombiepigmansoldier",
+        "weight": 55,
+        "groupcountmin": 1,
+        "groupcountmax": 6
+      }
+    ]
+  },
+  // *** ATUM ***
+  // Contains Atum NPC spawn changes.
+  {
+    "dimension": ["17","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:vigilante",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "srparasites:ada_manducater",
+        "weight": 6,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  {
+    "dimension": 17,
+    "mobs": [
+      {
+        "mob": "atum:brigand",
+        "weight": 18,
+        "groupcountmin": 3,
+        "groupcountmax": 6
+      },
+      {
+        "mob": "atum:barbarian",
+        "weight": 18,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      }
+    ]
+  },
+  // *** TROPICS ***
+  // Contains Tropicraft NPC spawn changes
+  {
+    "dimension": ["-127","4598"],
+    "mobs": [
+      {
+        "mob": "srparasites:ada_reeker",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "srparasites:ada_longarms",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": -127,
+    "mobs": [
+      {
+        "mob": "tropicraft:koa",
+        "weight": 45,
+        "groupcountmin": 3,
+        "groupcountmax": 8
       }
     ]
   }

@@ -1,26 +1,287 @@
-//Galactic Drive Mob Spawning Control
+// ****** Galactic Drive Mob Spawning Control ******
 [
-  //Limiting Techguns night spawns to the Overworld.
+  // ****** Mob spawn restrictions ******
+  //
+  //  *** Allowing Techguns day spawns, limiting most Techguns spawns to the Overworld, and removing "Ghastling" spawn from Nether ***
+  // Helmets are given to prevent burning, this only seems to actually stop the burning 70% of the time. Fire Resistence given to help.
   {
-    "dimension": ["20","17","-127","-1","1"],
-    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:psychosteve","techguns:bandit"],
+    "dimension": 0,
+    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:ghastling"],
+    "maxcount": 20,
+    "block": ["minecraft:grass","minecraft:sand"],
+    "armorhelmet": ["1=techguns:t1_combat_helmet","1=techguns:t2_combat_helmet","techguns:t1_miner_helmet","techguns:t2_riot_helmet","1=minecraft:chainmail_helmet","2=minecraft:iron_helmet","minecraft:golden_helmet"],
+    "potion": "minecraft:fire_resistance,2147483647,2",
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "techguns:bandit",
+    "maxcount": 15,
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "techguns:psychosteve",
+    "maxcount": 1,
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:ghastling"],
+    "maxcount": 20,
+    "block": "minecraft:stone",
+    "result": "allow"
+  },
+  {
+    "dimension": ["0","20","17","-127","-1","1"],
+    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:psychosteve","techguns:bandit","techguns:ghastling"],
     "onjoin": true,
     "result": "deny"
   },
-  // *** Mob buffs | Parasites can be buffed via SRParasites.cfg
-  // Atum
+  // *** Restrict "Assimilated Human" to 50 max to prevent excessive lag. ***
+  {
+    "mob": "srparasites:sim_human",
+    "maxcount": 50
+  },
+  // ****** Mob buffs | Parasites buffed via SRParasites.cfg ******
+  //
+  // *** Atum NPCs (Barbarian, Brigand, Assassin) ***
   {
     "mob": ["atum:barbarian","atum:brigand","atum:assassin"],
-    "healthmultiply": 1.4
+    "healthmultiply": 1.8
   },
-  // ****** Planetary mob distribution
-  // Atum
-  // Parasites and Atum NPC weights
+  // *** Tropicraft Islanders (Koa) ***
+  {
+    "mob": "tropicraft:koa",
+    "healthmultiply": 1.2
+  },
+  // *** Techguns Nether mobs ***
+  {
+    "mob": "techguns:cyberdemon",
+    "healthmultiply": 1.8
+  },
+  {
+    "mob": "techguns:zombiepigmansoldier",
+    "healthmultiply": 1.2
+  },
+  // *** Restrict hostile mob count on Venus to 100
+  {
+    "dimension": 4598,
+    "maxcount": {
+      "amount": 100,
+      "hostile": true
+    }
+  },
+  // ****** Planetary mob distribution ******
+  //
+  // *** Global Solar System spawns ***
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:carrier_heavy",
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 3,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:carrier_heavy",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:carrier_flying",
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 4,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:carrier_flying",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:rupter",
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 55,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:rupter",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:anc_dreadnaut",
+    "maxcount": 1,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["0","-1","17","-127","4598"],
+    "mob": "srparasites:anc_dreadnaut",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // *** VENUS | PARASITE HIVE ***
+  {
+    "dimension": 4598,
+    "mob": "srparasites:beckon_sii",
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 4,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:beckon_sii",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:ada_bolster",
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 20,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:ada_bolster",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:warden",
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:warden",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:bomber_light",
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 18,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:bomber_light",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:anc_dreadnaut",
+    "maxcount": 4,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 4598,
+    "mob": "srparasites:anc_dreadnaut",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // *** EARTH ***
+  // Contains techgun spawn changes to allow day spawns.
+  {
+    "dimension": 0,
+    "mob": "srparasites:ada_summoner",
+    "block": ["minecraft:grass","minecraft:sand"],
+    "maxcount": 8,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "srparasites:ada_summoner",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "srparasites:overseer",
+    "block": ["minecraft:grass","minecraft:sand"],
+    "maxcount": 12,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "srparasites:overseer",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // *** MERCURY ***
+  // Techguns Pigman Soldier spawn increased
+  {
+    "dimension": -1,
+    "mob": "srparasites:ada_arachnida",
+    "block": ["minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 18,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "srparasites:ada_arachnida",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": "srparasites:ada_yelloweye",
+    "block": ["minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 28,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "srparasites:ada_yelloweye",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": "techguns:zombiepigmansoldier",
+    "block": ["minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 35,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "techguns:zombiepigmansoldier",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // *** ATUM ***
+  // Contains Atum NPC spawn changes.
   {
     "dimension": 17,
     "mob": "srparasites:vigilante",
     "block": "atum:sand",
-    "maxcount": 6,
+    "maxcount": 8,
     "onjoin": true,
     "result": "allow"
   },
@@ -32,35 +293,7 @@
   },
   {
     "dimension": 17,
-    "mob": "srparasites:pri_manducater",
-    "block": "atum:sand",
-    "maxcount": 14,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 17,
-    "mob": "srparasites:pri_manducater",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 17,
-    "mob": "srparasites:rupter",
-    "block": "atum:sand",
-    "maxcount": 24,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 17,
-    "mob": "srparasites:rupter",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 17,
-    "mob": "atum:brigand",
+    "mob": "srparasites:ada_manducater",
     "block": "atum:sand",
     "maxcount": 18,
     "onjoin": true,
@@ -68,6 +301,20 @@
   },
   {
     "dimension": 17,
+    "mob": "srparasites:ada_manducater",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 17,
+    "mob": "atum:brigand",
+    "block": "atum:sand",
+    "maxcount": 35,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 17,
     "mob": "atum:brigand",
     "onjoin": true,
     "result": "deny"
@@ -76,7 +323,7 @@
     "dimension": 17,
     "mob": "atum:barbarian",
     "block": "atum:sand",
-    "maxcount": 14,
+    "maxcount": 28,
     "onjoin": true,
     "result": "allow"
   },
@@ -86,47 +333,48 @@
     "onjoin": true,
     "result": "deny"
   },
-  // Tropicraft
-  // Parasites
+  // *** TROPICS*** 
+  // Contains Tropicraft NPC spawn changes to place outside their villages
   {
     "dimension": -127,
-    "mob": "srparasites:pri_reeker",
-    "block": "minecraft:grass",
+    "mob": "srparasites:ada_reeker",
+    "block": ["minecraft:grass","tropicraft:sand"],
     "maxcount": 12,
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": -127,
-    "mob": "srparasites:pri_reeker",
+    "mob": "srparasites:ada_reeker",
     "onjoin": true,
     "result": "deny"
   },
   {
     "dimension": -127,
-    "mob": "srparasites:pri_longarms",
-    "block": "minecraft:grass",
-    "maxcount": 14,
+    "mob": "srparasites:ada_longarms",
+    "block": ["minecraft:grass","tropicraft:sand"],
+    "maxcount": 18,
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": -127,
-    "mob": "srparasites:pri_longarms",
+    "mob": "srparasites:ada_longarms",
     "onjoin": true,
     "result": "deny"
   },
   {
     "dimension": -127,
-    "mob": "srparasites:carrier_heavy",
-    "block": "minecraft:grass",
-    "maxcount": 6,
+    "mob": "tropicraft:koa",
+    "block": ["minecraft:grass","tropicraft:sand"],
+    "maxcount": 35,
+    "helditem": ["1=spartanweaponry:greatsword_stone","1=tropicraft:bamboo_spear","1=spartanweaponry:spear_stone","1=spartanweaponry:hammer_stone"],
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": -127,
-    "mob": "srparasites:carrier_heavy",
+    "mob": "tropicraft:koa",
     "onjoin": true,
     "result": "deny"
   }
