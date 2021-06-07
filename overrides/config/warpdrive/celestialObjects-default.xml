@@ -73,7 +73,8 @@
 				</dimension>
 				-->
 				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="warpdrive:textures/celestial/surface_magma1.png" periodU="-1247" periodV="-807" />
-				<render red="1.00" green="1.00" blue="1.00" alpha="0.10" texture="minecraft:textures/blocks/netherrack.png" periodU="-21500" />
+				<render red="1.00" green="1.00" blue="0.60" alpha="0.20" texture="minecraft:textures/blocks/netherrack.png" periodU="-21500" />
+				<render red="0.60" green="0.55" blue="0.20" alpha="0.05" texture="warpdrive:textures/celestial/cloud_small2.png" periodU="100" periodV="600" additive="false" />
 				<render red="1.00" green="0.50" blue="0.50" alpha="0.12" />
 				<render red="1.00" green="0.50" blue="0.50" alpha="0.11" />
 				<render red="1.00" green="0.50" blue="0.50" alpha="0.10" />
@@ -89,11 +90,12 @@
 				<dimension id="4598" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
-				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="nuclearcraft:textures/blocks/dry_earth.png" periodV="815" />
-				<render red="1.00" green="1.00" blue="1.00" alpha="0.10" texture="minecraft:textures/blocks/glowstone.png" periodU="24500" />
-				<render red="1.00" green="0.50" blue="0.50" alpha="0.12" />
-				<render red="1.00" green="0.50" blue="0.50" alpha="0.11" />
-				<render red="1.00" green="0.50" blue="0.50" alpha="0.10" />
+				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="nuclearcraft:textures/blocks/dry_earth.png" periodV="1400" />
+				<render red="0.10" green="1.00" blue="0.80" alpha="0.10" texture="minecraft:textures/blocks/glowstone.png" periodU="24500" />
+				<render red="0.30" green="0.95" blue="0.20" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
+				<render red="0.60" green="0.80" blue="0.50" alpha="0.12" />
+				<render red="1.00" green="0.80" blue="0.50" alpha="0.11" />
+				<render red="0.50" green="0.80" blue="0.50" alpha="0.10" />
 			</celestialObject>
 			
 			<celestialObject id="space1-moon">
@@ -123,7 +125,8 @@
 				<dimension id="0" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
-				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" />
+				<render red="0.70" green="0.70" blue="0.70" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate2.png" periodV="1400" />
+				<render red="0.70" green="0.70" blue="0.70" alpha="0.50" texture="warpdrive:textures/celestial/surface_island1.png" periodV="1400" additive="true" />
 				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="100" periodV="1100" additive="true" />
 				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="300" periodV="1500" additive="false" />
 				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
@@ -142,12 +145,13 @@
 				<dimension id="-127" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
-				<render red="1.00" green="0.60" blue="0.50" alpha="1.00" texture="warpdrive:textures/celestial/surface_island1.png" periodU="-180" periodV="785" />
-				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/surface_magma1.png" periodU="-168" periodV="-1550" additive="false" />
-				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large2.png" periodU="172" periodV="1710" additive="true" />
-				<render red="1.00" green="0.50" blue="0.40" alpha="0.09" />
-				<render red="1.00" green="0.50" blue="0.40" alpha="0.08" />
-				<render red="1.00" green="0.50" blue="0.40" alpha="0.08" />
+				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate1.png" periodV="1400" />
+				<render red="0.00" green="0.95" blue="1.00" alpha="0.25" texture="warpdrive:textures/celestial/surface_magma1.png" periodU="-168" periodV="-1550" additive="false" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.25" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="172" periodV="1710" additive="false" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium2.png" periodU="300" periodV="1500" additive="false" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.09" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.08" />
+				<render red="0.90" green="0.90" blue="1.00" alpha="0.08" />
 			</celestialObject>
 			
 			<celestialObject id="solar-atum">
@@ -160,11 +164,14 @@
 				<dimension id="17" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
-				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="warpdrive:textures/celestial/surface_oceanic2.png" periodU="210" periodV="815" />
-				<render red="0.90" green="0.95" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="180" periodV="1100" additive="false" />
-				<render red="0.90" green="0.90" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="312" periodV="1500" additive="true" />
+				<render red="0.90" green="1.00" blue="0.60" alpha="1.00" texture="warpdrive:textures/celestial/surface_desert2.png" periodV="1400" />
+				<render red="0.90" green="1.00" blue="0.60" alpha="0.40" texture="atum:textures/blocks/sand.png" periodV="1400" />
+				<render red="0.80" green="0.50" blue="0.60" alpha="0.30" texture="warpdrive:textures/celestial/surface_rock3.png" periodV="1400" />
+				<render red="0.90" green="0.95" blue="0.60" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small1.png" periodU="180" periodV="1100" additive="false" />
+				<render red="0.90" green="0.90" blue="0.60" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium1.png" periodU="312" periodV="1500" additive="false" />
+				<render red="0.90" green="0.90" blue="0.60" alpha="0.25" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="172" periodV="1710" additive="false" />
 				<render red="0.40" green="0.50" blue="1.00" alpha="0.09" />
-				<render red="0.40" green="0.50" blue="1.00" alpha="0.08" />
+				<render red="0.40" green="0.50" blue="0.60" alpha="0.08" />
 				<render red="0.40" green="0.50" blue="1.00" alpha="0.08" />
 			</celestialObject>
 			
@@ -175,12 +182,32 @@
 				<size x="4000" z="4000" />
 				<name>BetweenLands</name>
 				<description>Something in the air keeps the parasites away, to say nothing of the local residents.</description>
-				<dimension id="20" isBreathable="true" gravity="normal">
+				<dimension id="20" isBreathable="false" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
-				<render red="0.80" green="1.00" blue="0.80" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate3.png" periodU="-180" periodV="785" />
+				<render red="0.60" green="0.90" blue="0.50" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate3.png" periodV="1400" />
+				<render red="0.60" green="0.50" blue="0.50" alpha="0.30" texture="warpdrive:textures/celestial/surface_metallic1.png" periodV="1400" additive="false" />
 				<render red="0.70" green="0.95" blue="0.50" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small2.png" periodU="-170" periodV="1050" additive="false" />
 				<render red="0.70" green="0.90" blue="0.80" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium2.png" periodU="-172" periodV="1510" additive="true" />
+				<render red="0.40" green="0.70" blue="0.50" alpha="0.30" />
+				<render red="0.40" green="0.40" blue="0.40" alpha="0.10" />
+				<render red="0.40" green="0.30" blue="0.70" alpha="0.08" />
+			</celestialObject>
+
+			<celestialObject id="solar-Glacia">
+				<parent>
+					<center x="32000" z="-45000" />
+				</parent>
+				<size x="3500" z="3500" />
+				<name>Glacia</name>
+				<description>Once an economic powerhouse, but the stock market froze.</description>
+				<dimension id="111" isBreathable="true" gravity="normal">
+					<center x="0" z="0" />
+				</dimension>
+				<render red="0.00" green="0.60" blue="0.60" alpha="1.00" texture="warpdrive:textures/celestial/surface_oceanic2.png" periodU="1400" periodV="1400" additive="false" />
+				<render red="0.80" green="0.80" blue="0.80" alpha="0.70" texture="warpdrive:textures/celestial/surface_icy1.png" periodV="1400" />
+				<render red="0.70" green="0.95" blue="0.50" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small2.png" periodU="-170" periodV="1050" additive="false" />
+				<render red="0.70" green="0.90" blue="0.80" alpha="0.40" texture="warpdrive:textures/celestial/cloud_medium2.png" periodU="-172" periodV="1510" additive="false" />
 				<render red="0.40" green="0.70" blue="1.00" alpha="0.09" />
 				<render red="0.40" green="0.60" blue="1.00" alpha="0.08" />
 				<render red="0.40" green="0.50" blue="1.00" alpha="0.08" />

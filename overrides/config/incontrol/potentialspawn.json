@@ -6,7 +6,7 @@
   //
   // *** Global Solar System spawns ***
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mobs": [
       {
         "mob": "srparasites:carrier_heavy",

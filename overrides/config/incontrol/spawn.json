@@ -65,68 +65,68 @@
     "mob": "techguns:zombiepigmansoldier",
     "healthmultiply": 1.2
   },
-  // *** Restrict hostile mob count on Venus to 100
+  // *** Restrict mob count on Venus to 100
   {
     "dimension": 4598,
     "maxcount": {
-      "amount": 100,
-      "hostile": true
+      "amount": 50,
+      "onjoin": true
     }
   },
   // ****** Planetary mob distribution ******
   //
   // *** Global Solar System spawns ***
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:carrier_heavy",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
     "maxcount": 3,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:carrier_heavy",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:carrier_flying",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
     "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:carrier_flying",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:rupter",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
     "maxcount": 55,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:rupter",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:anc_dreadnaut",
     "maxcount": 1,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","-127","4598"],
+    "dimension": ["0","-1","17","111","-127","4598"],
     "mob": "srparasites:anc_dreadnaut",
     "onjoin": true,
     "result": "deny"
