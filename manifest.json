@@ -642,6 +642,18 @@
             "fileID": 2443253,
             "projectID": 224535,
             "required": true
+        },
+        {
+            "alias": "LLibrary (llibrary-1.7.20-1.12.2.jar)",
+            "fileID": 3116493,
+            "projectID": 243298,
+            "required": true
+        },
+        {
+            "alias": "Mowzie's Mobs (mowziesmobs-1.5.8.jar)",
+            "fileID": 3048685,
+            "projectID": 250498,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
