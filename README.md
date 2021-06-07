@@ -3,7 +3,7 @@
 
 **Downloading the current pack development build** 
 
-> **1) Open the development branch, and download the current ZIP.**
+> **1) Click the following link to download the current development branch zip https://github.com/zediious/galacticdrive/archive/refs/heads/development.zip**
 > 
 > **2) Take the contents of the folder within the downloaded ZIP, and move
 > them/rezip them such that they are at the root of the ZIP. MultiMC is
