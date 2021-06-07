@@ -16,5 +16,29 @@
 				"doDaylightCycle": "true"
 			}
 		}
+	},
+	{
+		"dim": 111,
+		"worldinfo": {
+			"raining": true
+		}
+	},
+	{
+		"dim": 112,
+		"worldinfo": {
+			"jed": {
+				"SkyColor": "c9e523",
+				"FogColor": "afcb08",
+				"CloudColor": "403b17"
+			}
+		},
+		"colors": {
+			"FoliageColors": [
+				{ "biome": "nuclearcraft:nuclear_wasteland", "color": "c9e713" }
+			],
+			"GrassColors": [
+				{ "biome": "nuclearcraft:nuclear_wasteland", "color": "c9e713" }
+			]
+		}
 	}]
 }

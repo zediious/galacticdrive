@@ -44,12 +44,22 @@
     "mob": "srparasites:sim_human",
     "maxcount": 50
   },
+  // *** Restrict mob count on Venus to 250
+  {
+    "dimension": 4598,
+    "mod": "srparasites",
+    "mincount": {
+      "amount": 250,
+      "mod": "srparasites"
+    },
+    "result": "deny"
+  },
   // ****** Mob buffs | Parasites buffed via SRParasites.cfg ******
   //
   // *** Atum NPCs (Barbarian, Brigand, Assassin) ***
   {
     "mob": ["atum:barbarian","atum:brigand","atum:assassin"],
-    "healthmultiply": 1.8
+    "healthmultiply": 2.5
   },
   // *** Tropicraft Islanders (Koa) ***
   {
@@ -59,79 +69,72 @@
   // *** Techguns Nether mobs ***
   {
     "mob": "techguns:cyberdemon",
-    "healthmultiply": 1.8
+    "healthmultiply": 1.5
   },
   {
     "mob": "techguns:zombiepigmansoldier",
     "healthmultiply": 1.2
   },
-  // *** Restrict mob count on Venus to 100
-  {
-    "dimension": 4598,
-    "maxcount": {
-      "amount": 50,
-      "onjoin": true
-    }
-  },
   // ****** Planetary mob distribution ******
   //
   // *** Global Solar System spawns ***
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:carrier_heavy",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","nuclearcraft:dry_earth"],
     "maxcount": 3,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:carrier_heavy",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:carrier_flying",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","nuclearcraft:dry_earth"],
     "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:carrier_flying",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:rupter",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","nuclearcraft:dry_earth"],
     "maxcount": 55,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:rupter",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:anc_dreadnaut",
     "maxcount": 1,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:anc_dreadnaut",
     "onjoin": true,
     "result": "deny"
   },
   // *** VENUS | PARASITE HIVE ***
+  // Parasite spawning in srparasites.cfg is enabled for Venus to allow some organic spawning. Caps defined above apply.
   {
     "dimension": 4598,
     "mob": "srparasites:beckon_sii",
@@ -232,7 +235,7 @@
     "result": "deny"
   },
   // *** MERCURY ***
-  // Techguns Pigman Soldier spawn increased
+  // Techguns Pigman Soldier spawn increased, Naga spawns added
   {
     "dimension": -1,
     "mob": "srparasites:ada_arachnida",
@@ -272,6 +275,20 @@
   {
     "dimension": -1,
     "mob": "techguns:zombiepigmansoldier",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": "mowziesmobs:naga",
+    "block": ["minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 8,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "mowziesmobs:naga",
     "onjoin": true,
     "result": "deny"
   },
@@ -334,7 +351,7 @@
     "result": "deny"
   },
   // *** TROPICS*** 
-  // Contains Tropicraft NPC spawn changes to place outside their villages
+  // Contains Reeker, Longarms, and Foliiath spawn
   {
     "dimension": -127,
     "mob": "srparasites:ada_reeker",
@@ -365,16 +382,90 @@
   },
   {
     "dimension": -127,
-    "mob": "tropicraft:koa",
-    "block": ["minecraft:grass","tropicraft:sand"],
-    "maxcount": 35,
-    "helditem": ["1=spartanweaponry:greatsword_stone","1=tropicraft:bamboo_spear","1=spartanweaponry:spear_stone","1=spartanweaponry:hammer_stone"],
+    "mob": "mowziesmobs:foliaath",
+    "block": ["minecraft:grass","tropicraft:leaves"],
+    "maxcount": 40,
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": -127,
-    "mob": "tropicraft:koa",
+    "mob": "mowziesmobs:foliaath",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // ** GLACIA ***
+  // Yelloweye, Longarms and Frostmaw spawns
+  {
+    "dimension": 111,
+    "mob": "mowziesmobs:frostmaw",
+    "block": "minecraft:packed_ice",
+    "maxcount": 20,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "mowziesmobs:frostmaw",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 111,
+    "mob": "srparasites:ada_longarms",
+    "block": ["minecraft:packed_ice","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
+    "maxcount": 25,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "srparasites:ada_longarms",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 111,
+    "mob": "srparasites:ada_yelloweye",
+    "block": ["minecraft:packed_ice","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
+    "maxcount": 30,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "srparasites:ada_yelloweye",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // ** HILUND ***
+  // Ferrous Wroughtnaut and Reeker spawns
+  {
+    "dimension": 112,
+    "mob": "mowziesmobs:ferrous_wroughtnaut",
+    "block": ["minecraft:stonebrick","minecraft:stone_slab"],
+    "maxcount": 35,
+    "maxheight": 85,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 112,
+    "mob": "mowziesmobs:ferrous_wroughtnaut",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 112,
+    "mob": "srparasites:ada_reeker",
+    "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
+    "maxcount": 40,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 112,
+    "mob": "srparasites:ada_reeker",
     "onjoin": true,
     "result": "deny"
   }

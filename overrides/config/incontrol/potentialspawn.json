@@ -6,7 +6,7 @@
   //
   // *** Global Solar System spawns ***
   {
-    "dimension": ["0","-1","17","111","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4598"],
     "mobs": [
       {
         "mob": "srparasites:carrier_heavy",
@@ -112,13 +112,13 @@
     "mobs": [
       {
         "mob": "srparasites:ada_summoner",
-        "weight": 8,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "srparasites:overseer",
-        "weight": 5,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -148,9 +148,15 @@
     "mobs": [
       {
         "mob": "techguns:zombiepigmansoldier",
-        "weight": 55,
+        "weight": 35,
         "groupcountmin": 1,
         "groupcountmax": 6
+      },
+      {
+        "mob": "mowziesmobs:naga",
+        "weight": 18,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   },
@@ -213,10 +219,46 @@
     "dimension": -127,
     "mobs": [
       {
-        "mob": "tropicraft:koa",
-        "weight": 45,
-        "groupcountmin": 3,
-        "groupcountmax": 8
+        "mob": "mowziesmobs:foliaath",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+// *** GLACIA ***
+  {
+    "dimension": 111,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:frostmaw",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_longarms",
+        "weight": 35,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  // *** HILUND ***
+  {
+    "dimension": 112,
+    "mobs": [
+      {
+        "mob": "mowziesmobs:ferrous_wroughtnaut",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_reeker",
+        "weight": 35,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   }
