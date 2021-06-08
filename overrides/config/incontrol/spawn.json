@@ -8,7 +8,7 @@
     "dimension": 0,
     "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:ghastling"],
     "maxcount": 20,
-    "block": ["minecraft:grass","minecraft:sand"],
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt"],
     "armorhelmet": ["1=techguns:t1_combat_helmet","1=techguns:t2_combat_helmet","techguns:t1_miner_helmet","techguns:t2_riot_helmet","1=minecraft:chainmail_helmet","2=minecraft:iron_helmet","minecraft:golden_helmet"],
     "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
@@ -52,6 +52,13 @@
       "amount": 250,
       "mod": "srparasites"
     },
+    "result": "deny"
+  },
+  // *** Deny Tropicraft Iguana spawns ***
+  {
+    "mob": "tropicraft:iguana",
+    "dimension": -127,
+    "onjoin": true,
     "result": "deny"
   },
   // ****** Mob buffs | Parasites buffed via SRParasites.cfg ******
@@ -209,7 +216,7 @@
   {
     "dimension": 0,
     "mob": "srparasites:ada_summoner",
-    "block": ["minecraft:grass","minecraft:sand"],
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt"],
     "maxcount": 8,
     "onjoin": true,
     "result": "allow"
@@ -223,7 +230,7 @@
   {
     "dimension": 0,
     "mob": "srparasites:overseer",
-    "block": ["minecraft:grass","minecraft:sand"],
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt"],
     "maxcount": 12,
     "onjoin": true,
     "result": "allow"
@@ -383,14 +390,84 @@
   {
     "dimension": -127,
     "mob": "mowziesmobs:foliaath",
-    "block": ["minecraft:grass","tropicraft:leaves"],
-    "maxcount": 40,
+    "block": "minecraft:grass",
+    "maxcount": 14,
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": -127,
     "mob": "mowziesmobs:foliaath",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:arisaur",
+    "block": "minecraft:grass",
+    "maxcount": 8,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:arisaur",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:aspid",
+    "block": "tropicraft:leaves",
+    "maxcount": 14,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:aspid",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:chupacabra",
+    "block": "tropicraft:sand",
+    "maxcount": 4,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:chupacabra",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:herma",
+    "block": "tropicraft:sand",
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:herma",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:triffid",
+    "block": "tropicraft:leaves",
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -127,
+    "mob": "lycanitesmobs:triffid",
     "onjoin": true,
     "result": "deny"
   },
@@ -466,6 +543,14 @@
   {
     "dimension": 112,
     "mob": "srparasites:ada_reeker",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // *** Global Lycanites Mobs deny ***
+  // This needs to be at the bottom to allow specific spawns.
+  {
+    "mod": "lycanitesmobs",
+    "dimension": ["0","20","17","-127","-1","1","111","112","4598"],
     "onjoin": true,
     "result": "deny"
   }

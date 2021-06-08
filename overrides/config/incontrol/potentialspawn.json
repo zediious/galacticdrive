@@ -220,9 +220,39 @@
     "mobs": [
       {
         "mob": "mowziesmobs:foliaath",
-        "weight": 20,
+        "weight": 13,
         "groupcountmin": 1,
         "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:arisaur",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aspid",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:chupacabra",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:herma",
+        "weight": 4,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "lycanitesmobs:triffid",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   },
