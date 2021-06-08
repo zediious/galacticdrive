@@ -53,6 +53,7 @@ llibrary-1.7.20-1.12.2.jar
 LoadingScreens 1.12-0.3.1
 LagGoggles-1.12.2-5.8-132.jar
 lostcities-1.12-2.0.22.jar
+lycanitesmobs-1.12.2-2.0.7.2.jar
 malisiscore-1.12.2-6.5.1.jar
 malisisadvert-1.12.2-6.1.0.jar
 Mantle-1.12-1.3.3.55.jar
@@ -70,6 +71,7 @@ mowziesmobs-1.5.8.jar
 MTLib-3.0.7.jar
 mysticallib-1.12.2-1.10.0.jar
 netheroverload-1.12.2-0.0.7.jar
+nonetherPortals_v1.0.0formc1.12.2.jar
 NuclearCraft-2.18y-1.12.2.jar
 Numina-1.12.2-1.0.38.jar
 omlib-1.12.2-3.2.0-256.jar
