@@ -1,7 +1,7 @@
 # Galactic Drive - 1.12.2 modpack based on WarpDrive.
 
 
-**Downloading the current pack development build** 
+# Downloading the current pack development build
 
 > **1) Click the following link to download the current development branch zip https://github.com/zediious/galacticdrive/archive/refs/heads/development.zip**
 > 
@@ -17,6 +17,10 @@ https://gdevs.io/ | Extremely user-friendly
 
 https://curseforge.overwolf.com/ | Hot garbage
 
+<br />
+<br />
+<br />
+# Collaborator Guidelines
 <br />
 When you want to make new edits, you must commit to the development branch or a branch you create. Commiting to main is disabled. After this, you can add the commit to an exisiting pull request or make your own from your commit, which will allow all of us to view the edits and make changes collaboratively on the branch first before pushing the commit onto the main branch after approval. The main branch contains our unmolested current version from which we work from in a dev "bubble".
 <br /><br />
