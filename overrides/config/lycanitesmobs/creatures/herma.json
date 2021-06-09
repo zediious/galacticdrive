@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityHerma",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelHerma",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -43,8 +43,8 @@
   "health": 30,
   "defense": 3,
   "armor": 0,
-  "speed": 22,
-  "damage": 1,
+  "speed": 28,
+  "damage": 4,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -82,7 +82,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "perchable": true,
   "summonCost": 4,
@@ -119,6 +119,6 @@
       "chance": 0.25
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.8,
+  "hitboxScale": 0.8
 }

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityFeradon",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelFeradon",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -40,11 +40,11 @@
   "width": 0.8,
   "height": 1.5,
   "experience": 10,
-  "health": 20,
+  "health": 36,
   "defense": 0,
   "armor": 0,
-  "speed": 28,
-  "damage": 3,
+  "speed": 32,
+  "damage": 12,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -95,6 +95,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.6,
+  "hitboxScale": 0.6
 }

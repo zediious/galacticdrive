@@ -225,10 +225,16 @@
         "groupcountmax": 2
       },
       {
+        "mob": "lycanitesmobs:feradon",
+        "weight": 22,
+        "groupcountmin": 8,
+        "groupcountmax": 6
+      },
+      {
         "mob": "lycanitesmobs:arisaur",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 2
+        "weight": 6,
+        "groupcountmin": 2,
+        "groupcountmax": 4
       },
       {
         "mob": "lycanitesmobs:aspid",

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTriffid",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriffid",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -42,8 +42,8 @@
   "health": 40,
   "defense": 4,
   "armor": 0,
-  "speed": 16,
-  "damage": 6,
+  "speed": 18,
+  "damage": 10,
   "attackSpeed": 0.5,
   "rangedSpeed": 1,
   "effectDuration": 15,
@@ -126,6 +126,6 @@
       "chance": 0.25
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.7,
+  "hitboxScale": 0.7
 }

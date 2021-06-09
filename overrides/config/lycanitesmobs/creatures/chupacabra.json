@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityChupacabra",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelChupacabra",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -34,11 +34,11 @@
   "width": 0.9,
   "height": 0.9,
   "experience": 5,
-  "health": 15,
+  "health": 20,
   "defense": 0,
   "armor": 0,
   "speed": 28,
-  "damage": 2,
+  "damage": 4,
   "attackSpeed": 2,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -78,9 +78,9 @@
     "insectivore"
   ],
   "peaceful": true,
-  "farmable": true,
+  "farmable": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
@@ -106,6 +106,6 @@
       "variant": 3
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2
 }
