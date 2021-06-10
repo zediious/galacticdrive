@@ -217,7 +217,7 @@
 				</parent>
 				<size x="5000" z="5000" />
 				<name>Glacia</name>
-				<description>Once an economic powerhouse, but the stock market froze.</description>
+				<description>A frozen waste, with more dangers than one.</description>
 				<dimension id="111" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>

@@ -548,9 +548,10 @@
   {
     "dimension": 112,
     "mob": "mowziesmobs:ferrous_wroughtnaut",
-    "block": ["minecraft:stonebrick","minecraft:stone_slab"],
+    "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","block:minecraft:double_stone_slab","minecraft:quartz_block"],
+    "maxlight": 10,
     "maxcount": 35,
-    "maxheight": 85,
+    //"maxheight": 85,
     "onjoin": true,
     "result": "allow"
   },
