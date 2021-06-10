@@ -61,13 +61,13 @@
 				<render red="0.70" green="0.55" blue="0.20" alpha="0.08" texture="" />
 			</celestialObject>
 			
-			<celestialObject id="solar-Eden">
+			<celestialObject id="solar-roika">
 				<parent>
 					<center x="-9783" z="26000" />
 				</parent>
-				<size x="400" z="400" />
-                <name>Eden</name>
-				<description>The Beginning</description>
+				<size x="600" z="600" />
+                <name>Roika</name>
+				<description>Just another day...right?</description>
 				<dimension id="-500" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>

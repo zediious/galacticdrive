@@ -8,7 +8,7 @@
     "dimension": 0,
     "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:ghastling"],
     "maxcount": 20,
-    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay"],
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow"],
     "armorhelmet": ["1=techguns:t1_combat_helmet","1=techguns:t2_combat_helmet","techguns:t1_miner_helmet","techguns:t2_riot_helmet","1=minecraft:chainmail_helmet","2=minecraft:iron_helmet","minecraft:golden_helmet"],
     "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
@@ -81,7 +81,7 @@
   {
     "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:carrier_heavy",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","nuclearcraft:dry_earth"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 3,
     "onjoin": true,
     "result": "allow"
@@ -95,7 +95,7 @@
   {
     "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:carrier_flying",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","nuclearcraft:dry_earth"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 4,
     "onjoin": true,
     "result": "allow"
@@ -109,7 +109,7 @@
   {
     "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:rupter",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","nuclearcraft:dry_earth"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 55,
     "onjoin": true,
     "result": "allow"
@@ -209,7 +209,7 @@
   {
     "dimension": 0,
     "mob": "srparasites:ada_summoner",
-    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay"],
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow"],
     "maxcount": 8,
     "onjoin": true,
     "result": "allow"
@@ -223,7 +223,7 @@
   {
     "dimension": 0,
     "mob": "srparasites:overseer",
-    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay"],
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow"],
     "maxcount": 12,
     "onjoin": true,
     "result": "allow"
@@ -479,12 +479,12 @@
     "result": "deny"
   },
   // ** GLACIA ***
-  // Yelloweye, Longarms and Frostmaw spawns
+  // Yelloweye, Longarms and Frostmaw spawns. Remove squid spawns.
   {
     "dimension": 111,
     "mob": "mowziesmobs:frostmaw",
-    "block": "minecraft:packed_ice",
-    "maxcount": 20,
+    "block": ["minecraft:snow_layer","minecraft:snow"],
+    "maxcount": 10,
     "onjoin": true,
     "result": "allow"
   },
@@ -497,7 +497,7 @@
   {
     "dimension": 111,
     "mob": "srparasites:ada_longarms",
-    "block": ["minecraft:packed_ice","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
+    "block": ["minecraft:snow_layer","minecraft:snow"],
     "maxcount": 25,
     "onjoin": true,
     "result": "allow"
@@ -510,15 +510,36 @@
   },
   {
     "dimension": 111,
-    "mob": "srparasites:ada_yelloweye",
-    "block": ["minecraft:packed_ice","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer"],
-    "maxcount": 30,
+    "mob": "lycanitesmobs:maug",
+    "block": ["minecraft:snow_layer","minecraft:snow"],
+    "maxcount": 26,
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": 111,
-    "mob": "srparasites:ada_yelloweye",
+    "mob": "lycanitesmobs:maug",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:frostweaver",
+    "block": ["minecraft:packed_ice","minecraft:snow"],
+    "maxcount": 26,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:frostweaver",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // Deny squid
+  {
+    "dimension": 111,
+    "mob": "minecraft:squid",
     "onjoin": true,
     "result": "deny"
   },
