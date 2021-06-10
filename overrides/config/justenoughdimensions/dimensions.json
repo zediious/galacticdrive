@@ -1,5 +1,4 @@
 {
-	//WASTED
 	"dimensions": [{
 		"dim": 107,
 		"dimensiontype": {
@@ -18,7 +17,6 @@
 			}
 		}
 	},
-	//GLACIA
 	{
 		"dim": 111,
 		"biome": "minecraft:mutated_ice_flats",
@@ -45,7 +43,6 @@
 		},
 		"override": true
 	},
-	//ROIKA (Spawn Planet)
 	{
 		"dim": -500,
 		"biome": "minecraft:forest",
@@ -60,12 +57,13 @@
 			"generatorName": "RTG",
 			"DayTime": 6000,
 			"SpawnX": 0,
-			"SpawnY": 70,
-			"spawnZ": 0
+			"SpawnZ": 0,
+			"GameRules": {
+				"spawnRadius": "0"
+			}
 		},
 		"override": true
 	},
-	//HILUND
 	{
 		"dim": 112,
 		"worldinfo": {
@@ -82,6 +80,7 @@
 			"GrassColors": [
 				{ "biome": "nuclearcraft:nuclear_wasteland", "color": "c9e713" }
 			]
-		}
+		},
+		"override": true
 	}]
 }
