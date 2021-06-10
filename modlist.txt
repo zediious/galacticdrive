@@ -86,6 +86,7 @@ reauth-3.6.0.jar
 RecurrentComplex-1.4.8.2.jar
 RedstoneFlux-1.12-2.1.1.1-universal.jar
 ResourceLoader-MC1.12.1-1.5.3.jar
+RTG-1.12.2-6.1.0.0-snapshot.1.jar
 SGCraft-2.0.5.jar
 SmoothFont-mc1.12.2-2.1.2.jar
 SpartanShields-1.12.2-1.5.4.jar

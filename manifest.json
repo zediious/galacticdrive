@@ -666,6 +666,12 @@
             "fileID": 2935745,
             "projectID": 224770,
             "required": true
+        },
+        {
+            "alias": "Realistic Terrain Generation (RTG-1.12.2-6.1.0.0-snapshot.1.jar)",
+            "fileID": 2782568,
+            "projectID": 237989,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
