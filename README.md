@@ -1,13 +1,15 @@
 # Galactic Drive - 1.12.2 modpack based on WarpDrive.
 
-<br />
-<br />
-<br />
-
-# Downloading the current pack development build. 
 **Currently in alpha stages. Expect incomplete concepts and possibly bugs until an official release is made.**
 <br />
 <br />
+The general goal of Galactic Drive is to create a Solar System/environment where all of the planets are inhospitable warzones, and the safest place to be at all times is in Space. You can create space stations and ships with WarpDrive, which you can "jump" across the Solar System or through Hyperspace to visit various planets for resources. You can also "cloak" your ships/stations, and protect them from other players with turrets and various other counter-measures. You will need to visit each planet on multiple occasions to gather specific resources. Many things within the modpack are gated behind certain resources on certain planets, and you will always need more of them. 
+
+# Downloading the current pack development build. 
+
+<br />
+<br />
+
 > **1) Click the following link to download the current development branch zip https://github.com/zediious/galacticdrive/archive/refs/heads/development.zip**
 > 
 > **2) Take the contents of the folder within the downloaded ZIP, and move
