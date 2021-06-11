@@ -297,14 +297,32 @@
     "dimension": 112,
     "mobs": [
       {
-        "mob": "mowziesmobs:ferrous_wroughtnaut",
-        "weight": 25,
+        "mob": "srparasites:ada_reeker",
+        "weight": 18,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+       {
+        "mob": "srparasites:warden",
+        "weight": 14,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
-        "mob": "srparasites:ada_reeker",
-        "weight": 35,
+        "mob": "lycanitesmobs:geist",
+        "weight": 26,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:kobold",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:calpod",
+        "weight": 22,
         "groupcountmin": 1,
         "groupcountmax": 1
       }

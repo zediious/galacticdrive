@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGeist",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGeist",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -36,18 +36,18 @@
   "width": 0.6,
   "height": 2.4,
   "experience": 10,
-  "health": 15,
+  "health": 40,
   "defense": 0,
-  "armor": 0,
-  "speed": 30,
-  "damage": 2,
-  "attackSpeed": 1,
+  "armor": 1.0,
+  "speed": 55,
+  "damage": 6,
+  "attackSpeed": 2.4,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
-  "knockbackResistance": 0,
+  "sight": 40,
+  "knockbackResistance": 1.0,
   "eggBackColor": "#705449",
   "eggForeColor": "#310e08",
   "subspecies": [
@@ -93,12 +93,6 @@
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.05
-    },
-    {
-      "item": "lycanitesmobs:geistliver",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

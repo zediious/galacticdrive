@@ -44,6 +44,10 @@
     "mob": "srparasites:sim_human",
     "maxcount": 50
   },
+  {
+    "mob": "srparasites:sim_bigspider",
+    "maxcount": 24
+  },
   // *** Restrict mob count on Venus to 250
   {
     "dimension": 4598,
@@ -74,6 +78,11 @@
   {
     "mob": "techguns:zombiepigmansoldier",
     "healthmultiply": 1.2
+  },
+  // ** Nuclearcraft Feral Ghoul
+  {
+    "mob": "nuclearcraft:feral_ghoul",
+    "healthmultiply": 4.0
   },
   // ****** Planetary mob distribution ******
   //
@@ -404,23 +413,11 @@
   },
   {
     "dimension": -127,
-    "mob": "lycanitesmobs:feradon",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": -127,
     "mob": "lycanitesmobs:arisaur",
     "block": "minecraft:grass",
     "maxcount": 10,
     "onjoin": true,
     "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:arisaur",
-    "onjoin": true,
-    "result": "deny"
   },
   {
     "dimension": -127,
@@ -432,12 +429,6 @@
   },
   {
     "dimension": -127,
-    "mob": "lycanitesmobs:aspid",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": -127,
     "mob": "lycanitesmobs:chupacabra",
     "block": "tropicraft:sand",
     "maxcount": 6,
@@ -446,23 +437,11 @@
   },
   {
     "dimension": -127,
-    "mob": "lycanitesmobs:chupacabra",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": -127,
     "mob": "lycanitesmobs:herma",
     "block": "tropicraft:sand",
     "maxcount": 6,
     "onjoin": true,
     "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:herma",
-    "onjoin": true,
-    "result": "deny"
   },
   {
     "dimension": -127,
@@ -471,12 +450,6 @@
     "maxcount": 8,
     "onjoin": true,
     "result": "allow"
-  },
-  {
-    "dimension": -127,
-    "mob": "lycanitesmobs:triffid",
-    "onjoin": true,
-    "result": "deny"
   },
   // ** GLACIA ***
   // Yelloweye, Longarms and Frostmaw spawns. Remove squid spawns.
@@ -518,23 +491,11 @@
   },
   {
     "dimension": 111,
-    "mob": "lycanitesmobs:maug",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 111,
     "mob": "lycanitesmobs:frostweaver",
     "block": ["minecraft:packed_ice","minecraft:snow"],
     "maxcount": 16,
     "onjoin": true,
     "result": "allow"
-  },
-  {
-    "dimension": 111,
-    "mob": "lycanitesmobs:frostweaver",
-    "onjoin": true,
-    "result": "deny"
   },
   // Deny squid
   {
@@ -544,28 +505,14 @@
     "result": "deny"
   },
   // ** HILUND ***
-  // Ferrous Wroughtnaut and Reeker spawns
-  {
-    "dimension": 112,
-    "mob": "mowziesmobs:ferrous_wroughtnaut",
-    "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxlight": 10,
-    "maxcount": 35,
-    //"maxheight": 85,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 112,
-    "mob": "mowziesmobs:ferrous_wroughtnaut",
-    "onjoin": true,
-    "result": "deny"
-  },
+  // Reeker and lycanite spawns
   {
     "dimension": 112,
     "mob": "srparasites:ada_reeker",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
-    "maxcount": 40,
+    "maxcount": 18,
+    "maxheight": 100,
+    "seesky": true,
     "onjoin": true,
     "result": "allow"
   },
@@ -574,6 +521,48 @@
     "mob": "srparasites:ada_reeker",
     "onjoin": true,
     "result": "deny"
+  },
+    {
+    "dimension": 112,
+    "mob": "srparasites:warden",
+    "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
+    "maxcount": 15,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 112,
+    "mob": "srparasites:warden",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 112,
+    "mob": "lycanitesmobs:geist",
+    "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
+    "maxcount": 35,
+    "maxlight": 12,
+    "seesky": false,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 112,
+    "mob": "lycanitesmobs:kobold",
+    "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
+    "maxcount": 25,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 112,
+    "mob": "lycanitesmobs:calpod",
+    "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
+    "maxcount": 22,
+    "maxheight": 100,
+    "seesky": true,
+    "onjoin": true,
+    "result": "allow"
   },
   // *** Global Lycanites Mobs deny ***
   // This needs to be at the bottom to allow specific spawns.
