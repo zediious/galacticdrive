@@ -53,11 +53,15 @@
 			"keeploaded": false,
 			"worldprovider": "WorldProviderSurfaceJED"
 		},
+		"worldinfo": {
+			"jed": {
+				"CustomDayCycle": true,
+				"DayLength": 16000,
+				"NightLength": 6000
+			}
+		},
 		"worldinfo_onetime": {
 			"generatorName": "RTG",
-			"CustomDayCycle": true,
-			"DayLength": 16000,
-			"NightLength": 6000,
 			"RandomSeed": 5450064435555506562,
 			"SpawnX": 0,
 			"SpawnZ": 0,
