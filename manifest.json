@@ -678,6 +678,12 @@
             "fileID": 2842510,
             "projectID": 220318,
             "required": true
+        },
+        {
+            "alias": "Custom Starter Gear (CustomStartingGear-1.12-1.2.0.9-universal.jar)",
+            "fileID": 2514705,
+            "projectID": 253735,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

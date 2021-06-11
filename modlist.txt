@@ -27,6 +27,7 @@ CraftTweaker2-1.12-4.1.20.646.jar
 CreativeCore_v1.10.59_mc1.12.2.jar
 CTM-MC1.12.2-1.0.2.31.jar
 CustomMainMenu-MC1.12.2-2.0.9.1.jar
+CustomStartingGear-1.12-1.2.0.9-universal.jar
 cyberware-1.12.2-0.2.11.26.jar
 DefaultOptions_1.12.2-9.2.8.jar
 diethopper-1.1.jar
