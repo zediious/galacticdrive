@@ -2,13 +2,12 @@
 [
   // ****** Mob spawn restrictions ******
   //
-  //  *** Allowing Techguns day spawns, limiting most Techguns spawns to the Overworld, and removing "Ghastling" spawn from Nether ***
-  // Helmets are given to prevent burning, this only seems to actually stop the burning 70% of the time. Fire Resistence given to help.
+  // *** Allowing Techguns day spawns and monster hole, limiting most Techguns spawns to the Overworld, Fire Resistance/helmets given to prevent daytime death. ***
   {
     "dimension": 0,
-    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:ghastling"],
-    "maxcount": 20,
-    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow"],
+    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier"],
+    "maxcount": 16,
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow","minecraft:snow_layer"],
     "armorhelmet": ["1=techguns:t1_combat_helmet","1=techguns:t2_combat_helmet","techguns:t1_miner_helmet","techguns:t2_riot_helmet","1=minecraft:chainmail_helmet","2=minecraft:iron_helmet","minecraft:golden_helmet"],
     "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
@@ -17,45 +16,78 @@
   {
     "dimension": 0,
     "mob": "techguns:bandit",
-    "maxcount": 15,
+    "maxcount": 16,
+    "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": 0,
     "mob": "techguns:psychosteve",
     "maxcount": 1,
+    "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": 0,
-    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:ghastling"],
-    "maxcount": 20,
+    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier"],
+    "maxcount": 14,
     "block": "minecraft:stone",
+    "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": ["0","20","17","-127","-1","1"],
-    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:psychosteve","techguns:bandit","techguns:ghastling"],
+    "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:psychosteve","techguns:bandit"],
     "onjoin": true,
     "result": "deny"
   },
-  // *** Restrict "Assimilated Human" to 50 max to prevent excessive lag. ***
+  // *** Restrict "Assimilated Human" count to 35 ***
   {
     "mob": "srparasites:sim_human",
-    "maxcount": 50
+    "maxcount": 25,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob": "srparasites:sim_human",
+    "onjoin": true,
+    "result": "deny"
+  },
+    // *** Restrict "Assimilated Spider" count to 10 ***
+  {
+    "dimension": ["111","112"],
+    "mob": "srparasites:sim_bigspider",
+    "maxcount": 10,
+    "onjoin": true,
+    "result": "allow"
   },
   {
     "mob": "srparasites:sim_bigspider",
-    "maxcount": 24
+    "onjoin": true,
+    "result": "deny"
   },
-  // *** Restrict mob count on Venus to 250
+  // *** Restrict mob count on Venus to 140
   {
     "dimension": 4598,
     "mod": "srparasites",
     "mincount": {
-      "amount": 250,
+      "amount": 140,
       "mod": "srparasites"
     },
+    "result": "deny"
+  },
+  // Deny Ghastling on Mercury
+  {
+    "dimension": -1,
+    "mob": "techguns:ghastling",
+    "onjoin": true,
+    "result": "deny"
+  },
+  // Deny squid on Glacia
+  {
+    "dimension": 111,
+    "mob": "minecraft:squid",
+    "onjoin": true,
     "result": "deny"
   },
   // ****** Mob buffs | Parasites buffed via SRParasites.cfg ******
@@ -63,26 +95,22 @@
   // *** Atum NPCs (Barbarian, Brigand, Assassin) ***
   {
     "mob": ["atum:barbarian","atum:brigand","atum:assassin"],
-    "healthmultiply": 2.5
-  },
-  // *** Tropicraft Islanders (Koa) ***
-  {
-    "mob": "tropicraft:koa",
-    "healthmultiply": 1.2
+    "healthmultiply": 2.5,
+    "speedmultiply": 1.4
   },
   // *** Techguns Nether mobs ***
   {
     "mob": "techguns:cyberdemon",
-    "healthmultiply": 1.5
+    "healthmultiply": 1.4
   },
   {
     "mob": "techguns:zombiepigmansoldier",
-    "healthmultiply": 1.2
+    "healthmultiply": 1.6
   },
-  // ** Nuclearcraft Feral Ghoul
+  // *** Nuclearcraft Feral Ghoul ***
   {
     "mob": "nuclearcraft:feral_ghoul",
-    "healthmultiply": 4.0
+    "healthmultiply": 3.0
   },
   // ****** Planetary mob distribution ******
   //
@@ -143,12 +171,12 @@
     "result": "deny"
   },
   // *** VENUS | PARASITE HIVE ***
-  // Parasite spawning in srparasites.cfg is enabled for Venus to allow some organic spawning. Caps defined above apply.
+  // *****************************
   {
     "dimension": 4598,
     "mob": "srparasites:beckon_sii",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 4,
+    "block": "nuclearcraft:dry_earth",
+    "maxcount": 6,
     "onjoin": true,
     "result": "allow"
   },
@@ -161,8 +189,8 @@
   {
     "dimension": 4598,
     "mob": "srparasites:ada_bolster",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 20,
+    "block": "nuclearcraft:dry_earth",
+    "maxcount": 8,
     "onjoin": true,
     "result": "allow"
   },
@@ -175,8 +203,8 @@
   {
     "dimension": 4598,
     "mob": "srparasites:warden",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 15,
+    "block": "nuclearcraft:dry_earth",
+    "maxcount": 16,
     "onjoin": true,
     "result": "allow"
   },
@@ -189,7 +217,7 @@
   {
     "dimension": 4598,
     "mob": "srparasites:bomber_light",
-    "block": ["minecraft:grass","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand"],
+    "block": "nuclearcraft:dry_earth",
     "maxcount": 18,
     "onjoin": true,
     "result": "allow"
@@ -214,12 +242,12 @@
     "result": "deny"
   },
   // *** EARTH ***
-  // Contains techgun spawn changes to allow day spawns.
+  // *************
   {
     "dimension": 0,
     "mob": "srparasites:ada_summoner",
-    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow"],
-    "maxcount": 8,
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow","minecraft:snow_layer"],
+    "maxcount": 14,
     "onjoin": true,
     "result": "allow"
   },
@@ -232,8 +260,8 @@
   {
     "dimension": 0,
     "mob": "srparasites:overseer",
-    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow"],
-    "maxcount": 12,
+    "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow","minecraft:snow_layer"],
+    "maxcount": 8,
     "onjoin": true,
     "result": "allow"
   },
@@ -244,12 +272,12 @@
     "result": "deny"
   },
   // *** MERCURY ***
-  // Techguns Pigman Soldier spawn increased, Naga spawns added
+  // ***************
   {
     "dimension": -1,
     "mob": "srparasites:ada_arachnida",
-    "block": ["minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 18,
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 14,
     "onjoin": true,
     "result": "allow"
   },
@@ -262,8 +290,8 @@
   {
     "dimension": -1,
     "mob": "srparasites:ada_yelloweye",
-    "block": ["minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 28,
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 26,
     "onjoin": true,
     "result": "allow"
   },
@@ -276,8 +304,8 @@
   {
     "dimension": -1,
     "mob": "techguns:zombiepigmansoldier",
-    "block": ["minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 35,
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 28,
     "onjoin": true,
     "result": "allow"
   },
@@ -290,8 +318,9 @@
   {
     "dimension": -1,
     "mob": "mowziesmobs:naga",
-    "block": ["minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 8,
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 6,
+    "seesky": true,
     "onjoin": true,
     "result": "allow"
   },
@@ -302,12 +331,12 @@
     "result": "deny"
   },
   // *** ATUM ***
-  // Contains Atum NPC spawn changes.
+  // ************
   {
     "dimension": 17,
     "mob": "srparasites:vigilante",
-    "block": "atum:sand",
-    "maxcount": 8,
+    "block": ["atum:sand","atum:sand_layer"],
+    "maxcount": 12,
     "onjoin": true,
     "result": "allow"
   },
@@ -320,7 +349,7 @@
   {
     "dimension": 17,
     "mob": "srparasites:ada_manducater",
-    "block": "atum:sand",
+    "block": ["atum:sand","atum:sand_layer"],
     "maxcount": 18,
     "onjoin": true,
     "result": "allow"
@@ -334,8 +363,8 @@
   {
     "dimension": 17,
     "mob": "atum:brigand",
-    "block": "atum:sand",
-    "maxcount": 35,
+    "block": ["atum:sand","atum:sand_layer"],
+    "maxcount": 28,
     "onjoin": true,
     "result": "allow"
   },
@@ -348,8 +377,8 @@
   {
     "dimension": 17,
     "mob": "atum:barbarian",
-    "block": "atum:sand",
-    "maxcount": 28,
+    "block": ["atum:sand","atum:sand_layer"],
+    "maxcount": 22,
     "onjoin": true,
     "result": "allow"
   },
@@ -360,7 +389,7 @@
     "result": "deny"
   },
   // *** TROPICS*** 
-  // Contains Reeker, Longarms, and Foliiath spawn
+  // **************
   {
     "dimension": -127,
     "mob": "srparasites:ada_reeker",
@@ -379,7 +408,7 @@
     "dimension": -127,
     "mob": "srparasites:ada_longarms",
     "block": ["minecraft:grass","tropicraft:sand"],
-    "maxcount": 18,
+    "maxcount": 14,
     "onjoin": true,
     "result": "allow"
   },
@@ -393,7 +422,7 @@
     "dimension": -127,
     "mob": "mowziesmobs:foliaath",
     "block": "minecraft:grass",
-    "maxcount": 14,
+    "maxcount": 12,
     "onjoin": true,
     "result": "allow"
   },
@@ -423,7 +452,8 @@
     "dimension": -127,
     "mob": "lycanitesmobs:aspid",
     "block": "tropicraft:leaves",
-    "maxcount": 14,
+    "maxcount": 12,
+    "seesky": false,
     "onjoin": true,
     "result": "allow"
   },
@@ -448,11 +478,12 @@
     "mob": "lycanitesmobs:triffid",
     "block": "tropicraft:leaves",
     "maxcount": 8,
+    "seesky": false,
     "onjoin": true,
     "result": "allow"
   },
   // ** GLACIA ***
-  // Yelloweye, Longarms and Frostmaw spawns. Remove squid spawns.
+  // *************
   {
     "dimension": 111,
     "mob": "mowziesmobs:frostmaw",
@@ -485,7 +516,7 @@
     "dimension": 111,
     "mob": "lycanitesmobs:maug",
     "block": ["minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 18,
+    "maxcount": 20,
     "onjoin": true,
     "result": "allow"
   },
@@ -493,19 +524,12 @@
     "dimension": 111,
     "mob": "lycanitesmobs:frostweaver",
     "block": ["minecraft:packed_ice","minecraft:snow"],
-    "maxcount": 16,
+    "maxcount": 8,
     "onjoin": true,
     "result": "allow"
   },
-  // Deny squid
-  {
-    "dimension": 111,
-    "mob": "minecraft:squid",
-    "onjoin": true,
-    "result": "deny"
-  },
   // ** HILUND ***
-  // Reeker and lycanite spawns
+  // *************
   {
     "dimension": 112,
     "mob": "srparasites:ada_reeker",
@@ -526,7 +550,7 @@
     "dimension": 112,
     "mob": "srparasites:warden",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
-    "maxcount": 15,
+    "maxcount": 10,
     "onjoin": true,
     "result": "allow"
   },
@@ -540,7 +564,7 @@
     "dimension": 112,
     "mob": "lycanitesmobs:geist",
     "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 35,
+    "maxcount": 28,
     "maxlight": 12,
     "seesky": false,
     "onjoin": true,
@@ -550,15 +574,16 @@
     "dimension": 112,
     "mob": "lycanitesmobs:kobold",
     "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 25,
+    "maxcount": 16,
     "onjoin": true,
+    "angry": true,
     "result": "allow"
   },
   {
     "dimension": 112,
     "mob": "lycanitesmobs:calpod",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 22,
+    "maxcount": 15,
     "maxheight": 100,
     "seesky": true,
     "onjoin": true,

@@ -1,8 +1,11 @@
-// ****** Galactic Drive Mob Spawning Control ******
+// ****** Galactic Drive Mob Spawning Definitions ******
+// This contains definitions for spawn.json to use
+// ONLY weights and min/max groups defined here
 [
   // ****** Planetary mob distribution ******
   //Each parasite has venus defined as a spawn
-  //wherever it is placed here.
+  //wherever it is placed here. Some native NPCs
+  //are defined to change weights/group sizes.
   //
   // *** Global Solar System spawns ***
   {
@@ -35,6 +38,7 @@
     ]
   },
   // *** VENUS | PARASITE HIVE ***
+  // *****************************
   {
     "dimension": 4598,
     "mobs": [
@@ -65,7 +69,7 @@
     ]
   },
   // *** EARTH ***
-  // Contains techgun spawn changes to allow day spawns.
+  // *************
   {
     "dimension": 0,
     "mobs": [
@@ -95,13 +99,13 @@
       },
       {
         "mob": "techguns:bandit",
-        "weight": 50,
+        "weight": 25,
         "groupcountmin": 2,
-        "groupcountmax": 5
+        "groupcountmax": 4
       },
       {
         "mob": "techguns:psychosteve",
-        "weight": 1,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -120,12 +124,12 @@
         "mob": "srparasites:overseer",
         "weight": 20,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       }
     ]
   },
   // *** MERCURY ***
-  // Techguns Pigman Soldier spawn increased
+  // ***************
   {
     "dimension": ["-1","4598"],
     "mobs": [
@@ -161,7 +165,7 @@
     ]
   },
   // *** ATUM ***
-  // Contains Atum NPC spawn changes.
+  // ************
   {
     "dimension": ["17","4598"],
     "mobs": [
@@ -197,7 +201,7 @@
     ]
   },
   // *** TROPICS ***
-  // Contains Tropicraft NPC spawn changes
+  // ***************
   {
     "dimension": ["-127","4598"],
     "mobs": [
@@ -227,7 +231,7 @@
       {
         "mob": "lycanitesmobs:feradon",
         "weight": 22,
-        "groupcountmin": 8,
+        "groupcountmin": 3,
         "groupcountmax": 6
       },
       {
@@ -263,6 +267,7 @@
     ]
   },
 // *** GLACIA ***
+// **************
   {
     "dimension": 111,
     "mobs": [
@@ -293,18 +298,19 @@
     ]
   },
   // *** HILUND ***
+  // **************
   {
     "dimension": 112,
     "mobs": [
       {
         "mob": "srparasites:ada_reeker",
-        "weight": 18,
+        "weight": 16,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
-       {
+      {
         "mob": "srparasites:warden",
-        "weight": 14,
+        "weight": 8,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -316,15 +322,15 @@
       },
       {
         "mob": "lycanitesmobs:kobold",
-        "weight": 20,
+        "weight": 6,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:calpod",
-        "weight": 22,
-        "groupcountmin": 1,
-        "groupcountmax": 1
+        "weight": 14,
+        "groupcountmin": 2,
+        "groupcountmax": 5
       }
     ]
   }
