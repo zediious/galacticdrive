@@ -268,7 +268,7 @@
     "mobs": [
       {
         "mob": "mowziesmobs:frostmaw",
-        "weight": 10,
+        "weight": 8,
         "groupcountmin": 1,
         "groupcountmax": 1
       },

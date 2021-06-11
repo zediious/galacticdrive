@@ -672,6 +672,12 @@
             "fileID": 2782568,
             "projectID": 237989,
             "required": true
+        },
+        {
+            "alias": "Biomes O' Plenty (BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar)",
+            "fileID": 2842510,
+            "projectID": 220318,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

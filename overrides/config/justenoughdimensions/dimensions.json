@@ -45,7 +45,7 @@
 	},
 	{
 		"dim": -500,
-		"biome": "minecraft:forest",
+		"biome": "biomesoplenty:grove",
 		"dimensiontype": {
 			"id": -500,
 			"name": "Roika",
@@ -55,7 +55,10 @@
 		},
 		"worldinfo_onetime": {
 			"generatorName": "RTG",
-			"DayTime": 6000,
+			"CustomDayCycle": true,
+			"DayLength": 16000,
+			"NightLength": 6000,
+			"RandomSeed": 5450064435555506562,
 			"SpawnX": 0,
 			"SpawnZ": 0,
 			"GameRules": {
