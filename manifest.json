@@ -392,8 +392,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.647.jar)",
-            "fileID": 3335030,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.648.jar)",
+            "fileID": 3348523,
             "projectID": 239197,
             "required": true
         },
@@ -698,5 +698,6 @@
         "version": "1.12.2"
     },
     "name": "Galactic Drive",
+    "overrides": "overrides",
     "version": "0.1alpha"
 }
