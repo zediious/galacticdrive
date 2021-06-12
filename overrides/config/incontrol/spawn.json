@@ -160,6 +160,7 @@
   {
     "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:anc_dreadnaut",
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 1,
     "onjoin": true,
     "result": "allow"
@@ -225,19 +226,6 @@
   {
     "dimension": 4598,
     "mob": "srparasites:bomber_light",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:anc_dreadnaut",
-    "maxcount": 4,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:anc_dreadnaut",
     "onjoin": true,
     "result": "deny"
   },
