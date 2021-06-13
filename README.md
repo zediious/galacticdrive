@@ -24,7 +24,7 @@ https://multimc.org | Easiest to load development builds with this.
 
 https://gdevs.io/ | Extremely user-friendly
 
-https://curseforge.overwolf.com/ | Hot garbage
+https://curseforge.overwolf.com/ | Meh
 
 <br />
 <br />
