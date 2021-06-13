@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRoc",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelRoc",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -40,13 +40,13 @@
   "width": 0.8,
   "height": 1.8,
   "experience": 10,
-  "health": 10,
+  "health": 140,
   "defense": 0,
   "armor": 0,
-  "speed": 42,
-  "damage": 2,
-  "attackSpeed": 1,
-  "rangedSpeed": 1,
+  "speed": 58,
+  "damage": 12,
+  "attackSpeed": 1.8,
+  "rangedSpeed": 1.4,
   "effectDuration": 5,
   "effectAmplifier": -1,
   "pierce": 1,
@@ -79,8 +79,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 8,
   "dungeonLevel": 1,
   "drops": [
@@ -97,8 +97,8 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1,
+  "sizeScale": 2.4,
+  "hitboxScale": 2.0,
   "flags": [
     {
       "name": "creeperDropping",

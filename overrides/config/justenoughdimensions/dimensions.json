@@ -27,19 +27,20 @@
 			"keeploaded": false,
 			"worldprovider": "WorldProviderSurfaceJED"
 		},
-		"worldinfo": {
-			"jed": {
-				"SkyColor": "f1e3df",
-				"CloudHeight": 180
-			},
-			"raining": true
-		},
 		"worldinfo_onetime": {
 			"generatorName": "RTG",
 			"DayTime": 6000,
 			"GameRules": {
 				"doDaylightCycle": "true"
 			}
+		},
+		"worldinfo": {
+			"jed": {
+				"SkyColor": "c9e523",
+				"FogColor": "afcb08",
+				"CloudColor": "403b17"
+			},
+			"raining": true
 		},
 		"override": true
 	},

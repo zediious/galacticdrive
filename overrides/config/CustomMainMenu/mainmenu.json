@@ -28,10 +28,10 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 48,
+            "posY" : 20,
             "width" : 200,
             "height" : 20,
-            "tooltip": "Play Galactic Drive Singleplayer!",
+            "tooltip": "Play Galactic Drive Singleplayer!\nBe sure to use the RTG world type!",
             "action" : 
             {
                 "type" : "openGui",
@@ -39,18 +39,31 @@
             }
         },
         
-        "multiplayer":
+        "serverlist":
         {
-            "text" : "menu.multiplayer",
+            "text" : "Server List",
             "posX" : -100,
-            "posY" : 72,
+            "posY" : 48,
             "width" : 200,
             "height" : 20,
-            "tooltip": "Play Galactic Drive Multiplayer!",
+            "tooltip": "View the server list.",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
+            }
+        },
+
+        "officialserver": {
+            "text" : "Offical Galactic Drive Server",
+            "tooltip": "Join the official server at ShadowRaptor Network!",
+            "posX" : -80,
+            "posY" : 75,
+            "width" : 160,
+            "height" : 20,
+            "action" : {
+                "type" : "connectToServer",
+                "ip" : "gd.shadowraptor.net"
             }
         },
         
@@ -72,8 +85,8 @@
         "options":
         {
             "text" : "Settings",
-            "posX" : -100,
-            "posY" : 132,
+            "posX" : 40,
+            "posY" : 103,
             "width" : 60,
             "height" : 20,
             "tooltip": "Open the Settings menu.",
@@ -101,8 +114,8 @@
         "issues":
         {
             "text" : "Issues",
-            "posX" : 40,
-            "posY" : 103,
+            "posX" : -100,
+            "posY" : 132,
             "width" : 60,
             "height" : 20,
             "tooltip": "If you find a bug or a have suggestion, make an issue here!",
@@ -119,6 +132,7 @@
             "posY" : 132,
             "width" : 60,
             "height" : 20,
+            "tooltip": "Run from the parasites",
             "action" : 
             {
                 "type" : "quit"
@@ -181,7 +195,7 @@
         
         "copyrightbackground": {
             "text" : "Pack Art by Droh#7359",
-            "posX" : -162,
+            "posX" : -118,
             "posY" : -20,
             "color" : -1,
             "alignment" : "bottom_right"
@@ -196,7 +210,7 @@
         },
         
         "version": {
-            "text" : "Mods #modsactive# / #modsloaded#\nMinecraft #mcversion#\nForge #forgeversion#\nGalactic Drive 0.1alpha-dev",
+            "text" : "Mods: #modsactive#\nMinecraft #mcversion#\nForge #forgeversion#\nGalactic Drive 0.1alpha-dev",
             "posX" : 2,
             "posY" : -36,
             "color" : -1,

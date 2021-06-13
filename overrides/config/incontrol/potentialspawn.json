@@ -197,6 +197,24 @@
         "weight": 18,
         "groupcountmin": 2,
         "groupcountmax": 4
+      },
+      {
+        "mob": "lycanitesmobs:cryptkeeper",
+        "weight": 24,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:roc",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:sutiramu",
+        "weight": 8,
+        "groupcountmin": 2,
+        "groupcountmax": 4
       }
     ]
   },
@@ -279,9 +297,15 @@
       },
       {
         "mob": "srparasites:ada_longarms",
-        "weight": 22,
+        "weight": 16,
         "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:ada_yelloweye",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:maug",

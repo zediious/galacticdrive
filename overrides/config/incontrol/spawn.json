@@ -44,7 +44,7 @@
   // *** Restrict "Assimilated Human" count to 35 ***
   {
     "mob": "srparasites:sim_human",
-    "maxcount": 25,
+    "maxcount": 35,
     "onjoin": true,
     "result": "allow"
   },
@@ -55,7 +55,7 @@
   },
     // *** Restrict "Assimilated Spider" count to 10 ***
   {
-    "dimension": ["111","112"],
+    "dimension": ["111","112","17"],
     "mob": "srparasites:sim_bigspider",
     "maxcount": 10,
     "onjoin": true,
@@ -92,10 +92,10 @@
   },
   // ****** Mob buffs | Parasites buffed via SRParasites.cfg ******
   //
-  // *** Atum NPCs (Barbarian, Brigand, Assassin) ***
+  // *** Atum NPCs (Barbarian, Brigand, Assassin, Forsaken) ***
   {
-    "mob": ["atum:barbarian","atum:brigand","atum:assassin"],
-    "healthmultiply": 2.5,
+    "mob": ["atum:barbarian","atum:brigand","atum:assassin","atum:forsaken","atum:mummy"],
+    "healthmultiply": 1.6,
     "speedmultiply": 1.4
   },
   // *** Techguns Nether mobs ***
@@ -324,7 +324,7 @@
     "dimension": 17,
     "mob": "srparasites:vigilante",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 12,
+    "maxcount": 8,
     "onjoin": true,
     "result": "allow"
   },
@@ -373,6 +373,53 @@
   {
     "dimension": 17,
     "mob": "atum:barbarian",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 17,
+    "mob": "lycanitesmobs:cryptkeeper",
+    "block": ["atum:limestone_brick_large","atum:limestone","atum:limestone_brick_carved","atum:sand_layer","atum:limestone_brick_small"],
+    "maxcount": 30,
+    "seesky": false,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 17,
+    "mob": "lycanitesmobs:cryptkeeper",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 17,
+    "mob": "lycanitesmobs:roc",
+    "block": ["atum:sand","atum:sand_layer"],
+    "maxcount": 6,
+    "minheight": 65,
+    "seesky": true,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": 17,
+    "mob": "lycanitesmobs:roc",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 17,
+    "mob": "lycanitesmobs:sutiramu",
+    "block": ["atum:sand","atum:sand_layer"],
+    "maxcount": 18,
+    "onjoin": true,
+    "angry": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 17,
+    "mob": "lycanitesmobs:sutiramu",
     "onjoin": true,
     "result": "deny"
   },
@@ -490,13 +537,28 @@
     "dimension": 111,
     "mob": "srparasites:ada_longarms",
     "block": ["minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 25,
+    "maxcount": 16,
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": 111,
     "mob": "srparasites:ada_longarms",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 111,
+    "mob": "srparasites:ada_yelloweye",
+    "block": "minecraft:packed_ice",
+    "maxcount": 8,
+    "minheight": 65,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "srparasites:ada_yelloweye",
     "onjoin": true,
     "result": "deny"
   },
