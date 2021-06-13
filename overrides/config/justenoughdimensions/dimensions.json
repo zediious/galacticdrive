@@ -90,5 +90,28 @@
 			]
 		},
 		"override": true
-	}]
+	},
+	{
+		"dim": 4598,
+		"biome": "srparasites:biome_parasite",
+		"dimensiontype": {
+			"id": 4598,
+			"name": "Venus",
+			"suffix": "dim_4598",
+			"keeploaded": false,
+			"worldprovider": "WorldProviderSurfaceJED"
+		},
+		"worldinfo": {
+			"jed": {
+				"SkyColor": "c9e523",
+				"FogColor": "afcb08",
+				"CloudColor": "403b17"
+			}
+		},
+		"worldinfo_onetime": {
+			"generatorName": "default",
+			"RandomSeed": ""
+		},
+		"override": true
+	},]
 }

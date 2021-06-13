@@ -173,62 +173,7 @@
   },
   // *** VENUS | PARASITE HIVE ***
   // *****************************
-  {
-    "dimension": 4598,
-    "mob": "srparasites:beckon_sii",
-    "block": "nuclearcraft:dry_earth",
-    "maxcount": 6,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:beckon_sii",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:ada_bolster",
-    "block": "nuclearcraft:dry_earth",
-    "maxcount": 8,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:ada_bolster",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:warden",
-    "block": "nuclearcraft:dry_earth",
-    "maxcount": 16,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:warden",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:bomber_light",
-    "block": "nuclearcraft:dry_earth",
-    "maxcount": 18,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": 4598,
-    "mob": "srparasites:bomber_light",
-    "onjoin": true,
-    "result": "deny"
-  },
+  // Empty for now, natural infested biome spawns, with cap set above.
   // *** EARTH ***
   // *************
   {
