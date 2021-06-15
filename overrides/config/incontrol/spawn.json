@@ -101,7 +101,7 @@
   // *** Techguns Nether mobs ***
   {
     "mob": "techguns:cyberdemon",
-    "healthmultiply": 1.4
+    "healthmultiply": 4.2
   },
   {
     "mob": "techguns:zombiepigmansoldier",
@@ -210,7 +210,7 @@
     "dimension": -1,
     "mob": "srparasites:ada_arachnida",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 14,
+    "maxcount": 10,
     "onjoin": true,
     "result": "allow"
   },
@@ -224,7 +224,8 @@
     "dimension": -1,
     "mob": "srparasites:ada_yelloweye",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 26,
+    "maxcount": 16,
+    "minheight": 60,
     "onjoin": true,
     "result": "allow"
   },
@@ -253,6 +254,7 @@
     "mob": "mowziesmobs:naga",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
     "maxcount": 6,
+    "minheight": 60,
     "seesky": true,
     "onjoin": true,
     "result": "allow"
@@ -263,13 +265,42 @@
     "onjoin": true,
     "result": "deny"
   },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:afrit",
+    "block": ["minecraft:netherrack","minecraft:soul_sand"],
+    "maxcount": 12,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:afrit",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:volcan",
+    "block": "minecraft:nether_brick",
+    "maxcount": 2,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:volcan",
+    "onjoin": true,
+    "result": "deny"
+  },
   // *** ATUM ***
   // ************
   {
     "dimension": 17,
     "mob": "srparasites:vigilante",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 8,
+    "maxcount": 20,
     "onjoin": true,
     "result": "allow"
   },

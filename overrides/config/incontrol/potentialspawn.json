@@ -152,13 +152,25 @@
     "mobs": [
       {
         "mob": "techguns:zombiepigmansoldier",
-        "weight": 35,
+        "weight": 26,
         "groupcountmin": 1,
         "groupcountmax": 6
       },
       {
         "mob": "mowziesmobs:naga",
-        "weight": 18,
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:afrit",
+        "weight": 12,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:volcan",
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
