@@ -128,8 +128,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.14_mc1.12.2.jar)",
-            "fileID": 3326691,
+            "alias": "LittleTiles (LittleTiles_v1.5.15_mc1.12.2.jar)",
+            "fileID": 3351491,
             "projectID": 257818,
             "required": true
         },
@@ -392,8 +392,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.648.jar)",
-            "fileID": 3348523,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.649.jar)",
+            "fileID": 3352527,
             "projectID": 239197,
             "required": true
         },
@@ -683,6 +683,12 @@
             "alias": "Custom Starter Gear (CustomStartingGear-1.12-1.2.0.9-universal.jar)",
             "fileID": 2514705,
             "projectID": 253735,
+            "required": true
+        },
+        {
+            "alias": "Armourer's Workshop (Armourers-Workshop-1.12.2-0.51.0.jar)",
+            "fileID": 3101995,
+            "projectID": 229523,
             "required": true
         }
     ],

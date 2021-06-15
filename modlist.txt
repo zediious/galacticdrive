@@ -2,6 +2,7 @@ ae2stuff-0.7.0.4-mc1.12.2.jar
 AIImprovements-1.12-0.0.1b3.jar
 AppleSkin-mc1.12-1.0.14.jar
 appliedenergistics2-rv6-stable-7.jar
+Armourers-Workshop-1.12.2-0.51.0.jar
 AromaBackup-1.12.2-2.1.1.4.jar
 Aroma1997Core-1.12.2-2.0.0.2.jar
 Atum-1.12.2-2.0.20.jar
