@@ -171,6 +171,23 @@
     "onjoin": true,
     "result": "deny"
   },
+  // *** ROIKA ***
+  // *************
+  {
+    "dimension": -500,
+    "mob": "minecraft:villager_golem",
+    "block": ["minecraft:grass","minecraft:leaves","minecraft:dirt"],
+    "maxcount": 18,
+    "maxheight": 70,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "minecraft:villager_golem",
+    "onjoin": true,
+    "result": "deny"
+  },
   // *** VENUS | PARASITE HIVE ***
   // *****************************
   // Empty for now, natural infested biome spawns, with cap set above.

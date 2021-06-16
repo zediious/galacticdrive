@@ -37,6 +37,19 @@
       }
     ]
   },
+  // *** ROIKA ***
+  // *************
+  {
+    "dimension": -500,
+    "mobs": [
+      {
+        "mob": "minecraft:villager_golem",
+        "weight": 12,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
   // *** VENUS | PARASITE HIVE ***
   // *****************************
   {
