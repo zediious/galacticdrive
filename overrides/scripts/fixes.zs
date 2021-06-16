@@ -67,6 +67,15 @@ mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:3>);
 mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:4>);
 <thebetweenlands:swamp_talisman:0>.addTooltip(format.red("Heard of only in legends..."));
 
+//First start balance (roika)
+recipes.remove(<thermalexpansion:dynamo:0>);
+recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
+recipes.addShapedMirrored("Steam Dynamo", 
+<thermalexpansion:dynamo:0>, 
+[[null, <thermalfoundation:material:513>, null],
+[<minecraft:iron_ingot>, <thermalfoundation:material:256>, <minecraft:iron_ingot>], 
+[<thermalfoundation:material:128>, <minecraft:redstone>, <thermalfoundation:material:128>]]);
+
 // *** Chunkloading through plugins only
 recipes.remove(<mekanism:anchorupgrade>);
 <mekanism:anchorupgrade>.addTooltip(format.red("ChunkLoader Disabled."));
