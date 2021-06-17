@@ -75,6 +75,7 @@ recipes.addShapedMirrored("Steam Dynamo",
 [[null, <thermalfoundation:material:513>, null],
 [<minecraft:iron_ingot>, <thermalfoundation:material:256>, <minecraft:iron_ingot>], 
 [<thermalfoundation:material:128>, <minecraft:redstone>, <thermalfoundation:material:128>]]);
+furnace.addRecipe(<biomesoplenty:green_dye>, <minecraft:leaves2:1>);
 
 // *** Chunkloading through plugins only
 recipes.remove(<mekanism:anchorupgrade>);
