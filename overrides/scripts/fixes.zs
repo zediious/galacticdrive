@@ -2,7 +2,7 @@
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.block.IBlockState;
 
-//Hide AE2 Facades
+// *** Hide AE2 Facades
 val baseFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
 for facade in <appliedenergistics2:facade>.definition.subItems {
     if (facade.hasTag && !(baseFacade.matchesExact(facade))) {
@@ -11,7 +11,7 @@ for facade in <appliedenergistics2:facade>.definition.subItems {
 }
 <appliedenergistics2:facade>.addTooltip(format.red("Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block."));
 
-//Tropicraft Balance.
+// *** Tropicraft Balance.
 recipes.remove(<tropicraft:portal_enchanter:*>);
 <tropicraft:portal_enchanter>.addTooltip(format.red("Disabled under the Equilibrium act"));
 recipes.remove(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID: 9 as byte}, {IngredientID: 11 as byte}], Color: 15724527, DrinkID: 6 as byte}), true);
@@ -29,21 +29,21 @@ recipes.addShapeless(<tropicraft:cocktail>.withTag({Ingredients: [{IngredientID:
 <tropicraft:cocktail>.withTag({DrinkID: 6}).addTooltip(format.red("Heard of only in legends..."));
 <tropicraft:drink_mixer>.addTooltip(format.red("Disabled under the Equilibrium act"));
 
-//Tropicraft Manganese ore > 2 dust
+// *** Tropicraft Manganese ore > 2 dust
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     if(event.blockState has <item:tropicraft:ore>.asBlock().definition.getStateFromMeta(3)) {
         event.drops = [<nuclearcraft:dust:11> % 100, <nuclearcraft:dust:11> % 100];
     }
 });
 
-//Tropicraft Shaka ore > Cobblestone
+// *** Tropicraft Shaka ore > Cobblestone
 events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
     if(event.blockState has <item:tropicraft:ore>.asBlock().definition.getStateFromMeta(4)) {
         event.drops = [<minecraft:cobblestone> % 100];
     }
 });
 
-//Tropicraft Manganese ore removed.
+// *** Tropicraft Manganese ore removed.
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:866>, <tropicraft:ore:3>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:865>, <tropicraft:ore:3>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:sand>, <tropicraft:ore:3>);
@@ -55,11 +55,11 @@ mods.thermalexpansion.Pulverizer.removeRecipe(<tropicraft:ore:3>);
 mods.nuclearcraft.manufactory.removeRecipeWithInput(<tropicraft:ore:3>);
 mods.nuclearcraft.melter.removeRecipeWithInput(<tropicraft:ore:3>);
 
-//Atum Balance
+// *** Atum Balance
 recipes.remove(<atum:scarab>);
 <atum:scarab>.addTooltip(format.red("Heard of only in legends..."));
 
-//Betweenlands Balance
+// *** Betweenlands Balance
 recipes.remove(<thebetweenlands:swamp_talisman:0>);
 mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:1>);
 mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:2>);
@@ -67,14 +67,37 @@ mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:3>);
 mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:4>);
 <thebetweenlands:swamp_talisman:0>.addTooltip(format.red("Heard of only in legends..."));
 
-//First start balance (roika)
+// *** First start balance (roika)
 recipes.remove(<thermalexpansion:dynamo:0>);
-recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
+recipes.remove(<warpdrive:component:14>);
+recipes.remove(<warpdrive:component:16>);
+recipes.remove(<warpdrive:component:11>);
+// Steam Dynamo Recipe
 recipes.addShapedMirrored("Steam Dynamo", 
 <thermalexpansion:dynamo:0>, 
 [[null, <thermalfoundation:material:513>, null],
 [<minecraft:iron_ingot>, <thermalfoundation:material:256>, <minecraft:iron_ingot>], 
 [<thermalfoundation:material:128>, <minecraft:redstone>, <thermalfoundation:material:128>]]);
+// WarpDrive Glass Tank Recipe
+recipes.addShapedMirrored("Glass Tank", 
+<warpdrive:component:14>, 
+[[<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>],
+[<minecraft:glass>, null, <minecraft:glass>], 
+[<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>]]);
+// WarpDrive Pump Recipe
+recipes.addShapedMirrored("Pump", 
+<warpdrive:component:16>, 
+[[<techguns:itemshared:56>, <techguns:itemshared:56>, <warpdrive:component:14>],
+[<warpdrive:component:15>, <minecraft:iron_ingot>, <warpdrive:component:15>], 
+[<warpdrive:component:14>, <techguns:itemshared:56>, <techguns:itemshared:56>]]);
+// WarpDrive Air Canister Recipe
+recipes.addShapedMirrored("Empty Air Canister", 
+<warpdrive:component:11>, 
+[[<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>],
+[<techguns:itemshared:56>, <warpdrive:component:14>, <techguns:itemshared:56>], 
+[<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>]]);
+// String from root and Green Dye Smelt recipes
+recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
 furnace.addRecipe(<biomesoplenty:green_dye>, <minecraft:leaves2:1>);
 
 // *** Chunkloading through plugins only
