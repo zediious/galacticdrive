@@ -1181,7 +1181,7 @@ ship_movement_costs {
     # You need to provide exactly 5 values < A B C D E >. The equation used is A + B * mass + C * distance + D * ln( mass ) * exp( distance / E )
     # Result is rounded up to an integer. Use 0 to ignore that part of the equation.
     D:space_moving_max_jump_distance <
-        100.0
+        300.0
         0.1
         0.0
         0.0
