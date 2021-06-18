@@ -40,7 +40,7 @@
 
 		<!-- common modded ores -->
 		<filler block="appliedenergistics2:charged_quartz_ore" ratio=".008" mods="appliedenergistics2" /><!-- Charged Certus quartz -->
-		<filler block="mekanism:oreblock" metadata="0" ratio=".004" mods="mekanism" /><!-- Osmium -->
+		<filler block="mekanism:oreblock" metadata="0" ratio=".1" mods="mekanism" /><!-- Osmium -->
 
 		<filler block="thermalfoundation:ore"    metadata="4" ratio=".00032" mods="thermalfoundation" /><!-- Aluminum -->
 
@@ -79,7 +79,7 @@
 		<filler block="minecraft:lapis_ore" ratio=".008" />
 
 		<filler block="appliedenergistics2:charged_quartz_ore" ratio=".04" mods="appliedenergistics2" /><!-- Charged Certus quartz -->
-		<filler block="mekanism:oreblock" metadata="0" ratio=".4" mods="mekanism" /><!-- Osmium -->
+		<filler block="mekanism:oreblock" metadata="0" ratio=".2" mods="mekanism" /><!-- Osmium -->
 		<filler block="nuclearcraft:ore" metadata="3" ratio=".001" mods="nuclearcraft" /><!-- Thorium -->
 		<filler block="nuclearcraft:ore" metadata="5" ratio=".001" mods="nuclearcraft" /><!-- Boron -->
 		<filler block="nuclearcraft:ore" metadata="6" ratio=".001" mods="nuclearcraft" /><!-- Lithium -->
