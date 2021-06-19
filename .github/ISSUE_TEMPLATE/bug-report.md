@@ -14,7 +14,7 @@ assignees: zediious
 <!-- WRITE AFTER THIS -->
 
 
-### Did this behavior use to work in the previous version?
+## Did this behavior use to work in the previous version?
 <!-- WRITE AFTER THIS -->
 
 
