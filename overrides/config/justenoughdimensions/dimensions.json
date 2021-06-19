@@ -92,6 +92,13 @@
 		"override": true
 	},
 	{
+		"dim": 20,
+		"worldinfo_onetime": {
+			 "keeploaded": true
+		},
+		"override": true
+	},
+	{
 		"dim": 4598,
 		"biome": "srparasites:biome_parasite",
 		"dimensiontype": {
