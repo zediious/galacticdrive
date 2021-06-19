@@ -1,3 +1,12 @@
+---
+name: Bug Report
+about: Please use this template if you are reporting a bug/crash
+title: ''
+labels: Bug/Issue
+assignees: zediious
+
+---
+
 <!-- Thank you for helping the pack development by submitting a bug! Be sure to include all the information requested below. -->
 
 
@@ -26,4 +35,3 @@ Then upload latest.log (or a previous log where the bug occurred) to Pastebin or
 * Memory Allocated:<!-- WRITE AFTER THIS -->
 * Singleplayer/Server:<!-- WRITE AFTER THIS -->
 * Server API:<!-- WRITE AFTER THIS -->
-
