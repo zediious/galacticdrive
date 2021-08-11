@@ -68,8 +68,8 @@
             "required": true
         },
         {
-            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.28.jar)",
-            "fileID": 3329593,
+            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.29.jar)",
+            "fileID": 3366534,
             "projectID": 283377,
             "required": true
         },
@@ -128,8 +128,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.15_mc1.12.2.jar)",
-            "fileID": 3351491,
+            "alias": "LittleTiles (LittleTiles_v1.5.19_mc1.12.2.jar)",
+            "fileID": 3420128,
             "projectID": 257818,
             "required": true
         },
@@ -188,8 +188,8 @@
             "required": true
         },
         {
-            "alias": "ModTweaker (modtweaker-4.0.19.jar)",
-            "fileID": 3308463,
+            "alias": "ModTweaker (modtweaker-4.0.20.4.jar)",
+            "fileID": 3368737,
             "projectID": 220954,
             "required": true
         },
@@ -200,8 +200,8 @@
             "required": true
         },
         {
-            "alias": "Mouse Tweaks (MouseTweaks-2.10-mc1.12.2.jar)",
-            "fileID": 2671937,
+            "alias": "Mouse Tweaks (MouseTweaks-2.10.1-mc1.12.2.jar)",
+            "fileID": 3359843,
             "projectID": 60089,
             "required": true
         },
@@ -338,8 +338,8 @@
             "required": true
         },
         {
-            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.22.jar)",
-            "fileID": 3308055,
+            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.23.jar)",
+            "fileID": 3366548,
             "projectID": 233565,
             "required": true
         },
@@ -356,8 +356,8 @@
             "required": true
         },
         {
-            "alias": "CreativeCore (CreativeCore_v1.10.61_mc1.12.2.jar)",
-            "fileID": 3321760,
+            "alias": "CreativeCore (CreativeCore_v1.10.62_mc1.12.2.jar)",
+            "fileID": 3419979,
             "projectID": 257814,
             "required": true
         },
@@ -392,8 +392,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.649.jar)",
-            "fileID": 3352527,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.656.jar)",
+            "fileID": 3411555,
             "projectID": 239197,
             "required": true
         },
@@ -626,8 +626,8 @@
             "required": true
         },
         {
-            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.0ALPHA14.jar)",
-            "fileID": 3306668,
+            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.0ALPHA18.jar)",
+            "fileID": 3421916,
             "projectID": 348025,
             "required": true
         },
