@@ -44,8 +44,8 @@
             "required": true
         },
         {
-            "alias": "Botania (Botania r1.10-363.jar)",
-            "fileID": 2846950,
+            "alias": "Botania (Botania r1.10-364.4.jar)",
+            "fileID": 3330934,
             "projectID": 225643,
             "required": true
         },
@@ -68,8 +68,8 @@
             "required": true
         },
         {
-            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.27.jar)",
-            "fileID": 3308062,
+            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.29.jar)",
+            "fileID": 3366534,
             "projectID": 283377,
             "required": true
         },
@@ -98,8 +98,8 @@
             "required": true
         },
         {
-            "alias": "Foam\u200bFix (foamfix-0.10.11-1.12.2.jar)",
-            "fileID": 3137883,
+            "alias": "Foam\u200bFix (foamfix-0.10.14-1.12.2.jar)",
+            "fileID": 3327893,
             "projectID": 278494,
             "required": true
         },
@@ -128,8 +128,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.10_mc1.12.2.jar)",
-            "fileID": 3309400,
+            "alias": "LittleTiles (LittleTiles_v1.5.19_mc1.12.2.jar)",
+            "fileID": 3420128,
             "projectID": 257818,
             "required": true
         },
@@ -188,8 +188,8 @@
             "required": true
         },
         {
-            "alias": "ModTweaker (modtweaker-4.0.19.jar)",
-            "fileID": 3308463,
+            "alias": "ModTweaker (modtweaker-4.0.20.4.jar)",
+            "fileID": 3368737,
             "projectID": 220954,
             "required": true
         },
@@ -200,14 +200,14 @@
             "required": true
         },
         {
-            "alias": "Mouse Tweaks (MouseTweaks-2.10-mc1.12.2.jar)",
-            "fileID": 2671937,
+            "alias": "Mouse Tweaks (MouseTweaks-2.10.1-mc1.12.2.jar)",
+            "fileID": 3359843,
             "projectID": 60089,
             "required": true
         },
         {
-            "alias": "NuclearCraft (NuclearCraft-2.18y-1.12.2.jar)",
-            "fileID": 3074246,
+            "alias": "NuclearCraft (NuclearCraft-2.18z-1.12.2.jar)",
+            "fileID": 3328174,
             "projectID": 226254,
             "required": true
         },
@@ -338,8 +338,8 @@
             "required": true
         },
         {
-            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.22.jar)",
-            "fileID": 3308055,
+            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.23.jar)",
+            "fileID": 3366548,
             "projectID": 233565,
             "required": true
         },
@@ -356,8 +356,8 @@
             "required": true
         },
         {
-            "alias": "CreativeCore (CreativeCore_v1.10.59_mc1.12.2.jar)",
-            "fileID": 3309291,
+            "alias": "CreativeCore (CreativeCore_v1.10.62_mc1.12.2.jar)",
+            "fileID": 3419979,
             "projectID": 257814,
             "required": true
         },
@@ -392,8 +392,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.646.jar)",
-            "fileID": 3294372,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.656.jar)",
+            "fileID": 3411555,
             "projectID": 239197,
             "required": true
         },
@@ -431,12 +431,6 @@
             "alias": "Atum 2: Return to the Sands (Atum-1.12.2-2.0.20.jar)",
             "fileID": 3116599,
             "projectID": 59621,
-            "required": true
-        },
-        {
-            "alias": "Hwyla (Hwyla-1.8.26-B41_1.12.2.jar)",
-            "fileID": 2568751,
-            "projectID": 253449,
             "required": true
         },
         {
@@ -548,12 +542,6 @@
             "required": true
         },
         {
-            "alias": "Neat (Neat 1.4-17.jar)",
-            "fileID": 2595310,
-            "projectID": 238372,
-            "required": true
-        },
-        {
             "alias": "Smooth Font (SmoothFont-mc1.12.2-2.1.2.jar)",
             "fileID": 2949817,
             "projectID": 285742,
@@ -576,6 +564,132 @@
             "fileID": 2698688,
             "projectID": 229587,
             "required": true
+        },
+        {
+            "alias": "Resource Loader (ResourceLoader-MC1.12.1-1.5.3.jar)",
+            "fileID": 2477566,
+            "projectID": 226447,
+            "required": true
+        },
+        {
+            "alias": "Nether Overload (netheroverload-1.12.2-0.0.7.jar)",
+            "fileID": 2536586,
+            "projectID": 264925,
+            "required": true
+        },
+        {
+            "alias": "Inventory Sorter (inventorysorter-1.12.2-1.13.3+57.jar)",
+            "fileID": 2546769,
+            "projectID": 240633,
+            "required": true
+        },
+        {
+            "alias": "Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151.jar)",
+            "fileID": 2923460,
+            "projectID": 223094,
+            "required": true
+        },
+        {
+            "alias": "The One Probe (theoneprobe-1.12-1.4.28.jar)",
+            "fileID": 2667280,
+            "projectID": 245211,
+            "required": true
+        },
+        {
+            "alias": "TOP Addons (topaddons-1.12.2-1.13.0.jar)",
+            "fileID": 2887479,
+            "projectID": 247111,
+            "required": true
+        },
+        {
+            "alias": "It's the little things (itlt-1.12.x-1.0.4.jar)",
+            "fileID": 3330021,
+            "projectID": 232791,
+            "required": true
+        },
+        {
+            "alias": "Bed Correction (originally BedFix) (bedfix_V1.2_1.12.2.jar)",
+            "fileID": 3143614,
+            "projectID": 427420,
+            "required": true
+        },
+        {
+            "alias": "Patchouli (Patchouli-1.0-23.6.jar)",
+            "fileID": 3162874,
+            "projectID": 306770,
+            "required": true
+        },
+        {
+            "alias": "Recurrent Complex (RecurrentComplex-1.4.8.2.jar)",
+            "fileID": 2689602,
+            "projectID": 223150,
+            "required": true
+        },
+        {
+            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.0ALPHA18.jar)",
+            "fileID": 3421916,
+            "projectID": 348025,
+            "required": true
+        },
+        {
+            "alias": "Flan's Mod (Flan's Mod-1.12.2-5.10.0.jar)",
+            "fileID": 3278090,
+            "projectID": 317310,
+            "required": true
+        },
+        {
+            "alias": "IvToolkit (IvToolkit-1.3.3-1.12.jar)",
+            "fileID": 2443253,
+            "projectID": 224535,
+            "required": true
+        },
+        {
+            "alias": "LLibrary (llibrary-1.7.20-1.12.2.jar)",
+            "fileID": 3116493,
+            "projectID": 243298,
+            "required": true
+        },
+        {
+            "alias": "Mowzie's Mobs (mowziesmobs-1.5.8.jar)",
+            "fileID": 3048685,
+            "projectID": 250498,
+            "required": true
+        },
+        {
+            "alias": "No Nether Portals (nonetherPortals_v1.0.0formc1.12.2.jar)",
+            "fileID": 2573063,
+            "projectID": 296057,
+            "required": true
+        },
+        {
+            "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.7.2.jar)",
+            "fileID": 2935745,
+            "projectID": 224770,
+            "required": true
+        },
+        {
+            "alias": "Realistic Terrain Generation (RTG-1.12.2-6.1.0.0-snapshot.1.jar)",
+            "fileID": 2782568,
+            "projectID": 237989,
+            "required": true
+        },
+        {
+            "alias": "Biomes O' Plenty (BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar)",
+            "fileID": 2842510,
+            "projectID": 220318,
+            "required": true
+        },
+        {
+            "alias": "Custom Starter Gear (CustomStartingGear-1.12-1.2.0.9-universal.jar)",
+            "fileID": 2514705,
+            "projectID": 253735,
+            "required": true
+        },
+        {
+            "alias": "Armourer's Workshop (Armourers-Workshop-1.12.2-0.51.0.jar)",
+            "fileID": 3101995,
+            "projectID": 229523,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
@@ -590,5 +704,6 @@
         "version": "1.12.2"
     },
     "name": "Galactic Drive",
+    "overrides": "overrides",
     "version": "0.1alpha"
 }

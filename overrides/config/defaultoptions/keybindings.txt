@@ -32,6 +32,9 @@ key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
 key_keybind.baublesinventory:48:NONE
+key_key.inventorysorter.itemin:-200:NONE
+key_key.inventorysorter.itemout:-201:NONE
+key_key.inventorysorter.sort:-98:NONE
 key_Open MPS Keybind GUI:0:NONE
 key_Go Down (MPS Flight Control):44:NONE
 key_Cycle Tool Backward (MPS):0:NONE
@@ -39,11 +42,11 @@ key_Cycle Tool Forward (MPS):0:NONE
 key_Cosmetic (MPS):0:NONE
 key_key.moreoverlays.lightoverlay.desc:65:NONE
 key_key.moreoverlays.chunkbounds.desc:67:NONE
-key_neat.keybind.toggle:0:NONE
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:0:NONE
 key_key.togglePotionParticles:66:CONTROL
+key_key.factionchat.desc:21:NONE
 key_key.dismount:42:NONE
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199:NONE
@@ -60,7 +63,7 @@ key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
 key_nei.options.keys.gui.botania_corporea_request:46:NONE
-key_key.settings_menu:34:NONE
+key_key.settings_menu:39:NONE
 key_key.range:19:NONE
 key_key.undo:22:NONE
 key_key.anchor:35:NONE
@@ -71,11 +74,30 @@ key_key.material_list:50:NONE
 key_key.cofh.multimode:47:NONE
 key_cyberware.keybinds.menu:19:NONE
 key_key.clipboardPaste:210:NONE
+key_key.pitchDown.desc:29:NONE
+key_key.vehicleMenu.desc:50:NONE
+key_key.dropBomb.desc:48:NONE
+key_key.fireVehicleGuns.desc:47:NONE
+key_key.switchControlMode.desc:46:NONE
+key_key.reload.desc:19:NONE
+key_key.teamsMenu.desc:34:NONE
+key_key.teamsScores.desc:35:NONE
+key_key.rollLeft.desc:44:NONE
+key_key.rollRight.desc:45:NONE
+key_key.toggleLandingGear.desc:38:NONE
+key_key.toggleDoors.desc:37:NONE
+key_key.switchMovementMode.desc:36:NONE
+key_key.lookAtGun.desc:38:NONE
+key_key.debug.desc:68:NONE
+key_key.reloadModels.desc:67:NONE
+key_key.primaryVehicleInteract.desc:-100:NONE
+key_key.secondaryVehicleInteract.desc:-99:NONE
 key_waila.keybind.wailaconfig:82:NONE
 key_waila.keybind.wailadisplay:79:NONE
 key_waila.keybind.liquid:80:NONE
 key_waila.keybind.recipe:81:NONE
 key_waila.keybind.usage:75:NONE
+key_invtweaks.key.sort:19:NONE
 key_key.rotateup:200:NONE
 key_key.rotatedown:208:NONE
 key_key.rotateright:205:NONE
@@ -90,6 +112,8 @@ key_mekanism.key.armorMode:34:NONE
 key_mekanism.key.feetMode:35:NONE
 key_mekanism.key.voice:22:NONE
 key_keybind.fovfixtoggle:0:NONE
+key_key.toggleLiquids:38:NONE
+key_key.toggleVisible:0:NONE
 key_techguns.key.toggleNightvision:49:NONE
 key_techguns.key.toggleSafemode:48:NONE
 key_techguns.key.toggleStepassist:47:NONE
@@ -117,3 +141,4 @@ key_key.journeymap.fullscreen.north:200:NONE
 key_key.journeymap.fullscreen.south:208:NONE
 key_key.journeymap.fullscreen.east:205:NONE
 key_key.journeymap.fullscreen.west:203:NONE
+key_Profile GUI:211:NONE

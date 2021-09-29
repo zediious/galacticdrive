@@ -18,20 +18,19 @@
 						"weight": 10
 					}
 				],
-				"material": "minecraft:stone",
-				"cluster-size": 16
+				"material": "thebetweenlands:betweenstone",
+				"cluster-size": 24
 			},
-			"cluster-count": 2,
+			"cluster-count": 1,
 			"chunk-chance": 12,
 			"min-height": 0,
 			"max-height": 20,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					20
 				]
 			}
 		},

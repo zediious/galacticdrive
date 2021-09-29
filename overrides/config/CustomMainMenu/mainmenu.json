@@ -28,9 +28,10 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 48,
+            "posY" : 20,
             "width" : 200,
             "height" : 20,
+            "tooltip": "Play Galactic Drive Singleplayer!\nBe sure to use the RTG world type!",
             "action" : 
             {
                 "type" : "openGui",
@@ -38,27 +39,42 @@
             }
         },
         
-        "multiplayer":
+        "serverlist":
         {
-            "text" : "menu.multiplayer",
+            "text" : "Server List",
             "posX" : -100,
-            "posY" : 72,
+            "posY" : 48,
             "width" : 200,
             "height" : 20,
+            "tooltip": "View the server list.",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
+
+        "officialserver": {
+            "text" : "Offical Galactic Drive Server",
+            "tooltip": "Join the official server at ShadowRaptor Network!",
+            "posX" : -80,
+            "posY" : 75,
+            "width" : 160,
+            "height" : 20,
+            "action" : {
+                "type" : "connectToServer",
+                "ip" : "gd.shadowraptor.net"
+            }
+        },
         
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
+            "posX" : -25,
+            "posY" : 105,
+            "width" : 50,
+            "height" : 40,
+            "tooltip": "View mods included in Galactic Drive.",
             "action" : 
             {
                 "type" : "openGui",
@@ -68,25 +84,55 @@
             
         "options":
         {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "text" : "Settings",
+            "posX" : 40,
+            "posY" : 103,
+            "width" : 60,
             "height" : 20,
+            "tooltip": "Open the Settings menu.",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
+
+        "wiki":
+        {
+            "text" : "Wiki",
+            "posX" : -100,
+            "posY" : 103,
+            "width" : 60,
+            "height" : 20,
+            "tooltip": "Click to open the Galactic Drive Wiki. Useful information!",
+            "action" : {
+                "type": "openLink",
+                "link" : "https://github.com/zediious/galacticdrive/wiki"
+            }
+        },
+
+        "issues":
+        {
+            "text" : "Issues",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 60,
+            "height" : 20,
+            "tooltip": "If you find a bug or a have suggestion, make an issue here!",
+            "action" : {
+                "type": "openLink",
+                "link" : "https://github.com/zediious/galacticdrive/issues"
+            }
+        },
         
         "quit":
         {
-            "text" : "menu.quit",
-            "posX" : 2,
+            "text" : "Quit",
+            "posX" : 40,
             "posY" : 132,
-            "width" : 98,
+            "width" : 60,
             "height" : 20,
+            "tooltip": "Run from the parasites",
             "action" : 
             {
                 "type" : "quit"
@@ -96,8 +142,8 @@
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : 455,
+            "posY" : -123,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -106,12 +152,28 @@
                 "gui" : "languages"
             }
         },
+
+        "discord": {
+            "text" : " ",
+            "posX" : -477,
+            "posY" : -125,
+            "width" : 30,
+            "height" : 30,
+            "imageWidth" : 128,
+            "imageHeight" : 128,
+            "texture" : "menu:buttons/discord.png",
+            "tooltip": "Join the ShadowRaptor Discord!",
+            "action" : {
+                "type": "openLink",
+                "link" : "www.discord.shadowraptor.net"
+            }
+        },
         
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : 455,
+            "posY" : -103,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -122,28 +184,35 @@
         }
     },
     
-    "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
+    "labels": {
+        "copyrightmodpack": {
+            "text" : "ShadowRaptor Packs",
+            "posX" : -105,
+            "posY" : -30,
             "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
+            "alignment" : "bottom_right"
         },
         
-        "fml":
-        {
-            "text" : "",
+        "copyrightbackground": {
+            "text" : "Pack Art by Droh#7359",
+            "posX" : -118,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "mojang": {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -198,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "version": {
+            "text" : "Mods: #modsactive#\nMinecraft #mcversion#\nForge #forgeversion#\nGalactic Drive 0.1alpha-dev",
             "posX" : 2,
-            "posY" : -40,
+            "posY" : -36,
             "color" : -1,
             "alignment" : "bottom_left"
         }
