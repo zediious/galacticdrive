@@ -147,13 +147,27 @@
     "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:rupter",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
-    "maxcount": 55,
+    "maxcount": 35,
     "onjoin": true,
     "result": "allow"
   },
   {
     "dimension": ["0","-1","17","111","112","-127","4598"],
     "mob": "srparasites:rupter",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "mob": "srparasites:grunt",
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
+    "maxcount": 18,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "mob": "srparasites:grunt",
     "onjoin": true,
     "result": "deny"
   },

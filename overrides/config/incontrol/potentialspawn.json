@@ -25,7 +25,13 @@
       },
       {
         "mob": "srparasites:rupter",
-        "weight": 15,
+        "weight": 12,
+        "groupcountmin": 3,
+        "groupcountmax": 8
+      },
+      {
+        "mob": "srparasites:grunt",
+        "weight": 4,
         "groupcountmin": 3,
         "groupcountmax": 8
       },
