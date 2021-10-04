@@ -528,7 +528,7 @@
   },
   {
     "dimension": 111,
-    "mob": "srparasites:ada_longarms",
+    "mob": "srparasites:marauder",
     "block": ["minecraft:snow_layer","minecraft:snow"],
     "maxcount": 16,
     "onjoin": true,
@@ -536,7 +536,7 @@
   },
   {
     "dimension": 111,
-    "mob": "srparasites:ada_longarms",
+    "mob": "srparasites:marauder",
     "onjoin": true,
     "result": "deny"
   },

@@ -1,6 +1,7 @@
 //Imports
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.block.IBlockState;
+import mods.techguns.ChemLab;
 
 // *** Hide AE2 Facades
 val baseFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
@@ -66,6 +67,11 @@ mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:2>);
 mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:3>);
 mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:4>);
 <thebetweenlands:swamp_talisman:0>.addTooltip(format.red("Heard of only in legends..."));
+
+// *** Endgame Balance
+// TGX ChemLab recipe changed to require Betweenlands Aqua Middle Gem and 4 buckets of Refined Fuel
+ChemLab.removeRecipe(<techguns:itemshared:75>,null);
+ChemLab.addRecipe(<minecraft:gunpowder>*5,2,<thebetweenlands:aqua_middle_gem>*3,1,<liquid:refined_fuel>*4000,false,<techguns:itemshared:75>*1,<liquid:water>*0,17);
 
 // *** First start balance (roika)
 recipes.remove(<thermalexpansion:dynamo:0>);

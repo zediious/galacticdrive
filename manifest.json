@@ -128,8 +128,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.19_mc1.12.2.jar)",
-            "fileID": 3420128,
+            "alias": "LittleTiles (LittleTiles_v1.5.27_mc1.12.2.jar)",
+            "fileID": 3475272,
             "projectID": 257818,
             "required": true
         },
@@ -218,8 +218,8 @@
             "required": true
         },
         {
-            "alias": "OMLib (omlib-1.12.2-3.2.0-256.jar)",
-            "fileID": 3086478,
+            "alias": "OMLib (omlib-1.12.2-3.1.5-256.jar)",
+            "fileID": 3466259,
             "projectID": 254334,
             "required": true
         },
@@ -236,8 +236,8 @@
             "required": true
         },
         {
-            "alias": "Open Modular Turrets (openmodularturrets-1.12.2-3.2.0-379.jar)",
-            "fileID": 3092964,
+            "alias": "Open Modular Turrets (openmodularturrets-1.12.2-3.1.14-382.jar)",
+            "fileID": 3466431,
             "projectID": 224663,
             "required": true
         },
@@ -356,8 +356,8 @@
             "required": true
         },
         {
-            "alias": "CreativeCore (CreativeCore_v1.10.62_mc1.12.2.jar)",
-            "fileID": 3419979,
+            "alias": "CreativeCore (CreativeCore_v1.10.65_mc1.12.2.jar)",
+            "fileID": 3467576,
             "projectID": 257814,
             "required": true
         },
@@ -368,8 +368,8 @@
             "required": true
         },
         {
-            "alias": "MysticalLib (mysticallib-1.12.2-1.10.0.jar)",
-            "fileID": 3243257,
+            "alias": "MysticalLib (mysticallib-1.12.2-1.12.0.jar)",
+            "fileID": 3460959,
             "projectID": 277064,
             "required": true
         },
@@ -392,8 +392,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.656.jar)",
-            "fileID": 3411555,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.662.jar)",
+            "fileID": 3478825,
             "projectID": 239197,
             "required": true
         },
@@ -683,12 +683,6 @@
             "alias": "Custom Starter Gear (CustomStartingGear-1.12-1.2.0.9-universal.jar)",
             "fileID": 2514705,
             "projectID": 253735,
-            "required": true
-        },
-        {
-            "alias": "Armourer's Workshop (Armourers-Workshop-1.12.2-0.51.0.jar)",
-            "fileID": 3101995,
-            "projectID": 229523,
             "required": true
         }
     ],

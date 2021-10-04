@@ -210,7 +210,7 @@
         },
         
         "version": {
-            "text" : "Mods: #modsactive#\nMinecraft #mcversion#\nForge #forgeversion#\nGalactic Drive 0.1alpha-dev",
+            "text" : "Mods: #modsactive#\nMinecraft #mcversion#\nForge #forgeversion#\nGalactic Drive 0.2alpha-dev",
             "posX" : 2,
             "posY" : -36,
             "color" : -1,
