@@ -13,7 +13,7 @@ The current stable modlist can be viewed by taking a look at the [MANIFEST](http
 
 # Downloading the modpack. 
 
-> **1) Click the following link to visit the Galactic Drive releases page and download the latest version by clicking the following link [RELEASES](https://github.com/zediious/galacticdrive/releases).
+> **1) Visit the Galactic Drive releases page and download the latest version by clicking the following link [RELEASES](https://github.com/zediious/galacticdrive/releases).
 > This ZIP can be added to any modpack launcher to download and launch the modpack.**
 > 
 > **2) If you wish to test the current version in development, you can download the ZIP for the in-dev version's branch by clicking the following link [IN-DEV VERSION](https://github.com/zediious/galacticdrive/archive/refs/heads/0.2alpha.zip)
