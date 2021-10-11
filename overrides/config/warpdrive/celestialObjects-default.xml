@@ -78,12 +78,12 @@
 				<render red="0.80" green="0.70" blue="1.00" alpha="0.15" texture="warpdrive:textures/celestial/cloud_large1.png" periodU="500" periodV="2100" additive="false" />
 			</celestialObject>
 
-			<celestialObject id="solar-mercury">
+			<celestialObject id="solar-melgamar">
 				<parent>
 					<center x="13000" z="-11000" />
 				</parent>
 				<size x="4000" z="4000" />
-				<name>Mercury</name>
+				<name>Melgamar</name>
 				<description>Still a bit cold... not.</description>
 				<dimension id="-1" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
@@ -97,12 +97,12 @@
 				<render red="1.00" green="0.50" blue="0.50" alpha="0.10" />
 			</celestialObject>
 			
-			<celestialObject id="solar-venus">
+			<celestialObject id="solar-ewell16">
 				<parent>
 					<center x="-20000" z="-18000" />
 				</parent>
 				<size x="4000" z="4000" />
-				<name>Venus</name>
+				<name>Ewell-16</name>
 				<description>Humans made a mistake using this planet as their nuclear waste depot...</description>
 				<dimension id="4598" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
@@ -115,29 +115,12 @@
 				<render red="0.60" green="0.80" blue="0.90" alpha="0.11" />
 			</celestialObject>
 			
-			<celestialObject id="space1-moon">
-				<parent>
-					<center x="-28000" z="35000" />
-				</parent>
-				<size x="4000" z="4000" />
-				<name>The Moon</name>
-				<description>It was nice after the terraforming... until it blew up and became even better!</description>
-				<dimension id="130" isBreathable="true" gravity="normal">
-					<center x="0" z="0" />
-				</dimension>
-				<render red="1.00" green="1.00" blue="0.50" alpha="1.00" texture="warpdrive:textures/celestial/surface_island2.png" />
-				<render red="0.50" green="1.00" blue="0.50" alpha="0.30" texture="warpdrive:textures/celestial/surface_desert1.png" periodU="21500" />
-				<render red="0.30" green="0.40" blue="0.50" alpha="0.12" />
-				<render red="0.30" green="0.40" blue="0.50" alpha="0.11" />
-				<render red="0.30" green="0.40" blue="0.50" alpha="0.10" />
-			</celestialObject>
-			
 			<celestialObject id="solar-earth">
 				<parent>
 					<center x="-35000" z="35000" />
 				</parent>
 				<size x="10000" z="10000" />
-				<name>Undead Earth</name>
+				<name>Earth</name>
 				<description>The age of the zombie will never pass!</description>
 				<dimension id="0" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
@@ -152,12 +135,12 @@
 				<render red="0.50" green="0.50" blue="1.00" alpha="0.08" />
 			</celestialObject>
 			
-			<celestialObject id="solar-tropics">
+			<celestialObject id="solar-ryusta">
 				<parent>
 					<center x="10000" z="35000" />
 				</parent>
 				<size x="6000" z="6000" />
-				<name>Tropics</name>
+				<name>Ryusta</name>
 				<description>Not the vacation you were expecting.</description>
 				<dimension id="-127" isBreathable="true" gravity="normal">
 					<center x="0" z="0" />
@@ -248,23 +231,7 @@
 				<render red="0.50" green="0.90" blue="1.00" alpha="0.08" />
 				<render red="0.40" green="0.90" blue="1.00" alpha="0.08" />
 			</celestialObject>
-			
-			<celestialObject id="solar-wasted">
-				<parent>
-					<center x="-9783" z="16400" />
-				</parent>
-				<size x="800" z="800" />
-                <name>Wasted City</name>
-				<description>Ravaged by War.</description>
-				<dimension id="107" isBreathable="true" gravity="normal">
-					<center x="-831" z="142" />
-				</dimension>
-				<render red="1.00" green="1.00" blue="1.00" alpha="1.00" texture="minecraft:textures/blocks/end_stone.png" periodU="150" />
-				<render red="0.90" green="1.00" blue="1.00" alpha="0.30" texture="minecraft:textures/blocks/end_stone.png" periodU="143" periodV="171" />
-				<render red="1.00" green="1.00" blue="1.00" alpha="0.25" texture="minecraft:textures/blocks/obsidian.png" periodU="137" periodV="200" />
-				<render red="0.50" green="0.50" blue="0.40" alpha="0.20" />
-			</celestialObject>
-			 
+
 			<celestialObject id="solar-pluto">
 				<parent>
 					<center x="-42000" z="-44000" />
