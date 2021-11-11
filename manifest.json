@@ -104,8 +104,8 @@
             "required": true
         },
         {
-            "alias": "ICBM - Classic (ICBM-classic-1.12.2-4.0.1b75.jar)",
-            "fileID": 2918052,
+            "alias": "ICBM - Classic (ICBM-classic-1.12.2-4.1.0b20211106011048.jar)",
+            "fileID": 3516968,
             "projectID": 244451,
             "required": true
         },
@@ -128,8 +128,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.27_mc1.12.2.jar)",
-            "fileID": 3475272,
+            "alias": "LittleTiles (LittleTiles_v1.5.35_mc1.12.2.jar)",
+            "fileID": 3516089,
             "projectID": 257818,
             "required": true
         },
@@ -188,8 +188,8 @@
             "required": true
         },
         {
-            "alias": "ModTweaker (modtweaker-4.0.20.4.jar)",
-            "fileID": 3368737,
+            "alias": "ModTweaker (modtweaker-4.0.20.5.jar)",
+            "fileID": 3488553,
             "projectID": 220954,
             "required": true
         },
@@ -368,8 +368,8 @@
             "required": true
         },
         {
-            "alias": "MysticalLib (mysticallib-1.12.2-1.12.0.jar)",
-            "fileID": 3460959,
+            "alias": "MysticalLib (mysticallib-1.12.2-1.13.0.jar)",
+            "fileID": 3483816,
             "projectID": 277064,
             "required": true
         },
@@ -392,8 +392,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.662.jar)",
-            "fileID": 3478825,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.669.jar)",
+            "fileID": 3515080,
             "projectID": 239197,
             "required": true
         },
@@ -422,8 +422,8 @@
             "required": true
         },
         {
-            "alias": "[ANGRY PIXEL] The Betweenlands (TheBetweenlands-3.7.3-universal.jar)",
-            "fileID": 3248202,
+            "alias": "[ANGRY PIXEL] The Betweenlands (TheBetweenlands-3.8.0-universal.jar)",
+            "fileID": 3507049,
             "projectID": 243363,
             "required": true
         },
@@ -626,8 +626,8 @@
             "required": true
         },
         {
-            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.0ALPHA18.jar)",
-            "fileID": 3421916,
+            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.1.jar)",
+            "fileID": 3498704,
             "projectID": 348025,
             "required": true
         },
@@ -662,8 +662,8 @@
             "required": true
         },
         {
-            "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.7.2.jar)",
-            "fileID": 2935745,
+            "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.8.2.jar)",
+            "fileID": 3509491,
             "projectID": 224770,
             "required": true
         },
