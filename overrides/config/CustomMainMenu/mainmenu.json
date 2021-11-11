@@ -3,22 +3,12 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
+            "image" : "menu:background.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 960,
+            "height" : 540,
+            "alignment" : "top_left"
         }
     },
     
@@ -28,7 +18,7 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 20,
+            "posY" : 200,
             "width" : 200,
             "height" : 20,
             "tooltip": "Play Galactic Drive Singleplayer!\nBe sure to use the RTG world type!",
@@ -43,7 +33,7 @@
         {
             "text" : "Server List",
             "posX" : -100,
-            "posY" : 48,
+            "posY" : 228,
             "width" : 200,
             "height" : 20,
             "tooltip": "View the server list.",
@@ -58,7 +48,7 @@
             "text" : "Offical Galactic Drive Server",
             "tooltip": "Join the official server at ShadowRaptor Network!",
             "posX" : -80,
-            "posY" : 75,
+            "posY" : 255,
             "width" : 160,
             "height" : 20,
             "action" : {
@@ -71,9 +61,9 @@
         {
             "text" : "fml.menu.mods",
             "posX" : -25,
-            "posY" : 105,
+            "posY" : 285,
             "width" : 50,
-            "height" : 40,
+            "height" : 20,
             "tooltip": "View mods included in Galactic Drive.",
             "action" : 
             {
@@ -85,8 +75,8 @@
         "options":
         {
             "text" : "Settings",
-            "posX" : 40,
-            "posY" : 103,
+            "posX" : -100,
+            "posY" : 312,
             "width" : 60,
             "height" : 20,
             "tooltip": "Open the Settings menu.",
@@ -101,7 +91,7 @@
         {
             "text" : "Wiki",
             "posX" : -100,
-            "posY" : 103,
+            "posY" : 283,
             "width" : 60,
             "height" : 20,
             "tooltip": "Click to open the Galactic Drive Wiki. Useful information!",
@@ -114,8 +104,8 @@
         "issues":
         {
             "text" : "Issues",
-            "posX" : -100,
-            "posY" : 132,
+            "posX" : 40,
+            "posY" : 283,
             "width" : 60,
             "height" : 20,
             "tooltip": "If you find a bug or a have suggestion, make an issue here!",
@@ -129,7 +119,7 @@
         {
             "text" : "Quit",
             "posX" : 40,
-            "posY" : 132,
+            "posY" : 312,
             "width" : 60,
             "height" : 20,
             "tooltip": "Run from the parasites",
@@ -188,14 +178,6 @@
         "copyrightmodpack": {
             "text" : "ShadowRaptor Packs",
             "posX" : -105,
-            "posY" : -30,
-            "color" : -1,
-            "alignment" : "bottom_right"
-        },
-        
-        "copyrightbackground": {
-            "text" : "Pack Art by Droh#7359",
-            "posX" : -118,
             "posY" : -20,
             "color" : -1,
             "alignment" : "bottom_right"
@@ -226,16 +208,7 @@
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "file" : "text:splashes.txt"
         }
     }
 }
