@@ -135,6 +135,17 @@ recipes.addShapedMirrored("Empty Air Canister",
 recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
 furnace.addRecipe(<biomesoplenty:green_dye>, <minecraft:leaves2:1>);
 
+// *** PARASITE DROP RECIPES ***
+
+// * Infected Flesh > Moldering Segment > Essential Segment
+// To be used as a necessary part for AE2 Presses
+
+// * Infected Flesh > Moldering Segment
+recipes.addShapeless(<srparasites:lurecomponent5>, [<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>]);
+
+// * Moldering Segment > Essential Segment
+recipes.addShapeless(<srparasites:lurecomponent6>, [<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>]);
+
 // *** OTHER RECIPES AND BALANCE ***
 
 // * Hide AE2 Facades

@@ -9,9 +9,10 @@
 <mekanism:transmitter:*>.addTooltip(format.red("Known to cause massive FPS lag, use at your own risk!"));
 
 
-// *** Gems & ores location
+// *** Gems/ores/drops location 
 <minecraft:emerald>.addTooltip(format.aqua("Found in villages and Mountain biomes."));
 <mekanism:oreblock>.addTooltip(format.gold("Ore is only found in space"));
+<srparasites:assimilated_flesh>.addTooltip(format.gold("Dropped semi-commonly from all parasites"));
 
 
 // *** TechGuns Ore Cluster

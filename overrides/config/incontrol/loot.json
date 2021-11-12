@@ -5,5 +5,11 @@
 		"remove": "thebetweenlands:swamp_talisman:2",
 		"remove": "thebetweenlands:swamp_talisman:3",
 		"remove": "thebetweenlands:swamp_talisman:4"
+	},
+	{
+		"mod": "srparasites",
+		"player": true,
+		"random": "0.3",
+		"item": "srparasites:assimilated_flesh"
 	}
 ]

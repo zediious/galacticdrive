@@ -36,6 +36,12 @@
         "groupcountmax": 8
       },
       {
+        "mob": "srparasites:sim_enderman",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
         "mob": "srparasites:anc_dreadnaut",
         "weight": 1,
         "groupcountmin": 1,
