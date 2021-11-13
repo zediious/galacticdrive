@@ -8,8 +8,6 @@
     "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier"],
     "maxcount": 8,
     "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow","minecraft:snow_layer"],
-    "armorhelmet": ["1=techguns:t1_combat_helmet","1=techguns:t2_combat_helmet","techguns:t1_miner_helmet","techguns:t2_riot_helmet","1=minecraft:chainmail_helmet","2=minecraft:iron_helmet","minecraft:golden_helmet"],
-    "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
     "result": "allow"
   },
