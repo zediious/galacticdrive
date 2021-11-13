@@ -1,23 +1,5 @@
 {
 	"dimensions": [{
-		"dim": 107,
-		"dimensiontype": {
-			"id": 107,
-			"name": "Wasted",
-			"suffix": "dim_107",
-			"keeploaded": false,
-			"worldprovider": "WorldProviderSurfaceJED"
-		},
-		"worldinfo_onetime": {
-			"generatorName": "flat",
-			"generatorOptions": "3;minecraft:air;127;",
-			"DayTime": 6000,
-			"GameRules": {
-				"doDaylightCycle": "true"
-			}
-		}
-	},
-	{
 		"dim": 111,
 		"biome": "minecraft:mutated_ice_flats",
 		"dimensiontype": {

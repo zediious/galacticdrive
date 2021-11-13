@@ -64,35 +64,6 @@
   },
   // *** VENUS | PARASITE HIVE ***
   // *****************************
-  {
-    "dimension": 4598,
-    "mobs": [
-      {
-        "mob": "srparasites:beckon_sii",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "srparasites:ada_bolster",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "srparasites:warden",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "srparasites:bomber_light",
-        "weight": 15,
-        "groupcountmin": 2,
-        "groupcountmax": 5
-      }
-    ]
-  },
   // *** EARTH ***
   // *************
   {
