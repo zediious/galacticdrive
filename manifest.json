@@ -684,6 +684,24 @@
             "fileID": 3039432,
             "projectID": 298408,
             "required": true
+        },
+        {
+            "alias": "LootTableTweaker (LootTableTweaker-1.12.2-1.1.17.jar)",
+            "fileID": 2644030,
+            "projectID": 261339,
+            "required": true
+        },
+        {
+            "alias": "LootTweaker (LootTweaker-0.3.1+MC1.12.2.jar)",
+            "fileID": 3507866,
+            "projectID": 255257,
+            "required": true
+        },
+        {
+            "alias": "More Loot Stuff (MoreLootStuff-1.12.2-0.0.5.jar)",
+            "fileID": 3117402,
+            "projectID": 284472,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
