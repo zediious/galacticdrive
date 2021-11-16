@@ -1,4 +1,5 @@
 [
+	// Betweenlands Druids don't drop talisman
 	{
 		"mob": "thebetweenlands:dark_druid",
 		"remove": "thebetweenlands:swamp_talisman:1",
@@ -6,10 +7,28 @@
 		"remove": "thebetweenlands:swamp_talisman:3",
 		"remove": "thebetweenlands:swamp_talisman:4"
 	},
+	// All Parasites drop Infected Flesh
 	{
 		"mod": "srparasites",
 		"player": true,
 		"random": "0.3",
 		"item": "srparasites:assimilated_flesh"
+	},
+	// Ferrous Wroughtnaut drops titanium ore (re-added original drops when killed by players)
+	{
+		"mob": "mowziesmobs:ferrous_wroughtnaut",
+		"random": "0.4",
+		"item": "techguns:basicore@3",
+		"itemcount": "1-3"
+	},
+	{
+		"mob": "mowziesmobs:ferrous_wroughtnaut",
+		"player": true,
+		"item": "mowziesmobs:wrought_axe"
+	},
+	{
+		"mob": "mowziesmobs:ferrous_wroughtnaut",
+		"player": true,
+		"item": "mowziesmobs:wrought_helmet"
 	}
 ]

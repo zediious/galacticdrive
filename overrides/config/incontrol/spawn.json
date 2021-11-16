@@ -658,6 +658,20 @@
     "onjoin": true,
     "result": "allow"
   },
+  {
+    "dimension": 112,
+    "mob": "mowziesmobs:ferrous_wroughtnaut",
+    "block": "minecraft:wool",
+    "maxcount": 16,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 112,
+    "mob": "mowziesmobs:ferrous_wroughtnaut",
+    "onjoin": true,
+    "result": "deny"
+  },
   // *** Global Lycanites Mobs deny ***
   // This needs to be at the bottom to allow specific spawns.
   {

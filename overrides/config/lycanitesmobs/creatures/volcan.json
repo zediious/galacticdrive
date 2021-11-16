@@ -102,16 +102,10 @@
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.50
-    },
-    {
-      "item": "techguns:itemshared:78",
-      "minAmount": 2,
-      "maxAmount": 5,
-      "chance": 0.15
     }
   ],
   "sizeScale": 4.8,
-  "hitboxScale": 4.4,
+  "hitboxScale": 2.4,
   "flags": [
     {
       "name": "blockMeltingRadius",

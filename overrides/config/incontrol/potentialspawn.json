@@ -354,7 +354,7 @@
       },
       {
         "mob": "lycanitesmobs:kobold",
-        "weight": 6,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -363,6 +363,12 @@
         "weight": 14,
         "groupcountmin": 2,
         "groupcountmax": 5
+      },
+      {
+        "mob": "mowziesmobs:ferrous_wroughtnaut",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   }

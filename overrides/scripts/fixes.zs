@@ -94,6 +94,12 @@ recipes.addShaped("mekanism_teleporterframe", <mekanism:basicblock:7> * 3,
         [<ore:ingotRefinedObsidian>,  <ore:circuitAdvanced>,          <ore:ingotRefinedObsidian>],
         [<sgcraft:stargatering>,      <sgcraft:stargatering:1>,       <sgcraft:stargatering>] ]);
 
+// Controller crystal from Core Crystal
+recipes.addShaped("Controller Crystal", <sgcraft:sgcontrollercrystal>,
+    [   [null,            <sgcraft:naquadahingot>,                 null],
+        [<sgcraft:naquadahingot>,          <sgcraft:sgcorecrystal>, <sgcraft:naquadahingot>],
+        [null,                    <sgcraft:naquadahingot>,                        null] ]);
+
 
 // *** ROIKA/FIRST START BALANCE AND FIXES ***
 
@@ -170,7 +176,6 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid
 // * Mekanism HDPE Pellet is considered as rubber item or plastic sheet
 <ore:itemRubber>.add(<mekanism:polyethene:0>);
 <ore:sheetPlastic>.add(<mekanism:polyethene:2>);
-// recipes.replaceAllOccurences(<techguns:xxx>, <ore:xxx>);
 
 // Mekanism salt block using ore dictionary
 recipes.remove(<mekanism:saltblock>);
@@ -183,6 +188,27 @@ recipes.addShaped("vanilla_oak_door", <minecraft:wooden_door> * 3,
     [   [<ore:plankWood>,             <ore:plankWood>,            null],
         [<ore:plankWood>,             null,                       <ore:plankWood>],
         [<ore:plankWood>,             <ore:plankWood>,            null] ]);
+
+// * Remove Techguns Ore Driller and recipe category
+mods.jei.JEI.hideCategory("techguns.oredrill");
+mods.jei.JEI.removeAndHide(<techguns:oredrill:0>);
+mods.jei.JEI.removeAndHide(<techguns:oredrill:1>);
+mods.jei.JEI.removeAndHide(<techguns:oredrill:2>);
+mods.jei.JEI.removeAndHide(<techguns:oredrill:3>);
+mods.jei.JEI.removeAndHide(<techguns:oredrill:4>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:134>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:135>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:136>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:137>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:138>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:139>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:140>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:141>);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:142>);
+
+// * Remove Techguns RadAway/Rad Pills
+mods.jei.JEI.removeAndHide(<techguns:radaway>);
+mods.jei.JEI.removeAndHide(<techguns:radpills>);
 
 // * Conversion between Mekanism and NuclearCraft liquids through NuclearCraft Electrolyser
 mods.nuclearcraft.electrolyser.addRecipe([<liquid:sulfur_dioxide>  * 1000, <liquid:liquidsulfurdioxide>  * 1000, null, null, null, 0.00625, 0.1, 0.0]);
