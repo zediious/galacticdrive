@@ -1,0 +1,18 @@
+	{
+    "name": "Galactic Drive Wiki",
+    "icon": "minecraft:book",
+    "category": "links_category",
+	"sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Galactic Drive's Wiki contains thorough information on the Solar System present in the modpack. Ore Distributions, Mob Spawning, and general planet information are all here.$(br2)All changelogs are present on the Wiki as well."
+        },
+		{
+            "type": "link",
+            "text": "Click the link below to access the Wiki.$(br2)Make sure to check here first before asking on Discord!.$(br2) $(br2)           ⇩ ⇩ ⇩",
+			"url": "https://github.com/zediious/galacticdrive/wiki",
+			"link_text": "Galactic Drive Wiki"
+        }
+    ]
+}

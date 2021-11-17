@@ -108,6 +108,7 @@ recipes.remove(<thermalexpansion:dynamo:0>);
 recipes.remove(<warpdrive:component:14>);
 recipes.remove(<warpdrive:component:16>);
 recipes.remove(<warpdrive:component:11>);
+recipes.remove(<techguns:basicmachine>);
 
 // * Steam Dynamo Recipe
 recipes.addShapedMirrored("Steam Dynamo", 
@@ -141,6 +142,13 @@ recipes.addShapedMirrored("Empty Air Canister",
 recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
 furnace.addRecipe(<biomesoplenty:green_dye>, <minecraft:leaves2:1>);
 
+// * Techguns Ammo Press from Osmium instead of Lead
+recipes.addShapedMirrored("Ammo Press", 
+<techguns:basicmachine>, 
+[[<minecraft:iron_ingot>, <mekanism:ingot:1>, <minecraft:iron_ingot>],
+[<thermalfoundation:material:128>, <techguns:itemshared:70>, <thermalfoundation:material:128>], 
+[<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
+
 // *** PARASITE DROP RECIPES ***
 
 // * Infected Flesh > Moldering Segment > Essential Segment
@@ -151,6 +159,10 @@ recipes.addShapeless(<srparasites:lurecomponent5>, [<srparasites:assimilated_fle
 
 // * Moldering Segment > Essential Segment
 recipes.addShapeless(<srparasites:lurecomponent6>, [<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>]);
+
+// * Parasitic Bag > 9 Infected Flesh
+// 9 Infected Flesh already makes a Parastic Bag, but a reverse recipe is not present. This adds that recipe
+recipes.addShapeless(<srparasites:assimilated_flesh> * 9, [<srparasites:parasitecanister:3>]);
 
 // *** OTHER RECIPES AND BALANCE ***
 
@@ -163,7 +175,7 @@ for facade in <appliedenergistics2:facade>.definition.subItems {
 }
 <appliedenergistics2:facade>.addTooltip(format.red("Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block."));
 
-// * Alternative End Stone recipe
+// * End Stone > End Stone Dust > Lithium Dust
 mods.mekanism.crusher.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11>);
 mods.mekanism.purification.addRecipe(<ore:dustEndstone>, <gas:oxygen>, <nuclearcraft:dust:6>);
 
