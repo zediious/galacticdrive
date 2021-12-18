@@ -2,7 +2,7 @@
 [
   // ****** Mob spawn restrictions ******
   //
-  // *** Allowing Techguns day spawns and monster hole, limiting most Techguns spawns to the Overworld, Fire Resistance/helmets given to prevent daytime death. ***
+  // *** Allowing Techguns day spawns and monster hole, limiting most Techguns spawns to the Overworld ***
   {
     "dimension": 0,
     "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier"],
