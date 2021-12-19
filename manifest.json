@@ -684,6 +684,12 @@
             "fileID": 2744766,
             "projectID": 238551,
             "required": true
+        },
+        {
+            "alias": "No Worldgen 5 You (NoWorldgen5You-1.12.2-1.0.8.jar)",
+            "fileID": 2623496,
+            "projectID": 274782,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
