@@ -1,3 +1,12 @@
+import mods.techguns.AmmoPress;
+import mods.techguns.ChargingStation;
+import mods.techguns.MetalPress;
+import mods.techguns.ChemLab;
+import mods.techguns.Fabricator;
+import mods.techguns.ReactionChamber;
+import mods.techguns.BlastFurnace;
+import crafttweaker.item.IItemStack;
+
 // metals deduplification
 // readding to furnace the dust to ingot recipe resynchronize Mekanism smelting factories, etc.
 
@@ -72,9 +81,9 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:steel>*18, [<liquid:iron> * 18, <liqu
 // stage TechGun behind Mekanism
 recipes.remove(<techguns:simplemachine:11>);
 recipes.addShaped("techguns_blast_furnace", <techguns:simplemachine:11>,
-	[	[<ore:plateIron>,               <ore:dustRedstone>,              <ore:plateIron>],
-		[<mekanism:machineblock:8>,     null,                            <mekanism:machineblock:8>],
-		[<minecraft:stonebrick>,        <minecraft:furnace>,             <minecraft:stonebrick>] ]);
+    [   [<ore:plateIron>,               <ore:dustRedstone>,              <ore:plateIron>],
+        [<mekanism:machineblock:8>,     null,                            <mekanism:machineblock:8>],
+        [<minecraft:stonebrick>,        <minecraft:furnace>,             <minecraft:stonebrick>] ]);
 
 // * ThermalFoundation takes priority
 <ore:ingotSteel>.remove(<bigreactors:ingotsteel>);
@@ -92,6 +101,9 @@ furnace.remove(<nuclearcraft:alloy:5>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:alloy:5>);
 furnace.remove(<techguns:itemshared:83>);
 
+// * Replace Blast Furnace Techgun Steel with Thermal
+BlastFurnace.removeRecipe(<techguns:itemshared:83>);
+BlastFurnace.addRecipe(<minecraft:iron_ingot>*4,<minecraft:coal>*1,<thermalfoundation:material:160>*4,400,800);
 
 // *** Tin
 // ThermalFoundation takes priority

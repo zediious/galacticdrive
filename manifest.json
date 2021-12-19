@@ -410,12 +410,6 @@
             "required": true
         },
         {
-            "alias": "[ANGRY PIXEL] The Betweenlands (TheBetweenlands-3.8.1-universal.jar)",
-            "fileID": 3540284,
-            "projectID": 243363,
-            "required": true
-        },
-        {
             "alias": "Atum 2: Return to the Sands (Atum-1.12.2-2.0.20.jar)",
             "fileID": 3116599,
             "projectID": 59621,

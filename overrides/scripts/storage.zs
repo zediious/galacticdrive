@@ -36,14 +36,14 @@ recipes.addShapeless("appliedenergistics2_silicon_press", <appliedenergistics2:m
 // * ME Interface
 recipes.remove(<appliedenergistics2:interface>);
 recipes.addShaped("appliedenergistics2_me_interface", <appliedenergistics2:interface>,
-	[	[<thebetweenlands:green_middle_gem>,      <ore:blockHull2_glass>,              <thebetweenlands:green_middle_gem>],
+	[	[<tropicraft:zircon>,      <ore:blockHull2_glass>,              <tropicraft:zircon>],
 		[<appliedenergistics2:material:44>, 	  null,         					   <appliedenergistics2:material:43>],
-		[<thebetweenlands:aqua_middle_gem>,       <ore:blockHull2_glass>,              <thebetweenlands:aqua_middle_gem>] ]);
+		[<tropicraft:azurite>,       <ore:blockHull2_glass>,              <tropicraft:azurite>] ]);
 
 // * ME Controller
 recipes.remove(<appliedenergistics2:controller>);
 recipes.addShaped("appliedenergistics2_me_controller", <appliedenergistics2:controller>,
-	[	[<thebetweenlands:crimson_middle_gem>,  <ore:circuitElite>,           		 <thebetweenlands:crimson_middle_gem>],
+	[	[<tropicraft:eudialyte>,  <ore:circuitElite>,           		 <tropicraft:eudialyte>],
 		[<ore:circuitElite>,                	<appliedenergistics2:material:45>,   <ore:circuitElite>],
 		[<ore:blockHull2_plain>,           	    <ore:circuitElite>,                  <ore:blockHull2_plain>] ]);
 
@@ -61,9 +61,9 @@ recipes.addShaped(<appliedenergistics2:part:140> * 3,
 // * ME Glass cable
 recipes.remove(<appliedenergistics2:part:16>);
 recipes.addShaped(<appliedenergistics2:part:16> * 4,
-	[	[null,                              <thebetweenlands:green_middle_gem>,                 null],
+	[	[null,                              <tropicraft:zircon>,                 null],
 		[<appliedenergistics2:material:8>,  <appliedenergistics2:part:140>,      <appliedenergistics2:material:8>],
-		[null,                              <thebetweenlands:crimson_middle_gem>,               null] ]);
+		[null,                              <tropicraft:eudialyte>,               null] ]);
 
 // * Autocrafting requires to reach Tropics
 // Molecular assembler
@@ -88,11 +88,11 @@ recipes.addShaped(<appliedenergistics2:material:52>,
 		[<tropicraft:eudialyte>,       		<tropicraft:zircon>,        	 	 <tropicraft:eudialyte>] ]);
 
 // * Base components progression
-// Illuminated panel requires redstone "chip" and Syrmorite (Betweenlands)
+// Illuminated panel requires redstone "chip" and Lead
 recipes.remove(<appliedenergistics2:part:180>);
 recipes.addShaped(<appliedenergistics2:part:180> *3,
 	[	[null,                              <minecraft:glowstone_dust>,          <ore:blockHull1_omnipanel>],
-		[<thebetweenlands:items_misc:11>,   <ore:itemCompressedRedstone>,        <ore:blockHull1_omnipanel>],
+		[<thermalfoundation:material:131>,   <ore:itemCompressedRedstone>,        <ore:blockHull1_omnipanel>],
 		[null,                              <minecraft:glowstone_dust>,          <ore:blockHull1_omnipanel>] ]);
 
 // * ME Terminal doesn't need gold

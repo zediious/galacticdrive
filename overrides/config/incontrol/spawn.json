@@ -34,7 +34,7 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","20","17","-127","-1","1"],
+    "dimension": ["0","17","-127","-1","1"],
     "mob": ["techguns:zombiefarmer","techguns:zombieminer","techguns:zombiesoldier","techguns:skeletonsoldier","techguns:psychosteve","techguns:bandit"],
     "onjoin": true,
     "result": "deny"
@@ -673,11 +673,18 @@
     "onjoin": true,
     "result": "deny"
   },
+   // *** SRParasites deny on Pluto
+  {
+    "mod": "srparasites",
+    "dimension": 1,
+    "onjoin": true,
+    "result": "deny"
+  },
   // *** Global Lycanites Mobs deny ***
   // This needs to be at the bottom to allow specific spawns.
   {
     "mod": "lycanitesmobs",
-    "dimension": ["0","20","17","-127","-1","1","111","112","4598"],
+    "dimension": ["0","17","-127","-1","1","111","112","4598"],
     "onjoin": true,
     "result": "deny"
   }

@@ -51,19 +51,11 @@ mods.nuclearcraft.melter.removeRecipeWithInput(<tropicraft:ore:3>);
 recipes.remove(<atum:scarab>);
 <atum:scarab>.addTooltip(format.red("Heard of only in legends..."));
 
-// *** BETWEENLANDS FIXES ***
-recipes.remove(<thebetweenlands:swamp_talisman:0>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:1>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:2>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:3>);
-mods.jei.JEI.removeAndHide(<thebetweenlands:swamp_talisman:4>);
-<thebetweenlands:swamp_talisman:0>.addTooltip(format.red("Heard of only in legends..."));
-
 // *** ENDGAME BALANCE AND FIXES ***
 
-// * TGX ChemLab recipe changed to require Betweenlands Aqua Middle Gem and 4 buckets of Refined Fuel
+// * TGX ChemLab recipe changed to require Tropicraft Azurite Gem and 4 buckets of Refined Fuel
 ChemLab.removeRecipe(<techguns:itemshared:75>,null);
-ChemLab.addRecipe(<minecraft:gunpowder>*5,2,<thebetweenlands:aqua_middle_gem>*3,1,<liquid:refined_fuel>*4000,false,<techguns:itemshared:75>*1,<liquid:water>*0,17);
+ChemLab.addRecipe(<minecraft:gunpowder>*5,2,<tropicraft:azurite>*3,1,<liquid:refined_fuel>*4000,false,<techguns:itemshared:75>*1,<liquid:water>*0,17);
 
 // Mekanism Jetpack uses advanced materials
 var steelToolRod = <tconstruct:tool_rod>.withTag({Material: "steel"});
@@ -166,15 +158,6 @@ recipes.addShapeless(<srparasites:assimilated_flesh> * 9, [<srparasites:parasite
 
 // *** OTHER RECIPES AND BALANCE ***
 
-// * Hide AE2 Facades
-val baseFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
-for facade in <appliedenergistics2:facade>.definition.subItems {
-    if (facade.hasTag && !(baseFacade.matchesExact(facade))) {
-        mods.jei.JEI.hide(facade);
-    }
-}
-<appliedenergistics2:facade>.addTooltip(format.red("Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block."));
-
 // * End Stone > End Stone Dust > Lithium Dust
 mods.mekanism.crusher.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11>);
 mods.mekanism.purification.addRecipe(<ore:dustEndstone>, <gas:oxygen>, <nuclearcraft:dust:6>);
@@ -200,27 +183,6 @@ recipes.addShaped("vanilla_oak_door", <minecraft:wooden_door> * 3,
     [   [<ore:plankWood>,             <ore:plankWood>,            null],
         [<ore:plankWood>,             null,                       <ore:plankWood>],
         [<ore:plankWood>,             <ore:plankWood>,            null] ]);
-
-// * Remove Techguns Ore Driller and recipe category
-mods.jei.JEI.hideCategory("techguns.oredrill");
-mods.jei.JEI.removeAndHide(<techguns:oredrill:0>);
-mods.jei.JEI.removeAndHide(<techguns:oredrill:1>);
-mods.jei.JEI.removeAndHide(<techguns:oredrill:2>);
-mods.jei.JEI.removeAndHide(<techguns:oredrill:3>);
-mods.jei.JEI.removeAndHide(<techguns:oredrill:4>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:134>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:135>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:136>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:137>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:138>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:139>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:140>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:141>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:142>);
-
-// * Remove Techguns RadAway/Rad Pills
-mods.jei.JEI.removeAndHide(<techguns:radaway>);
-mods.jei.JEI.removeAndHide(<techguns:radpills>);
 
 // * Conversion between Mekanism and NuclearCraft liquids through NuclearCraft Electrolyser
 mods.nuclearcraft.electrolyser.addRecipe([<liquid:sulfur_dioxide>  * 1000, <liquid:liquidsulfurdioxide>  * 1000, null, null, null, 0.00625, 0.1, 0.0]);

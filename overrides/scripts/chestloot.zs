@@ -63,3 +63,4 @@ hilundPool1.addItemEntry(<mekanism:controlcircuit>, 8, 8, [Functions.setMetadata
 // Remove Techguns RadAway/RadX loot
 mods.ltt.LootTable.removeGlobalItem("techguns:radaway");
 mods.ltt.LootTable.removeGlobalItem("techguns:radpills");
+mods.ltt.LootTable.removeGlobalItem("nuclearcraft:dominos");

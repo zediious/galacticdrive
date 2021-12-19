@@ -174,25 +174,6 @@
 				<render red="0.40" green="0.50" blue="0.60" alpha="0.08" />
 				<render red="0.40" green="0.50" blue="1.00" alpha="0.08" />
 			</celestialObject>
-			
-			<celestialObject id="solar-betweenlands">
-				<parent>
-					<center x="3500" z="-32500" />
-				</parent>
-				<size x="4000" z="4000" />
-				<name>BetweenLands</name>
-				<description>Something in the air keeps the parasites away, to say nothing of the local residents.</description>
-				<dimension id="20" isBreathable="false" gravity="normal">
-					<center x="0" z="0" />
-				</dimension>
-				<render red="0.60" green="0.90" blue="0.50" alpha="1.00" texture="warpdrive:textures/celestial/surface_temperate3.png" periodU="8000" periodV="1400" />
-				<render red="0.60" green="0.50" blue="0.50" alpha="0.30" texture="warpdrive:textures/celestial/surface_metallic1.png" periodV="1400" additive="false" />
-				<render red="0.70" green="0.95" blue="0.50" alpha="0.15" texture="warpdrive:textures/celestial/cloud_small2.png" periodU="-170" periodV="1050" additive="false" />
-				<render red="0.70" green="0.90" blue="0.80" alpha="0.15" texture="warpdrive:textures/celestial/cloud_medium2.png" periodU="-172" periodV="1510" additive="true" />
-				<render red="0.40" green="0.70" blue="0.50" alpha="0.30" />
-				<render red="0.40" green="0.40" blue="0.40" alpha="0.10" />
-				<render red="0.40" green="0.30" blue="0.70" alpha="0.08" />
-			</celestialObject>
 
 			<celestialObject id="solar-Glacia">
 				<parent>
