@@ -9,7 +9,7 @@
   //
   // *** Global Solar System spawns ***
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mobs": [
       {
         "mob": "srparasites:carrier_heavy",
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "dimension": ["0","4598"],
+    "dimension": ["0","4500"],
     "mobs": [
       {
         "mob": "srparasites:ada_summoner",
@@ -127,7 +127,7 @@
   // *** MERCURY ***
   // ***************
   {
-    "dimension": ["-1","4598"],
+    "dimension": ["-1","4500"],
     "mobs": [
       {
         "mob": "srparasites:ada_arachnida",
@@ -175,7 +175,7 @@
   // *** ATUM ***
   // ************
   {
-    "dimension": ["17","4598"],
+    "dimension": ["17","4500"],
     "mobs": [
       {
         "mob": "srparasites:vigilante",
@@ -229,7 +229,7 @@
   // *** TROPICS ***
   // ***************
   {
-    "dimension": ["-127","4598"],
+    "dimension": ["-127","4500"],
     "mobs": [
       {
         "mob": "srparasites:ada_reeker",

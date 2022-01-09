@@ -66,7 +66,7 @@
   },
   // *** Restrict mob count on Venus to 140
   {
-    "dimension": 4598,
+    "dimension": 4500,
     "mod": "srparasites",
     "mincount": {
       "amount": 80,
@@ -114,7 +114,7 @@
   //
   // *** Global Solar System spawns ***
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:carrier_heavy",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 3,
@@ -122,13 +122,13 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:carrier_heavy",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:carrier_flying",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 4,
@@ -136,13 +136,13 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:carrier_flying",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:rupter",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 18,
@@ -150,13 +150,13 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:rupter",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:grunt",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 12,
@@ -164,13 +164,13 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:grunt",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:sim_enderman",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 3,
@@ -178,13 +178,13 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:sim_enderman",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:anc_dreadnaut",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
     "maxcount": 1,
@@ -192,7 +192,7 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","111","112","-127","4598"],
+    "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:anc_dreadnaut",
     "onjoin": true,
     "result": "deny"
@@ -684,7 +684,7 @@
   // This needs to be at the bottom to allow specific spawns.
   {
     "mod": "lycanitesmobs",
-    "dimension": ["0","17","-127","-1","1","111","112","4598"],
+    "dimension": ["0","17","-127","-1","1","111","112","4500"],
     "onjoin": true,
     "result": "deny"
   }

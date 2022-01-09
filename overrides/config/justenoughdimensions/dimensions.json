@@ -74,10 +74,10 @@
 		"override": true
 	},
 	{
-		"dim": 4598,
+		"dim": 4500,
 		"biome": "srparasites:biome_parasite",
 		"dimensiontype": {
-			"id": 4598,
+			"id": 4500,
 			"name": "Venus",
 			"suffix": "dim_4598",
 			"keeploaded": false,

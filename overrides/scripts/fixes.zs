@@ -158,6 +158,9 @@ recipes.addShapeless(<srparasites:assimilated_flesh> * 9, [<srparasites:parasite
 
 // *** OTHER RECIPES AND BALANCE ***
 
+// * Create Chemical Laboratory recipe for AE2 Sky Stone Block using Stone, Certus Quartz Dust, and Lava
+ChemLab.addRecipe(<minecraft:stone>*5,8,<appliedenergistics2:material:2>*3,2,<liquid:lava>*1000,false,<appliedenergistics2:sky_stone_block>*1,<liquid:water>*0,17);
+
 // * End Stone > End Stone Dust > Lithium Dust
 mods.mekanism.crusher.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11>);
 mods.mekanism.purification.addRecipe(<ore:dustEndstone>, <gas:oxygen>, <nuclearcraft:dust:6>);
