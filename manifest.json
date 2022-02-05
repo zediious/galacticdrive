@@ -690,6 +690,12 @@
             "fileID": 2623496,
             "projectID": 274782,
             "required": true
+        },
+        {
+            "alias": "The Erebus (Erebus-1.0.32.jar)",
+            "fileID": 3211974,
+            "projectID": 220698,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

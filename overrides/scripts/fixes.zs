@@ -51,6 +51,16 @@ mods.nuclearcraft.melter.removeRecipeWithInput(<tropicraft:ore:3>);
 recipes.remove(<atum:scarab>);
 <atum:scarab>.addTooltip(format.red("Heard of only in legends..."));
 
+// *** EREBUS FIXES ***
+recipes.remove(<erebus:altar_offering>);
+recipes.remove(<erebus:materials:38>);
+recipes.remove(<erebus:portal_activator>);
+recipes.remove(<erebus:gaean_keystone>);
+<erebus:altar_offering>.addTooltip(format.red("Heard of only in legends..."));
+<erebus:materials:38>.addTooltip(format.red("Heard of only in legends..."));
+<erebus:portal_activator>.addTooltip(format.red("Heard of only in legends..."));
+<erebus:gaean_keystone>.addTooltip(format.red("Heard of only in legends..."));
+
 // *** ENDGAME BALANCE AND FIXES ***
 
 // * TGX ChemLab recipe changed to require Tropicraft Azurite Gem and 4 buckets of Refined Fuel
