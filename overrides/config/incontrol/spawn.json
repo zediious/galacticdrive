@@ -662,7 +662,7 @@
     "dimension": 112,
     "mob": "mowziesmobs:ferrous_wroughtnaut",
     "block": "minecraft:wool",
-    "maxcount": 6,
+    "maxcount": 3,
     "perchunk": true,
     "onjoin": true,
     "result": "allow"

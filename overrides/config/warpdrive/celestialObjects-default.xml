@@ -152,6 +152,18 @@
 				<render red="0.90" green="0.90" blue="1.00" alpha="0.09" />
 				<render red="0.90" green="0.90" blue="1.00" alpha="0.08" />
 				<render red="0.90" green="0.90" blue="1.00" alpha="0.08" />
+
+				<celestialObject id="ryusta-underground">
+					<parent>
+						<center x="0" z="0" />
+					</parent>
+					<size x="6000" z="6000" />
+					<name>Ryusta - Underground</name>
+					<description>I don't think this has been charted...</description>
+					<dimension id="66" isBreathable="true" gravity="normal">
+						<center x="0" z="0" />
+					</dimension>
+				</celestialObject>
 			</celestialObject>
 			
 			<celestialObject id="solar-atum">
