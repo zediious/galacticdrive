@@ -1,0 +1,15 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="1" numGasGiants="0">
+        <planet name="Atum" DIMID="17" dimMapping="">
+            <isKnown>True</isKnown>
+            <fogColor>1,1,1</fogColor>
+            <skyColor>0,0,1</skyColor>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>1000</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <biomeIds>0</biomeIds>
+        </planet>
+    </star>
+</galaxy>
