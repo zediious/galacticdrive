@@ -453,20 +453,20 @@ recipes.remove(<mekanismtools:obsidianboots>);
 
 recipes.addShaped("mekanismtools_obsidianhelmet", <mekanismtools:obsidianhelmet>,
     [   [<ore:ingotRefinedObsidian>,   <ore:ingotRefinedObsidian>,               <ore:ingotRefinedObsidian>],
-        [<ore:ingotRefinedObsidian>,   <warpdrive:warp_armor.superior.helmet>,   <ore:ingotRefinedObsidian>],
+        [<ore:ingotRefinedObsidian>,   <minecraft:diamond_helmet>,   <ore:ingotRefinedObsidian>],
         [null,                         null,                                     null] ]);
 
 recipes.addShaped("mekanismtools_obsidianchestplate", <mekanismtools:obsidianchestplate>,
-    [   [<ore:ingotRefinedObsidian>, <warpdrive:warp_armor.superior.chestplate>, <ore:ingotRefinedObsidian>],
+    [   [<ore:ingotRefinedObsidian>, <minecraft:diamond_chestplate>, <ore:ingotRefinedObsidian>],
         [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>,                 <ore:ingotRefinedObsidian>],
         [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>,                 <ore:ingotRefinedObsidian>] ]);
 
 recipes.addShaped("mekanismtools_obsidianleggings", <mekanismtools:obsidianleggings>,
     [   [<ore:ingotRefinedObsidian>, <ore:ingotRefinedObsidian>,                 <ore:ingotRefinedObsidian>],
-        [<ore:ingotRefinedObsidian>, <warpdrive:warp_armor.superior.leggings>,   <ore:ingotRefinedObsidian>],
+        [<ore:ingotRefinedObsidian>, <minecraft:diamond_leggings>,   <ore:ingotRefinedObsidian>],
         [<ore:ingotRefinedObsidian>, null,                                       <ore:ingotRefinedObsidian>] ]);
 
 recipes.addShaped("mekanismtools_obsidianboots", <mekanismtools:obsidianboots>,
     [   [null,                       null,                                       null],
         [<ore:ingotRefinedObsidian>, null,                                       <ore:ingotRefinedObsidian>],
-        [<ore:ingotRefinedObsidian>, <warpdrive:warp_armor.superior.boots>,      <ore:ingotRefinedObsidian>] ]);
+        [<ore:ingotRefinedObsidian>, <minecraft:diamond_boots>,      <ore:ingotRefinedObsidian>] ]);

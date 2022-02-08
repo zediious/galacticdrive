@@ -88,7 +88,7 @@ recipes.remove(<mekanism:machineblock:11>);
 recipes.addShaped("mekanism_teleporter", <mekanism:machineblock:11>,
     [   [<ore:circuitAdvanced>,       <sgcraft:sgcontrollercrystal>,  <ore:circuitAdvanced>],
         [steelcasing,                 <mekanism:teleportationcore>,   steelcasing],
-        [<ore:circuitAdvanced>,       <warpdrive:component:21>,       <ore:circuitAdvanced>] ]);
+        [<ore:circuitAdvanced>,       <minecraft:iron_ingot>,       <ore:circuitAdvanced>] ]);
 
 recipes.remove(<mekanism:basicblock:7>);
 recipes.addShaped("mekanism_teleporterframe", <mekanism:basicblock:7> * 3,
@@ -107,9 +107,6 @@ recipes.addShaped("Controller Crystal", <sgcraft:sgcontrollercrystal>,
 
 // * Removals
 recipes.remove(<thermalexpansion:dynamo:0>);
-recipes.remove(<warpdrive:component:14>);
-recipes.remove(<warpdrive:component:16>);
-recipes.remove(<warpdrive:component:11>);
 recipes.remove(<techguns:basicmachine>);
 
 // * Steam Dynamo Recipe
@@ -118,27 +115,6 @@ recipes.addShapedMirrored("Steam Dynamo",
 [[null, <thermalfoundation:material:513>, null],
 [<minecraft:iron_ingot>, <thermalfoundation:material:256>, <minecraft:iron_ingot>], 
 [<thermalfoundation:material:128>, <minecraft:redstone>, <thermalfoundation:material:128>]]);
-
-// * WarpDrive Glass Tank Recipe
-recipes.addShapedMirrored("Glass Tank", 
-<warpdrive:component:14>, 
-[[<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>],
-[<minecraft:glass>, null, <minecraft:glass>], 
-[<minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>]]);
-
-// * WarpDrive Pump Recipe
-recipes.addShapedMirrored("Pump", 
-<warpdrive:component:16>, 
-[[<techguns:itemshared:56>, <techguns:itemshared:56>, <warpdrive:component:14>],
-[<warpdrive:component:15>, <minecraft:iron_ingot>, <warpdrive:component:15>], 
-[<warpdrive:component:14>, <techguns:itemshared:56>, <techguns:itemshared:56>]]);
-
-// * WarpDrive Air Canister Recipe
-recipes.addShapedMirrored("Empty Air Canister", 
-<warpdrive:component:11>, 
-[[<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>],
-[<techguns:itemshared:56>, <warpdrive:component:14>, <techguns:itemshared:56>], 
-[<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>]]);
 
 // * String from root and Green Dye Smelt recipes
 recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
@@ -177,9 +153,6 @@ mods.mekanism.purification.addRecipe(<ore:dustEndstone>, <gas:oxygen>, <nuclearc
 
 // * Redstone block tinker basin recipe
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid:redstone>, 900, true);
-
-// * WarpDrive basic hull glass is considered as Hardened glass
-<ore:blockGlassHardened>.addAll(<ore:blockHull1_glass>);
 
 // * Mekanism HDPE Pellet is considered as rubber item or plastic sheet
 <ore:itemRubber>.add(<mekanism:polyethene:0>);

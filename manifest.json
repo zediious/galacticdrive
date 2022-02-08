@@ -332,9 +332,9 @@
             "required": true
         },
         {
-            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.20.jar)",
-            "fileID": 3211729,
-            "projectID": 233565,
+            "alias": "Galacticraft (Galacticraft-1.12.2-4.0.2.283.jar)",
+            "fileID": 3633263,
+            "projectID": 564236,
             "required": true
         },
         {
