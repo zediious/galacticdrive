@@ -332,9 +332,15 @@
             "required": true
         },
         {
-            "alias": "Galacticraft (Galacticraft-1.12.2-4.0.2.283.jar)",
-            "fileID": 3633263,
-            "projectID": 564236,
+            "alias": "Advanced Rocketry (AdvancedRocketry-1.12.2-2.0.0-257-universal.jar)",
+            "fileID": 3587070,
+            "projectID": 236542,
+            "required": true
+        },
+        {
+            "alias": "LibVulpes (LibVulpes-1.12.2-0.4.2-88-universal.jar)",
+            "fileID": 3611363,
+            "projectID": 236541,
             "required": true
         },
         {
