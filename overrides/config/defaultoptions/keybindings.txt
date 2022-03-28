@@ -32,9 +32,10 @@ key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
 key_keybind.baublesinventory:48:NONE
-key_key.inventorysorter.itemin:-200:NONE
-key_key.inventorysorter.itemout:-201:NONE
-key_key.inventorysorter.sort:-98:NONE
+key_key.erebus.glide:34:NONE
+key_key.erebus.poweredglide:35:NONE
+key_key.erebus.beetleram:74:NONE
+key_key.erebus.beetlemine:56:NONE
 key_key.mount.dismount:46:NONE
 key_key.mount.descend:42:NONE
 key_key.mount.ability:45:NONE
@@ -55,6 +56,7 @@ key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
 key_key.toggleTimeOfDayOverlay:0:NONE
 key_key.togglePotionParticles:66:CONTROL
+key_key.spartanweaponry.access_quiver:23:NONE
 key_key.dismount:42:NONE
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199:NONE
@@ -70,8 +72,6 @@ key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
-key_keys.armourers_workshop.undo:44:CONTROL
-key_keys.armourers_workshop.open-wardrobe:25:NONE
 key_nei.options.keys.gui.botania_corporea_request:46:NONE
 key_key.settings_menu:39:NONE
 key_key.range:27:NONE
@@ -125,11 +125,6 @@ key_techguns.key.toggleStepassist:47:NONE
 key_techguns.key.forceReload:19:NONE
 key_techguns.key.toggleJetpack:36:NONE
 key_WorldEdit Reference:38:NONE
-key_key.radial_menu:46:NONE
-key_key.use_ring:211:NONE
-key_key.use_secondary_ring:0:NONE
-key_key.open_pouch:34:NONE
-key_key.connect_caving_rope:47:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE
 key_key.journeymap.minimap_type:26:NONE
