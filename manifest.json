@@ -200,8 +200,8 @@
             "required": true
         },
         {
-            "alias": "NuclearCraft (NuclearCraft-2.18z-1.12.2.jar)",
-            "fileID": 3328174,
+            "alias": "NuclearCraft (NuclearCraft-2.18zz-1.12.2.jar)",
+            "fileID": 3643158,
             "projectID": 226254,
             "required": true
         },
@@ -278,8 +278,8 @@
             "required": true
         },
         {
-            "alias": "Spartan Weaponry (SpartanWeaponry-1.12.2-1.4.0.jar)",
-            "fileID": 3571769,
+            "alias": "Spartan Weaponry (SpartanWeaponry-1.12.2-1.4.1.jar)",
+            "fileID": 3634012,
             "projectID": 278141,
             "required": true
         },
@@ -332,8 +332,8 @@
             "required": true
         },
         {
-            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.20.jar)",
-            "fileID": 3211729,
+            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.27.jar)",
+            "fileID": 3751774,
             "projectID": 233565,
             "required": true
         },
@@ -350,8 +350,8 @@
             "required": true
         },
         {
-            "alias": "CreativeCore (CreativeCore_v1.10.69_mc1.12.2.jar)",
-            "fileID": 3537907,
+            "alias": "CreativeCore (CreativeCore_v1.10.70_mc1.12.2.jar)",
+            "fileID": 3626833,
             "projectID": 257814,
             "required": true
         },
@@ -380,8 +380,8 @@
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.673.jar)",
-            "fileID": 3587830,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.674.jar)",
+            "fileID": 3642364,
             "projectID": 239197,
             "required": true
         },
@@ -596,8 +596,8 @@
             "required": true
         },
         {
-            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.1.jar)",
-            "fileID": 3498704,
+            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.5.jar)",
+            "fileID": 3755305,
             "projectID": 348025,
             "required": true
         },
@@ -632,8 +632,8 @@
             "required": true
         },
         {
-            "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.8.4.jar)",
-            "fileID": 3574932,
+            "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.8.5.jar)",
+            "fileID": 3649418,
             "projectID": 224770,
             "required": true
         },
@@ -695,6 +695,36 @@
             "alias": "The Erebus (Erebus-1.0.32.jar)",
             "fileID": 3211974,
             "projectID": 220698,
+            "required": true
+        },
+        {
+            "alias": "BetterQuesting (BetterQuesting-3.5.329.jar)",
+            "fileID": 2950248,
+            "projectID": 238856,
+            "required": true
+        },
+        {
+            "alias": "Better Questing - Standard Expansion (StandardExpansion-3.4.173.jar)",
+            "fileID": 2863771,
+            "projectID": 238857,
+            "required": true
+        },
+        {
+            "alias": "Better Questing Tweaker (BQTweaker) (BQTweaker-1.3.3.jar)",
+            "fileID": 3626196,
+            "projectID": 423758,
+            "required": true
+        },
+        {
+            "alias": "Better Questing - Multiblock and Structure Integration (BQ_Multiblock_Structure_Integration-1.0.7.jar)",
+            "fileID": 3573675,
+            "projectID": 375285,
+            "required": true
+        },
+        {
+            "alias": "World Primer (worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar)",
+            "fileID": 2866063,
+            "projectID": 258911,
             "required": true
         }
     ],

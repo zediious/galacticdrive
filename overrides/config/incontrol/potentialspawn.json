@@ -46,6 +46,12 @@
         "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:overlord",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   },
@@ -62,7 +68,7 @@
       }
     ]
   },
-  // *** VENUS | PARASITE HIVE ***
+  // *** EWELL-16 | PARASITE HIVE ***
   // *****************************
   // *** EARTH ***
   // *************
@@ -124,13 +130,19 @@
       }
     ]
   },
-  // *** MERCURY ***
+  // *** MELGAMAR ***
   // ***************
   {
     "dimension": ["-1","4500"],
     "mobs": [
       {
-        "mob": "srparasites:ada_arachnida",
+        "mob": "srparasites:crux",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "srparasites:heed",
         "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 1
@@ -226,7 +238,7 @@
       }
     ]
   },
-  // *** TROPICS ***
+  // *** RYUSTA ***
   // ***************
   {
     "dimension": ["-127","4500"],

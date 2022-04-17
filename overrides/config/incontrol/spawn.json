@@ -197,6 +197,20 @@
     "onjoin": true,
     "result": "deny"
   },
+  {
+    "dimension": ["0","-1","17","111","112","-127","4500"],
+    "mob": "srparasites:anc_overlord",
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
+    "maxcount": 1,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["0","-1","17","111","112","-127","4500"],
+    "mob": "srparasites:anc_overlord",
+    "onjoin": true,
+    "result": "deny"
+  },
   // *** ROIKA ***
   // *************
   {
@@ -214,7 +228,7 @@
     "onjoin": true,
     "result": "deny"
   },
-  // *** VENUS | PARASITE HIVE ***
+  // *** EWELL-16 | PARASITE HIVE ***
   // *****************************
   // Empty for now, natural infested biome spawns, with cap set above.
   // *** EARTH ***
@@ -247,7 +261,7 @@
     "onjoin": true,
     "result": "deny"
   },
-  // *** MERCURY ***
+  // *** MELGAMAR ***
   // ***************
   {
     "dimension": -1,
@@ -260,6 +274,34 @@
   {
     "dimension": -1,
     "mob": "srparasites:ada_arachnida",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": "srparasites:crux",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "srparasites:crux",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": -1,
+    "mob": "srparasites:heed",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -1,
+    "mob": "srparasites:heed",
     "onjoin": true,
     "result": "deny"
   },
@@ -673,10 +715,10 @@
     "onjoin": true,
     "result": "deny"
   },
-   // *** SRParasites deny on Pluto
+   // *** SRParasites deny on Pluto/Erebus
   {
     "mod": "srparasites",
-    "dimension": 1,
+    "dimension": ["1","66"],
     "onjoin": true,
     "result": "deny"
   },
@@ -684,7 +726,7 @@
   // This needs to be at the bottom to allow specific spawns.
   {
     "mod": "lycanitesmobs",
-    "dimension": ["0","17","-127","-1","1","111","112","4500"],
+    "dimension": ["0","17","-127","-1","1","111","112","4500","66"],
     "onjoin": true,
     "result": "deny"
   }
