@@ -726,6 +726,12 @@
             "fileID": 2866063,
             "projectID": 258911,
             "required": true
+        },
+        {
+            "alias": "Simple Discord RPC (rpc-1.12.2-2.7.2.jar)",
+            "fileID": 3654849,
+            "projectID": 411816,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
