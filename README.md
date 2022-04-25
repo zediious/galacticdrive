@@ -15,7 +15,7 @@ The current modlist can be viewed by taking a look at the [MANIFEST](https://git
 
 > **1) Visit the Galactic Drive releases page by clicking the following link, and download the latest version. [RELEASES](https://github.com/zediious/galacticdrive/releases).**
 > 
-> **2) Add the modpack ZIP to any modpack launcher to install it.
+> **2) Add the modpack ZIP to any modpack launcher to install it.**
 >
 
 The modpack will be added to CurseForge when I deem it in a complete state.
