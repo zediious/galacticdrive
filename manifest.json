@@ -332,8 +332,8 @@
             "required": true
         },
         {
-            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.27.jar)",
-            "fileID": 3751774,
+            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.28.jar)",
+            "fileID": 3762066,
             "projectID": 233565,
             "required": true
         },
@@ -731,6 +731,12 @@
             "alias": "Simple Discord RPC (rpc-1.12.2-2.7.2.jar)",
             "fileID": 3654849,
             "projectID": 411816,
+            "required": true
+        },
+        {
+            "alias": "Pillar (Pillar-1.2-10.jar)",
+            "fileID": 2490795,
+            "projectID": 246695,
             "required": true
         }
     ],
