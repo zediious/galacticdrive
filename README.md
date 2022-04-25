@@ -9,25 +9,20 @@ The general goal of Galactic Drive is to create a Solar System/environment where
 
 Check out the [WIKI](https://github.com/zediious/galacticdrive/wiki) to keep updated on what the pack contains. You can also view commits in version branches.
 
-The current stable modlist can be viewed by taking a look at the [MANIFEST](https://github.com/zediious/galacticdrive/blob/main/manifest.json)
+The current modlist can be viewed by taking a look at the [MANIFEST](https://github.com/zediious/galacticdrive/blob/0.2alpha/manifest.json)
 
 # Downloading the modpack. 
 
-> **1) Visit the Galactic Drive releases page and download the latest version by clicking the following link [RELEASES](https://github.com/zediious/galacticdrive/releases).
-> This ZIP can be added to any modpack launcher to download and launch the modpack.**
+> **1) Visit the Galactic Drive releases page by clicking the following link, and download the latest version. [RELEASES](https://github.com/zediious/galacticdrive/releases).**
 > 
-> **2) If you wish to test the current version in development, you can download the ZIP for the in-dev version's branch by clicking the following link [IN-DEV VERSION](https://github.com/zediious/galacticdrive/archive/refs/heads/0.2alpha.zip)
-> This link will change to reflect the current development version.**
+> **2) Add the modpack ZIP to any modpack launcher to install it.**
 >
-> **3) If you are using MultiMC, you can just add the dev ZIP as an instance and load up the pack. If you are using any other launcher, take the contents of the
-> folder within the downloaded ZIP, and move them/rezip them such that they are at the root of the ZIP. MultiMC is the only launcher with the ability to read the ZIP
-> recursively to find the pack files. This ONLY applies if you have downloaded a development build. Pack builds from the releases tab can be added normally to any launcher.**
 
 The modpack will be added to CurseForge when I deem it in a complete state.
 
 <br />**Modpack Launchers**
 
-https://multimc.org | Easiest to load development builds with this.
+https://multimc.org | Personal favorite.
 
 https://gdevs.io/ | Extremely user-friendly
 
