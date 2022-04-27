@@ -81,7 +81,7 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:steel>*18, [<liquid:iron> * 18, <liqu
 // stage TechGun behind Mekanism
 recipes.remove(<techguns:simplemachine:11>);
 recipes.addShaped("techguns_blast_furnace", <techguns:simplemachine:11>,
-    [   [<ore:plateIron>,               <ore:dustRedstone>,              <ore:plateIron>],
+    [   [<ore:plateSilver>,               <ore:dustRedstone>,              <ore:plateLead>],
         [<mekanism:machineblock:8>,     null,                            <mekanism:machineblock:8>],
         [<minecraft:stonebrick>,        <minecraft:furnace>,             <minecraft:stonebrick>] ]);
 
