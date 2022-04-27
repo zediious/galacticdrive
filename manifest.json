@@ -738,6 +738,24 @@
             "fileID": 2490795,
             "projectID": 246695,
             "required": true
+        },
+        {
+            "alias": "Shadowfacts' Forgelin (Forgelin-1.8.4.jar)",
+            "fileID": 2785465,
+            "projectID": 248453,
+            "required": true
+        },
+        {
+            "alias": "Tesla Core Lib (tesla-core-lib-1.12.2-1.0.18.jar)",
+            "fileID": 3438487,
+            "projectID": 254602,
+            "required": true
+        },
+        {
+            "alias": "Industrial Foregoing (industrialforegoing-1.12.2-1.12.13-237.jar)",
+            "fileID": 2745321,
+            "projectID": 266515,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

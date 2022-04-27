@@ -2,6 +2,7 @@
 import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.block.IBlockState;
 import mods.techguns.ChemLab;
+import mods.thermalexpansion.Compactor;
 
 // *** TROPICRAFT FIXES ***
 recipes.remove(<tropicraft:portal_enchanter:*>);
@@ -167,6 +168,10 @@ recipes.addShapeless(<srparasites:lurecomponent6>, [<srparasites:lurecomponent5>
 recipes.addShapeless(<srparasites:assimilated_flesh> * 9, [<srparasites:parasitecanister:3>]);
 
 // *** OTHER RECIPES AND BALANCE ***
+
+// * Create Industrial Foregoing Plastic Sheets using Mekanism HDPE Pellets with Thermal/Mekanism
+mods.thermalexpansion.Compactor.addStorageRecipe(<industrialforegoing:plastic>, <mekanism:polyethene>, 3000);
+mods.mekanism.compressor.addRecipe(<mekanism:polyethene>, <industrialforegoing:plastic>);
 
 // * Create Chemical Laboratory recipe for AE2 Sky Stone Block using Stone, Certus Quartz Dust, and Lava
 ChemLab.addRecipe(<minecraft:stone>*5,8,<appliedenergistics2:material:2>*3,2,<liquid:lava>*1000,false,<appliedenergistics2:sky_stone_block>*1,<liquid:water>*0,17);
