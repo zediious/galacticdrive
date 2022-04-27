@@ -64,6 +64,30 @@ recipes.remove(<erebus:gaean_keystone>);
 
 // *** ENDGAME BALANCE AND FIXES ***
 
+// * Xnet Routers and Advanced Connectors require Jade from Ryusta - Underground/Erebus
+
+// Advanced Connector
+var advancedConnector = <xnet:advanced_connector>.withTag({display: {LocName: "tile.xnet.advanced_connector_blue.name"}});
+recipes.remove(<xnet:advanced_connector:0>);
+recipes.addShaped("xnet_advanced_connector", advancedConnector,
+    [   [<xnet:connector>,            <erebus:materials:1>,             null],
+        [<minecraft:diamond>,         <minecraft:redstone>,             null],
+        [null,                    null,                        null] ]);
+
+// Router
+recipes.remove(<xnet:router>);
+recipes.addShaped("xnet_router", <xnet:router>,
+    [   [<minecraft:golden_rail>, <minecraft:comparator>, <minecraft:golden_rail>],
+        [<minecraft:redstone>, <minecraft:iron_block>, <minecraft:redstone>],
+        [<minecraft:iron_ingot>, <erebus:materials:1>, <minecraft:iron_ingot>] ]);
+
+// Wireless Router
+recipes.remove(<xnet:wireless_router>);
+recipes.addShaped("xnet_wireless_router", <xnet:wireless_router>,
+    [   [<erebus:materials:1>, <minecraft:comparator>, <erebus:materials:1>],
+        [<minecraft:redstone>, <minecraft:iron_block>, <minecraft:redstone>],
+        [<erebus:materials:1>, <minecraft:redstone>, <erebus:materials:1>] ]);
+
 // * TGX ChemLab recipe changed to require Tropicraft Azurite Gem and 4 buckets of Refined Fuel
 ChemLab.removeRecipe(<techguns:itemshared:75>,null);
 ChemLab.addRecipe(<minecraft:gunpowder>*5,2,<tropicraft:azurite>*3,1,<liquid:refined_fuel>*4000,false,<techguns:itemshared:75>*1,<liquid:water>*0,17);

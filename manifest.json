@@ -756,6 +756,18 @@
             "fileID": 2745321,
             "projectID": 266515,
             "required": true
+        },
+        {
+            "alias": "McJtyLib (mcjtylib-1.12-3.5.4.jar)",
+            "fileID": 2745846,
+            "projectID": 233105,
+            "required": true
+        },
+        {
+            "alias": "XNet (xnet-1.12-1.8.2.jar)",
+            "fileID": 2745852,
+            "projectID": 260912,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
