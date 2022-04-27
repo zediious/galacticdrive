@@ -136,6 +136,11 @@ mods.techguns.ReactionChamber.addRecipe("EnrichedUranium",
     250000
 );
 
+// *** Platinum
+// Remove possibility of Platinum Dust from pulverizing Nickel Ore
+mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:5>);
+mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:69> * 2, <thermalfoundation:ore:5>, 3000);
+
 
 // armors and tools (courtesy of InfiniteBlock)
 
