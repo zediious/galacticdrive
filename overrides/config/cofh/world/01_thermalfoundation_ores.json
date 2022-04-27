@@ -136,7 +136,7 @@
 			}
 		},
 		"platinum": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -145,29 +145,21 @@
 						"properties": {
 							"type": "platinum"
 						},
-						"weight": 40
-					},
-					{
-						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "nickel"
-						},
-						"weight": 60
+						"weight": 10
 					}
 				],
-				"material": "minecraft:stone",
+				"material": "erebus:umberstone",
 				"cluster-size": 4
 			},
 			"cluster-count": 1,
-			"min-height": 5,
-			"max-height": 25,
+			"min-height": 0,
+			"max-height": 16,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": [
-					-1,
-					1
+					66
 				]
 			}
 		},
@@ -193,7 +185,7 @@
 				"restriction": "whitelist",
 				"value": [
 					111,
-					4598
+					4500
 				]
 			}
 		},
