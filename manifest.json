@@ -816,6 +816,12 @@
             "fileID": 2658176,
             "projectID": 245287,
             "required": true
+        },
+        {
+            "alias": "Modular Routers (modular-routers-1.12.2-3.3.0-33.jar)",
+            "fileID": 2954953,
+            "projectID": 250294,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

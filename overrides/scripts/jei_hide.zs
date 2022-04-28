@@ -7,6 +7,52 @@ for facade in <appliedenergistics2:facade>.definition.subItems {
 }
 <appliedenergistics2:facade>.addTooltip(format.red("Facades are not disabled in this pack; just hidden in JEI. To craft facades, place the block you want to create a facade out of in the centre of the crafting grid (3x3) and four AE2 cable anchors on all adjacent sides of that block. If no output appears then you cannot create a facade with that block."));
 
+// * Hide modded Erebus Ores/Ingots
+mods.jei.JEI.hide(<erebus:materials:42>);
+mods.jei.JEI.hide(<erebus:materials:43>);
+mods.jei.JEI.hide(<erebus:materials:44>);
+mods.jei.JEI.hide(<erebus:materials:45>);
+mods.jei.JEI.hide(<erebus:materials:46>);
+mods.jei.JEI.hide(<erebus:ore_copper>);
+mods.jei.JEI.hide(<erebus:ore_silver>);
+mods.jei.JEI.hide(<erebus:ore_tin>);
+mods.jei.JEI.hide(<erebus:ore_lead>);
+mods.jei.JEI.hide(<erebus:ore_aluminium>);
+
+// * Remove and hide Industrial Foregoing Laser Lenses
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:0>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:1>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:2>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:3>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:4>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:5>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:6>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:7>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:8>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:9>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:10>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:11>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:12>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:13>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:14>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens:15>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:0>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:1>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:2>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:3>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:4>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:5>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:6>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:7>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:8>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:9>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:10>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:11>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:12>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:13>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:14>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:laser_lens_inverted:15>);
+
 // * Remove Techguns Ore Driller and recipe category
 mods.jei.JEI.hideCategory("techguns.oredrill");
 mods.jei.JEI.removeAndHide(<techguns:oredrill:0>);
@@ -29,9 +75,9 @@ mods.jei.JEI.removeAndHide(<techguns:radaway>);
 mods.jei.JEI.removeAndHide(<techguns:radpills>);
 
 // * Hide Recurrent Complex loot table items
-mods.jei.JEI.removeAndHide(<reccomplex:inventory_generation_tag>);
-mods.jei.JEI.removeAndHide(<reccomplex:inventory_generation_single_tag>);
-mods.jei.JEI.removeAndHide(<reccomplex:inventory_generation_component_tag>);
+//mods.jei.JEI.removeAndHide(<reccomplex:inventory_generation_tag>);
+//mods.jei.JEI.removeAndHide(<reccomplex:inventory_generation_single_tag>);
+//mods.jei.JEI.removeAndHide(<reccomplex:inventory_generation_component_tag>);
 
 // * Hide Biomes O' Plenty bloat
 mods.jei.JEI.removeAndHide(<biomesoplenty:grass>);

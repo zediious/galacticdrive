@@ -193,6 +193,29 @@ recipes.addShapeless(<srparasites:assimilated_flesh> * 9, [<srparasites:parasite
 
 // *** OTHER RECIPES AND BALANCE ***
 
+// * Modular Routers "Blank Module" requires Silver rather than Gold
+recipes.remove(<modularrouters:blank_module>);
+recipes.addShaped("mr_blank_module", <modularrouters:blank_module> * 4,
+    [   [null,            <minecraft:redstone>,              null],
+        [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+        [<ore:nuggetSilver>, <ore:nuggetSilver>, <ore:nuggetSilver>] ]);
+
+// * Xnet Blue Network Cable require Silver rather than Gold
+var blueNetCable = <xnet:netcable>.withTag({display: {LocName: "tile.xnet.netcable_blue.name"}});
+recipes.remove(<xnet:netcable:0>);
+recipes.addShaped("xnet_blue_netcable", blueNetCable,
+    [   [<minecraft:string>, <minecraft:redstone>, <minecraft:string>],
+        [<minecraft:redstone>, <ore:nuggetSilver>, <minecraft:redstone>],
+        [<minecraft:string>, <minecraft:redstone>, <minecraft:string>] ]);
+
+// * Xnet Blue Connector requires Silver rather than Hold
+var blueConnector = <xnet:connector>.withTag({display: {LocName: "tile.xnet.connector_blue.name"}});
+recipes.remove(<xnet:connector:0>);
+recipes.addShaped("xnet_blue_connector", blueConnector,
+    [   [<ore:dyeBlue>, <ore:chest>, <ore:dyeBlue>],
+        [<minecraft:redstone>, <ore:ingotSilver>, <minecraft:redstone>],
+        [<ore:dyeBlue>, <minecraft:redstone>, <ore:dyeBlue>] ]);
+
 // * Create Industrial Foregoing Plastic Sheets using Mekanism HDPE Pellets with Thermal/Mekanism
 mods.thermalexpansion.Compactor.addStorageRecipe(<industrialforegoing:plastic>, <mekanism:polyethene>, 3000);
 mods.mekanism.compressor.addRecipe(<mekanism:polyethene>, <industrialforegoing:plastic>);
