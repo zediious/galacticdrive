@@ -768,6 +768,18 @@
             "fileID": 2745852,
             "projectID": 260912,
             "required": true
+        },
+        {
+            "alias": "Reborn Core (RebornCore-1.12.2-3.19.5-universal.jar)",
+            "fileID": 3330308,
+            "projectID": 237903,
+            "required": true
+        },
+        {
+            "alias": "Main Menu Scale (MainMenuScale-1.3.2.jar)",
+            "fileID": 2683258,
+            "projectID": 310375,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
