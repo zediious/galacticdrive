@@ -780,6 +780,12 @@
             "fileID": 2683258,
             "projectID": 310375,
             "required": true
+        },
+        {
+            "alias": "Elenai Dodge (ElenaiDodge-1.12.2-2.1.jar)",
+            "fileID": 3575333,
+            "projectID": 373104,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
