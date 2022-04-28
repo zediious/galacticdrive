@@ -798,6 +798,12 @@
             "fileID": 2698826,
             "projectID": 319194,
             "required": true
+        },
+        {
+            "alias": "Tips (Tips-1.12.2-1.0.9.jar)",
+            "fileID": 2906537,
+            "projectID": 306549,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
