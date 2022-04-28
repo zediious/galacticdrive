@@ -786,6 +786,12 @@
             "fileID": 3575333,
             "projectID": 373104,
             "required": true
+        },
+        {
+            "alias": "Gauges and Switches (rsgauges-1.12.2-1.2.6.jar)",
+            "fileID": 3732954,
+            "projectID": 296686,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
