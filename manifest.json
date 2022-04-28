@@ -792,6 +792,12 @@
             "fileID": 3732954,
             "projectID": 296686,
             "required": true
+        },
+        {
+            "alias": "Glassential (glassential-1.12.2-1.1.0.jar)",
+            "fileID": 2698826,
+            "projectID": 319194,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
