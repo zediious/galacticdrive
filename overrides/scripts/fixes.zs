@@ -64,6 +64,74 @@ recipes.remove(<erebus:gaean_keystone>);
 
 // *** ENDGAME BALANCE AND FIXES ***
 
+// * End-Game Item/Fluid transport pipes now requires "Super-Laminar Substrate", crafted from <ore:sheetPlastic> and "Redgem Dust", which is pulverized from "Redgem", found in Ryusta - Underground.
+
+// Crush recipes for Redgem Dust from Redgem
+mods.thermalexpansion.Pulverizer.addRecipe(<contenttweaker:red_gem_dust> * 2, <erebus:materials:11>, 1500);
+mods.mekanism.crusher.addRecipe(<erebus:materials:11>, <contenttweaker:red_gem_dust> * 2);
+
+// Recipe for Super-Laminar Substrate
+recipes.addShaped("super_laminar_substrate", <contenttweaker:super_laminar_substrate>,
+    [   [null,                    <contenttweaker:red_gem_dust>,                     null],
+        [<contenttweaker:red_gem_dust>, <ore:sheetPlastic>, <contenttweaker:red_gem_dust>],
+        [null,                    <contenttweaker:red_gem_dust>,                   null] ]);
+
+// Mekanism Ultimate Logistical, Pressurized, Mechanical Pipe recipes
+var ultLogistic = <mekanism:transmitter:3>.withTag({tier: 3});
+var eliteLogistic = <mekanism:transmitter:3>.withTag({tier: 2});
+var ultPressurized = <mekanism:transmitter:2>.withTag({tier: 3});
+var elitePressurized = <mekanism:transmitter:2>.withTag({tier: 2});
+var ultMechanical = <mekanism:transmitter:1>.withTag({tier: 3});
+var eliteMechanical = <mekanism:transmitter:1>.withTag({tier: 2});
+
+recipes.remove(ultLogistic);
+recipes.remove(ultPressurized);
+recipes.remove(ultMechanical);
+
+recipes.addShaped("ultLogistic", ultLogistic * 8,
+    [   [eliteLogistic,              eliteLogistic,               eliteLogistic],
+        [eliteLogistic,           <ore:alloyUltimate>,           eliteLogistic],
+        [eliteLogistic, <contenttweaker:super_laminar_substrate>, eliteLogistic] ]);
+
+recipes.addShaped("ultPressurized", ultPressurized * 8,
+    [   [elitePressurized,              elitePressurized,            elitePressurized],
+        [elitePressurized,           <ore:alloyUltimate>,            elitePressurized],
+        [elitePressurized, <contenttweaker:super_laminar_substrate>, elitePressurized] ]);
+
+recipes.addShaped("ultMechanical", ultMechanical * 8,
+    [   [eliteMechanical,              eliteMechanical,            eliteMechanical],
+        [eliteMechanical,           <ore:alloyUltimate>,            eliteMechanical],
+        [eliteMechanical, <contenttweaker:super_laminar_substrate>, eliteMechanical] ]);
+
+// Thermal Dynamics Super-Laminar Fluiduct recipe
+var superLaminarFluiduct = <thermaldynamics:duct_16:6>;
+var superLaminarFluiductOpaque = <thermaldynamics:duct_16:7>;
+var hardenedFluiduct = <thermaldynamics:duct_16:2>;
+var hardenedFluiductOpaque = <thermaldynamics:duct_16:3>;
+
+recipes.remove(superLaminarFluiduct);
+recipes.remove(superLaminarFluiductOpaque);
+
+recipes.addShaped("superLaminarFluiduct", superLaminarFluiduct,
+    [   [<ore:ingotBronze>,        <ore:blockGlassHardened>,          <ore:ingotBronze>],
+        [<ore:blockGlassHardened>,     hardenedFluiduct,      <ore:blockGlassHardened>],
+        [<ore:ingotBronze>, <contenttweaker:super_laminar_substrate>, <ore:ingotBronze>] ]);
+
+recipes.addShapedMirrored("superLaminarFluiductConvert", superLaminarFluiduct,
+    [   [superLaminarFluiductOpaque, superLaminarFluiductOpaque, superLaminarFluiductOpaque],
+        [superLaminarFluiductOpaque, superLaminarFluiductOpaque, superLaminarFluiductOpaque],
+        [<ore:blockGlassHardened>,                      null,                          null] ]);
+
+recipes.addShaped("superLaminarFluiductOpaque", superLaminarFluiductOpaque,
+    [   [<ore:ingotBronze>,        <ore:blockGlassHardened>,          <ore:ingotBronze>],
+        [<ore:blockGlassHardened>,     hardenedFluiductOpaque,      <ore:blockGlassHardened>],
+        [<ore:ingotBronze>, <contenttweaker:super_laminar_substrate>, <ore:ingotBronze>] ]);
+
+recipes.addShapedMirrored("superLaminarFluiductOpaqueConvert", superLaminarFluiductOpaque,
+    [   [superLaminarFluiduct, superLaminarFluiduct, superLaminarFluiduct],
+        [superLaminarFluiduct, superLaminarFluiduct, superLaminarFluiduct],
+        [<ore:ingotLead>,                      null,                          null] ]);
+
 // * Xnet Routers and Advanced Connectors require Jade from Ryusta - Underground/Erebus
 
 // Advanced Connector
@@ -233,9 +301,12 @@ mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid
 // * WarpDrive basic hull glass is considered as Hardened glass
 <ore:blockGlassHardened>.addAll(<ore:blockHull1_glass>);
 
-// * Mekanism HDPE Pellet is considered as rubber item or plastic sheet
+// * Industrial Foregoing Plastic is considered a plastic sheet, and not a rubber item
+<ore:sheetPlastic>.add(<industrialforegoing:plastic>);
+<ore:itemRubber>.remove(<industrialforegoing:plastic>);
+
+// * Mekanism HDPE Pellet is considered as rubber item
 <ore:itemRubber>.add(<mekanism:polyethene:0>);
-<ore:sheetPlastic>.add(<mekanism:polyethene:2>);
 
 // Mekanism salt block using ore dictionary
 recipes.remove(<mekanism:saltblock>);
