@@ -846,6 +846,12 @@
             "fileID": 2733525,
             "projectID": 241895,
             "required": true
+        },
+        {
+            "alias": "Armourer's Workshop (Armourers-Workshop-1.12.2-0.51.0.jar)",
+            "fileID": 3101995,
+            "projectID": 229523,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
