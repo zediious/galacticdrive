@@ -840,6 +840,12 @@
             "fileID": 3045651,
             "projectID": 261251,
             "required": true
+        },
+        {
+            "alias": "KleeSlabs (KleeSlabs_1.12.2-5.4.12.jar)",
+            "fileID": 2733525,
+            "projectID": 241895,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
