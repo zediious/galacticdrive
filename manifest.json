@@ -852,6 +852,12 @@
             "fileID": 3101995,
             "projectID": 229523,
             "required": true
+        },
+        {
+            "alias": "Comforts (Forge) (comforts-1.12.2-1.4.1.3.jar)",
+            "fileID": 2880613,
+            "projectID": 276951,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
