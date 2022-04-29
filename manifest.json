@@ -834,6 +834,12 @@
             "fileID": 3331364,
             "projectID": 237065,
             "required": true
+        },
+        {
+            "alias": "Bad Wither No Cookie - Reloaded (badwithernocookiereloaded-1.12.2-3.4.18.jar)",
+            "fileID": 3045651,
+            "projectID": 261251,
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",
