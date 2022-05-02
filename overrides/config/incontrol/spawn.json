@@ -41,6 +41,7 @@
   },
   // *** Restrict "Assimilated Human" count to 35 ***
   {
+    "dimension": ["0","-1","17","111","112","-127","4500","-500"],
     "mob": "srparasites:sim_human",
     "maxcount": 22,
     "onjoin": true,
@@ -263,20 +264,6 @@
   },
   // *** MELGAMAR ***
   // ***************
-  {
-    "dimension": -1,
-    "mob": "srparasites:ada_arachnida",
-    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 6,
-    "onjoin": true,
-    "result": "allow"
-  },
-  {
-    "dimension": -1,
-    "mob": "srparasites:ada_arachnida",
-    "onjoin": true,
-    "result": "deny"
-  },
   {
     "dimension": -1,
     "mob": "srparasites:crux",
