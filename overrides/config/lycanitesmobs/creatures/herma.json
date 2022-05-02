@@ -1,6 +1,6 @@
 {
   "name": "herma",
-  "creatureType": "arthropod",
+  "creatureType": "aquatic",
   "groups": [
     "monster"
   ],
@@ -50,8 +50,10 @@
   "effectDuration": 5,
   "effectAmplifier": -1,
   "pierce": 1,
-  "sight": 24,
+  "sight": 28,
   "knockbackResistance": 0,
+  "bagSize": 10,
+  "tamingReputation": 250,
   "eggBackColor": "#e50403",
   "eggForeColor": "#f1c2a1",
   "subspecies": [
@@ -84,7 +86,7 @@
   "summonable": false,
   "tameable": false,
   "mountable": false,
-  "perchable": true,
+  "perchable": false,
   "summonCost": 4,
   "dungeonLevel": 0,
   "drops": [

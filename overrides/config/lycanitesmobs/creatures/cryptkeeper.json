@@ -42,18 +42,19 @@
   "width": 0.6,
   "height": 1.95,
   "experience": 5,
-  "health": 40,
+  "health": 46,
   "defense": 0,
   "armor": 0,
-  "speed": 32,
+  "speed": 28,
   "damage": 8,
-  "attackSpeed": 1.4,
+  "attackSpeed": 1.2,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
   "sight": 24,
   "knockbackResistance": 0,
+  "bagSize": 5,
   "eggBackColor": "#CC9966",
   "eggForeColor": "#AA8800",
   "subspecies": [
@@ -73,13 +74,13 @@
       ]
     }
   ],
-  "element": "gravity",
+  "element": "arcane",
   "diets": [
     "carnivore",
     "detritivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "summonCost": 2,

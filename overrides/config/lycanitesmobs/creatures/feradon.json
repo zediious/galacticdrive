@@ -43,15 +43,17 @@
   "health": 36,
   "defense": 0,
   "armor": 0,
-  "speed": 32,
-  "damage": 12,
-  "attackSpeed": 1,
+  "speed": 38,
+  "damage": 8,
+  "attackSpeed": 1.4,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
-  "knockbackResistance": 0.25,
+  "sight": 38,
+  "knockbackResistance": 1,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#e4a23d",
   "eggForeColor": "#552d0e",
   "subspecies": [
@@ -77,8 +79,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
@@ -95,6 +97,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 0.6,
-  "hitboxScale": 0.6
+  "sizeScale": 0.7,
+  "hitboxScale": 0.7
 }

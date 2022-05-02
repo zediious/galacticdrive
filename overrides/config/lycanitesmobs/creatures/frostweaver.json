@@ -1,6 +1,6 @@
 {
   "name": "frostweaver",
-  "creatureType": "arthropod",
+  "creatureType": "arachnid",
   "groups": [
     "frozen"
   ],
@@ -43,16 +43,17 @@
   "experience": 5,
   "health": 60,
   "defense": 1,
-  "armor": 0,
+  "armor": 6,
   "speed": 56,
-  "damage": 1,
-  "attackSpeed": 1,
-  "rangedSpeed": 0.5,
+  "damage": 8,
+  "attackSpeed": 1.8,
+  "rangedSpeed": 1.2,
   "effectDuration": 5,
   "effectAmplifier": 1,
   "pierce": 1,
-  "sight": 24,
-  "knockbackResistance": 0,
+  "sight": 38,
+  "knockbackResistance": 1.5,
+  "bagSize": 5,
   "eggBackColor": "#AADDFF",
   "eggForeColor": "#226699",
   "subspecies": [
@@ -97,6 +98,6 @@
       "chance": 0.5
     }
   ],
-  "sizeScale": 3.0,
-  "hitboxScale": 3.0
+  "sizeScale": 2.5,
+  "hitboxScale": 2.5
 }

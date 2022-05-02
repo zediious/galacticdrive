@@ -32,7 +32,7 @@
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
     "spawnGroupMax": 2,
-    "spawnsInLight": true,
+    "spawnsInLight": false,
     "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,
@@ -42,17 +42,19 @@
   "height": 1.5,
   "experience": 10,
   "health": 40,
-  "defense": 1,
-  "armor": 0,
-  "speed": 32,
+  "defense": 4,
+  "armor": 2,
+  "speed": 34,
   "damage": 8,
-  "attackSpeed": 1,
+  "attackSpeed": 1.2,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
-  "knockbackResistance": 0.25,
+  "sight": 38,
+  "knockbackResistance": 0.80,
+  "bagSize": 10,
+  "tamingReputation": 500,
   "eggBackColor": "#c9cccd",
   "eggForeColor": "#52504e",
   "subspecies": [
@@ -97,6 +99,6 @@
       "chance": 0.5
     }
   ],
-  "sizeScale": 0.7,
-  "hitboxScale": 0.7
+  "sizeScale": 0.8,
+  "hitboxScale": 0.8
 }

@@ -1,6 +1,6 @@
 {
   "name": "arisaur",
-  "creatureType": "beast",
+  "creatureType": "reptile",
   "groups": [
     "animal"
   ],
@@ -38,21 +38,22 @@
     "despawnNatural": false,
     "despawnForced": false
   },
-  "width": 4.9,
+  "width": 3.9,
   "height": 4.2,
   "experience": 5,
-  "health": 60,
+  "health": 80,
   "defense": 1,
-  "armor": 0,
-  "speed": 34,
-  "damage": 8,
+  "armor": 10,
+  "speed": 35,
+  "damage": 6,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
-  "knockbackResistance": 1,
+  "sight": 60,
+  "knockbackResistance": 3,
+  "bagSize": 5,
   "eggBackColor": "#008800",
   "eggForeColor": "#00FF00",
   "subspecies": [
@@ -77,7 +78,7 @@
     "herbivore",
     "frugivore"
   ],
-  "peaceful": false,
+  "peaceful": true,
   "farmable": false,
   "summonable": false,
   "tameable": false,
@@ -93,6 +94,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 0.5,
-  "hitboxScale": 0.5
+  "sizeScale": 0.8,
+  "hitboxScale": 0.8
 }

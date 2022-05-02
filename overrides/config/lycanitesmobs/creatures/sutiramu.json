@@ -1,6 +1,6 @@
 {
   "name": "sutiramu",
-  "creatureType": "arthropod",
+  "creatureType": "arachnid",
   "groups": [
     "predator"
   ],
@@ -42,18 +42,19 @@
   "width": 1.9,
   "height": 1.9,
   "experience": 5,
-  "health": 32,
-  "defense": 1,
-  "armor": 0,
-  "speed": 44,
+  "health": 42,
+  "defense": 2,
+  "armor": 6,
+  "speed": 42,
   "damage": 4,
   "attackSpeed": 2.4,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
-  "knockbackResistance": 0,
+  "sight": 38,
+  "knockbackResistance": 0.75,
+  "bagSize": 5,
   "eggBackColor": "#83553b",
   "eggForeColor": "#2c1c0f",
   "subspecies": [
@@ -74,7 +75,7 @@
     }
   ],
   "elements": [
-    "gravity",
+    "arcane",
     "quake"
   ],
   "diets": [

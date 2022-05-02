@@ -36,18 +36,19 @@
   "width": 0.6,
   "height": 2.4,
   "experience": 10,
-  "health": 40,
+  "health": 44,
   "defense": 0,
-  "armor": 1.0,
-  "speed": 55,
-  "damage": 6,
-  "attackSpeed": 2.4,
+  "armor": 2,
+  "speed": 50,
+  "damage": 5,
+  "attackSpeed": 1.8,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 40,
-  "knockbackResistance": 1.0,
+  "sight": 45,
+  "knockbackResistance": 1,
+  "bagSize": 5,
   "eggBackColor": "#705449",
   "eggForeColor": "#310e08",
   "subspecies": [
@@ -95,8 +96,8 @@
       "chance": 0.05
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1,
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2,
   "flags": [
     {
       "name": "shadowfireDeath",

@@ -44,6 +44,7 @@
   "pierce": 2,
   "sight": 64,
   "knockbackResistance": 1,
+  "bagSize": 5,
   "eggBackColor": "#340101",
   "eggForeColor": "#960000",
   "boss": true,
@@ -84,6 +85,7 @@
   "mountable": false,
   "summonCost": 2,
   "dungeonLevel": 1,
+  "bossNearbyRange": 60,
   "drops": [
     {
       "item": "minecraft:bone",
@@ -155,19 +157,22 @@
       "item": "lycanitesmobs:soulstone_undead",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 1,
+      "bonusAmount": false
     },
     {
       "item": "lycanitesmobs:soulstone_aberration",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 1,
+      "bonusAmount": false
     },
     {
       "item": "lycanitesmobs:soulstone_beast",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 1,
+      "bonusAmount": false
     }
   ],
   "sizeScale": 1,

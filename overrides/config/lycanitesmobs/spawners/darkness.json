@@ -1,7 +1,8 @@
 {
   "name": "darkness",
   "type": "spawner",
-  "enabled": false,
+  "enabled": true,
+  "loadDefault": true,
   "conditionsRequired": 0,
   "triggersRequired": 3,
   "multipleLocations": "combine",
@@ -12,7 +13,15 @@
   "ignoreLightLevel": true,
   "ignoreGroupLimit": true,
   "ignoreForgeCanSpawnEvent": true,
-  "conditions": [],
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0,
+        7
+      ]
+    }
+  ],
   "triggers": [
     {
       "type": "player",
@@ -22,7 +31,7 @@
       "conditions": [
         {
           "type": "player",
-          "lightLevelMax": 5
+          "lightLevelMax": 3
         }
       ]
     },
@@ -34,7 +43,7 @@
       "conditions": [
         {
           "type": "player",
-          "lightLevelMin": 6
+          "lightLevelMin": 4
         }
       ]
     }
