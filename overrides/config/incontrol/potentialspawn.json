@@ -377,6 +377,12 @@
         "groupcountmax": 5
       },
       {
+        "mob": "nuclearcraft:feral_ghoul",
+        "weight": 20,
+        "groupcountmin": 4,
+        "groupcountmax": 8
+      },
+      {
         "mob": "mowziesmobs:ferrous_wroughtnaut",
         "weight": 5,
         "groupcountmin": 1,

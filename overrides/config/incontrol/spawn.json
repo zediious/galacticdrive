@@ -435,12 +435,6 @@
   },
   {
     "dimension": 17,
-    "mob": "lycanitesmobs:cryptkeeper",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 17,
     "mob": "lycanitesmobs:roc",
     "block": ["atum:sand","atum:sand_layer"],
     "maxcount": 4,
@@ -452,12 +446,6 @@
   },
   {
     "dimension": 17,
-    "mob": "lycanitesmobs:roc",
-    "onjoin": true,
-    "result": "deny"
-  },
-  {
-    "dimension": 17,
     "mob": "lycanitesmobs:sutiramu",
     "block": ["atum:sand","atum:sand_layer"],
     "maxcount": 16,
@@ -465,13 +453,7 @@
     "angry": true,
     "result": "allow"
   },
-  {
-    "dimension": 17,
-    "mob": "lycanitesmobs:sutiramu",
-    "onjoin": true,
-    "result": "deny"
-  },
-  // *** TROPICS*** 
+  // *** RYUSTA *** 
   // **************
   {
     "dimension": -127,
@@ -644,7 +626,7 @@
     "onjoin": true,
     "result": "deny"
   },
-    {
+  {
     "dimension": 112,
     "mob": "srparasites:warden",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
@@ -684,6 +666,16 @@
     "maxcount": 16,
     "maxheight": 100,
     "seesky": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 112,
+    "mob": "nuclearcraft:feral_ghoul",
+    "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
+    "maxcount": 35,
+    "maxheight": 80,
+    "seesky": false,
     "onjoin": true,
     "result": "allow"
   },
