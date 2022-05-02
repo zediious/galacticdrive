@@ -3,7 +3,7 @@
 // ONLY weights and min/max groups defined here
 [
   // ****** Planetary mob distribution ******
-  //Each parasite has venus defined as a spawn
+  //Each parasite has Ewell-16 defined as a spawn
   //wherever it is placed here. Some native NPCs
   //are defined to change weights/group sizes.
   //

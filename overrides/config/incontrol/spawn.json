@@ -39,7 +39,7 @@
     "onjoin": true,
     "result": "deny"
   },
-  // *** Restrict "Assimilated Human" count to 35 ***
+  // *** Restrict "Assimilated Human" count to 22 ***
   {
     "dimension": ["0","-1","17","111","112","-127","4500","-500"],
     "mob": "srparasites:sim_human",
@@ -65,7 +65,7 @@
     "onjoin": true,
     "result": "deny"
   },
-  // *** Restrict mob count on Venus to 140
+  // *** Restrict mob count on Ewell-16 to 80
   {
     "dimension": 4500,
     "mod": "srparasites",
