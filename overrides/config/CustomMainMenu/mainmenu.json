@@ -21,7 +21,7 @@
             "posY" : 200,
             "width" : 200,
             "height" : 20,
-            "tooltip": "Play Galactic Drive Singleplayer!\nBe sure to use the RTG world type!",
+            "tooltip": "Play Galactic Drive Singleplayer!\nBe sure to use the TOPOGRAPHY world type!",
             "action" : 
             {
                 "type" : "openGui",

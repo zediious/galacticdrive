@@ -65,7 +65,7 @@
 				<parent>
 					<center x="-9783" z="26000" />
 				</parent>
-				<size x="600" z="600" />
+				<size x="1500" z="1500" />
                 <name>Roika</name>
 				<description>Just another day...right?</description>
 				<dimension id="-500" isBreathable="true" gravity="normal">
@@ -104,7 +104,7 @@
 				<size x="4000" z="4000" />
 				<name>Ewell-16</name>
 				<description>Humans made a mistake using this planet as their nuclear waste depot...</description>
-				<dimension id="4500" isBreathable="true" gravity="normal">
+				<dimension id="4500" isBreathable="false" gravity="normal">
 					<center x="0" z="0" />
 				</dimension>
 				<render red="1.00" green="1.00" blue="0.70" alpha="1.00" texture="srparasites:textures/blocks/parasitestain_dirt_down.png" periodU="24500" />

@@ -1,0 +1,59 @@
+// This file defines Glacia's world generation
+
+// Assigns Overworld generator
+worldGeneration = new OverworldGenerator()
+addGenerator(worldGeneration)
+
+// Use RTG biome generator
+useWorldTypeTerrain()
+
+// Generate caves
+caves = new VanillaCaveGenerator()
+addGenerator(caves)
+
+// Generate ravines
+ravines = new VanillaRavineGenerator()
+addGenerator(ravines)
+
+// Generate water lakes
+waterLake = new VanillaLakeGenerator(<minecraft:water>)
+addGenerator(waterLake)
+
+// Generate things like trees, plants, etc when applicable
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)
+
+// Generate animals
+animals = new VanillaAnimalGenerator()
+addGenerator(animals)
+
+// Generates snow and freezes water in cold areas.
+ice = new IceAndSnowGenerator()
+addGenerator(ice)
+
+// Generate Villages
+generateVillage()
+
+// Forces constant snow
+weather = overrideWeatherRenderer()
+weather.replaceRainWithSnow()
+weather.overrideBiomeRestrictions()
+weather.persistentSnow()
+
+// Disables Sky rendering
+disableSky()
+
+// Set fog color to a very light blue
+setFogColor(#cfe2f3)
+
+// Add Land biomes to the dimension with a weight of 10
+addBiomes(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"])
+
+// Sets "Hill" biome of added biomes to a BOP Glacier. "Hill" biomes only generate when a biome is mostly surrounded by itself.
+addHills(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"], "biomesoplenty:glacier")
+
+// Sets River biome of the added Land biomes
+setRiver(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"], "minecraft:frozen_river")
+
+// Add Ocean biomes to the dimension
+addOceanBiomes("minecraft:frozen_ocean", 4)

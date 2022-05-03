@@ -1,0 +1,50 @@
+// This file defines Roika's world generation
+
+// Assigns Overworld generator
+worldGeneration = new OverworldGenerator()
+addGenerator(worldGeneration)
+
+// Use RTG biome generator
+useWorldTypeTerrain()
+
+// Generate caves
+caves = new VanillaCaveGenerator()
+addGenerator(caves)
+
+// Generate ravines
+ravines = new VanillaRavineGenerator()
+addGenerator(ravines)
+
+// Generate water lakes
+waterLake = new VanillaLakeGenerator(<minecraft:water>)
+addGenerator(waterLake)
+
+// Generate things like trees, plants, etc when applicable
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)
+
+// Generate animals
+animals = new VanillaAnimalGenerator()
+addGenerator(animals)
+
+// Generates snow and freezes water in cold areas.
+ice = new IceAndSnowGenerator()
+addGenerator(ice)
+
+// Generate Villages
+generateVillage()
+
+// Add Land biomes to the dimension with a weight of 10
+addBiomes(["biomesoplenty:grove","biomesoplenty:wetland","biomesoplenty:chaparral"])
+
+// Adds Cherry Blossom Grove biome with a weight of 5
+addBiomes("biomesoplenty:cherry_blossom_grove", 5)
+
+// Sets "Hill" biome of added biomes to a BOP Overgrown Cliffs. "Hill" biomes only generate when a biome is mostly surrounded by itself.
+addHills(["biomesoplenty:grove","biomesoplenty:wetland","biomesoplenty:chaparral"], "biomesoplenty:overgrown_cliffs")
+
+// Sets River biome of the added Land biomes
+setRiver(["biomesoplenty:grove","biomesoplenty:wetland","biomesoplenty:chaparral"], "minecraft:river")
+
+// Add Ocean biomes to the dimension
+addOceanBiomes("minecraft:ocean", 4)
