@@ -217,7 +217,7 @@
   {
     "dimension": -500,
     "mob": "minecraft:villager_golem",
-    "block": ["minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
+    "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
     "maxcount": 14,
     "maxheight": 70,
     "onjoin": true,
