@@ -82,10 +82,10 @@
     "onjoin": true,
     "result": "deny"
   },
-  // Deny squid on Glacia
+  // Deny some vanilla mobs on Glacia
   {
     "dimension": 111,
-    "mob": "minecraft:squid",
+    "mob": ["minecraft:squid","minecraft:pig","minecraft:cow"],
     "onjoin": true,
     "result": "deny"
   },
