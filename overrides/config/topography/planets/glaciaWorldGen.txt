@@ -53,7 +53,7 @@ addBiomes(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutate
 addHills(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"], "biomesoplenty:glacier")
 
 // Sets River biome of the added Land biomes
-setRiver(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"], "minecraft:frozen_river")
+setRiver(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest","biomesoplenty:glacier"], "minecraft:frozen_river")
 
 // Add Ocean biomes to the dimension
 addOceanBiomes("minecraft:frozen_ocean", 4)
