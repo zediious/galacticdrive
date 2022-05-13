@@ -63,7 +63,7 @@
 			
 			<celestialObject id="solar-roika">
 				<parent>
-					<center x="-9783" z="26000" />
+					<center x="-27500" z="29000" />
 				</parent>
 				<size x="1500" z="1500" />
                 <name>Roika</name>

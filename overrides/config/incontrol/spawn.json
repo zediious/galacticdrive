@@ -269,6 +269,7 @@
     "mob": "srparasites:crux",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
     "maxcount": 6,
+    "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
     "result": "allow"
   },
@@ -283,6 +284,7 @@
     "mob": "srparasites:heed",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
     "maxcount": 6,
+    "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
     "result": "allow"
   },

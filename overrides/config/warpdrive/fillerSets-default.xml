@@ -164,7 +164,6 @@
 	<fillerSet group="end_ores" name="endstone">
 		<import group="end_gems" /><!-- add a random gem, don't mix them in the same volume -->
 
-		<filler block="appliedenergistics2:quartz_block" ratio=".005" mods="appliedenergistics2" /><!-- Certus quartz -->
 		<filler block="bigreactors:brore" metadata="1" ratio=".015" mods="bigreactors" /><!-- Anglesite -->
 	</fillerSet>
 
@@ -329,12 +328,10 @@
 		<filler block="minecraft:water" weight="100" />
 		<filler block="minecraft:ice" ratio="0.075" />
 		<filler block="minecraft:packed_ice" ratio="0.005" />
-		<filler block="appliedenergistics2:quartz_block" ratio=".005" mods="appliedenergistics2" /><!-- Certus quartz block -->
 	</fillerSet>
 	<fillerSet group="moon.core" name="ice" weight="1">
 		<filler block="minecraft:packed_ice" weight="100" />
 		<filler block="minecraft:lapis_block" ratio="0.02" />
-		<filler block="appliedenergistics2:quartz_block" ratio=".010" mods="appliedenergistics2" /><!-- Certus quartz block -->
 	</fillerSet>
 	<fillerSet group="moon.core" name="diaquartz" weight="1">
 		<filler block="minecraft:quartz_block" metadata="0" weight="100" />

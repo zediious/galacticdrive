@@ -4,9 +4,6 @@
 worldGeneration = new OverworldGenerator()
 addGenerator(worldGeneration)
 
-// Use RTG biome generator
-useWorldTypeTerrain()
-
 // Generate caves
 caves = new VanillaCaveGenerator()
 addGenerator(caves)
@@ -47,10 +44,13 @@ disableSky()
 setFogColor(#cfe2f3)
 
 // Add Land biomes to the dimension with a weight of 10
-addBiomes(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"])
+addBiomes(["biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"])
 
 // Sets "Hill" biome of added biomes to a BOP Glacier. "Hill" biomes only generate when a biome is mostly surrounded by itself.
-addHills(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"], "biomesoplenty:glacier")
+addHills(["minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"], "biomesoplenty:glacier")
+
+// Sets "Hill" biome of BOP Alps Foothiils to the BOP Alps biome.
+addHills("biomesoplenty:alps_foothills", "biomesoplenty:alps")
 
 // Sets River biome of the added Land biomes
 setRiver(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest","biomesoplenty:glacier"], "minecraft:frozen_river")
