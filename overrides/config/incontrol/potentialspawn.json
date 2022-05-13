@@ -118,13 +118,13 @@
     "mobs": [
       {
         "mob": "srparasites:ada_summoner",
-        "weight": 25,
+        "weight": 13,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "srparasites:overseer",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -317,19 +317,19 @@
       },
       {
         "mob": "srparasites:marauder",
-        "weight": 16,
+        "weight": 6,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "srparasites:ada_yelloweye",
-        "weight": 10,
+        "weight": 8,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:maug",
-        "weight": 24,
+        "weight": 18,
         "groupcountmin": 5,
         "groupcountmax": 6
       },
@@ -348,7 +348,7 @@
     "mobs": [
       {
         "mob": "srparasites:ada_reeker",
-        "weight": 16,
+        "weight": 8,
         "groupcountmin": 1,
         "groupcountmax": 1
       },

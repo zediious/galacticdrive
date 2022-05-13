@@ -160,7 +160,7 @@
     "dimension": ["0","-1","17","111","112","-127","4500"],
     "mob": "srparasites:grunt",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth"],
-    "maxcount": 12,
+    "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
@@ -238,7 +238,7 @@
     "dimension": 0,
     "mob": "srparasites:ada_summoner",
     "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow","minecraft:snow_layer"],
-    "maxcount": 6,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -252,7 +252,7 @@
     "dimension": 0,
     "mob": "srparasites:overseer",
     "block": ["minecraft:grass","minecraft:sand","minecraft:dirt","minecraft:hardened_clay","minecraft:snow","minecraft:snow_layer"],
-    "maxcount": 3,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -298,7 +298,7 @@
     "dimension": -1,
     "mob": "srparasites:ada_yelloweye",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 10,
+    "maxcount": 6,
     "minheight": 60,
     "onjoin": true,
     "result": "allow"
@@ -313,7 +313,7 @@
     "dimension": -1,
     "mob": "techguns:zombiepigmansoldier",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 12,
+    "maxcount": 8,
     "onjoin": true,
     "result": "allow"
   },
@@ -327,7 +327,7 @@
     "dimension": -1,
     "mob": "mowziesmobs:naga",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 3,
+    "maxcount": 2,
     "minheight": 60,
     "seesky": true,
     "onjoin": true,
@@ -374,7 +374,7 @@
     "dimension": 17,
     "mob": "srparasites:vigilante",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 10,
+    "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
@@ -388,7 +388,7 @@
     "dimension": 17,
     "mob": "srparasites:ada_manducater",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 14,
+    "maxcount": 6,
     "onjoin": true,
     "result": "allow"
   },
@@ -439,7 +439,7 @@
     "dimension": 17,
     "mob": "lycanitesmobs:roc",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 4,
+    "maxcount": 2,
     "minheight": 65,
     "seesky": true,
     "onjoin": true,
@@ -450,7 +450,7 @@
     "dimension": 17,
     "mob": "lycanitesmobs:sutiramu",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 16,
+    "maxcount": 10,
     "onjoin": true,
     "angry": true,
     "result": "allow"
@@ -461,7 +461,7 @@
     "dimension": -127,
     "mob": "srparasites:ada_reeker",
     "block": ["minecraft:grass","tropicraft:sand"],
-    "maxcount": 6,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -475,7 +475,7 @@
     "dimension": -127,
     "mob": "srparasites:ada_longarms",
     "block": ["minecraft:grass","tropicraft:sand"],
-    "maxcount": 8,
+    "maxcount": 3,
     "onjoin": true,
     "result": "allow"
   },
@@ -570,7 +570,7 @@
     "dimension": 111,
     "mob": "srparasites:marauder",
     "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 8,
+    "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
@@ -584,7 +584,7 @@
     "dimension": 111,
     "mob": "srparasites:ada_yelloweye",
     "block": ["minecraft:stone","minecraft:snow_layer","biomesoplenty:leaves","minecraft:packed_ice","biomesoplenty:grass"],
-    "maxcount": 12,
+    "maxcount": 10,
     "minheight": 65,
     "onjoin": true,
     "result": "allow"
@@ -598,7 +598,7 @@
   {
     "dimension": 111,
     "mob": "lycanitesmobs:maug",
-    "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer"],
     "maxcount": 18,
     "onjoin": true,
     "result": "allow"
@@ -617,7 +617,7 @@
     "dimension": 112,
     "mob": "srparasites:ada_reeker",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
-    "maxcount": 8,
+    "maxcount": 3,
     "maxheight": 100,
     "seesky": true,
     "onjoin": true,
@@ -633,7 +633,7 @@
     "dimension": 112,
     "mob": "srparasites:warden",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
-    "maxcount": 10,
+    "maxcount": 3,
     "onjoin": true,
     "result": "allow"
   },
