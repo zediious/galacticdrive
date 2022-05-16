@@ -598,7 +598,7 @@
   {
     "dimension": 111,
     "mob": "lycanitesmobs:maug",
-    "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer"],
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer"],
     "maxcount": 18,
     "onjoin": true,
     "result": "allow"
@@ -608,6 +608,25 @@
     "mob": "lycanitesmobs:frostweaver",
     "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
     "maxcount": 6,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:bobeko",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "maxcount": 6,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:warg",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass"],
+    "maxcount": 10,
+    "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
   },

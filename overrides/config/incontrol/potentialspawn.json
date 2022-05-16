@@ -335,9 +335,21 @@
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 14,
+        "weight": 12,
         "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:bobeko",
+        "weight": 10,
+        "groupcountmin": 2,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:warg",
+        "weight": 14,
+        "groupcountmin": 2,
+        "groupcountmax": 4
       }
     ]
   },
