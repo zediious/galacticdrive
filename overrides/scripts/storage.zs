@@ -1,37 +1,27 @@
+import mods.techguns.Fabricator;
+
 // *** Applied Energestics 2 Presses
-// Crafting from Parasite drops as an alternative to exploration
+// Crafted using Techguns Fabricator, requiring plates of different metals
+
+var chargedCertus = <appliedenergistics2:material:1>;
+var osmiumDust = <mekanism:dust:2>;
+var certusBlock = <appliedenergistics2:quartz_block>;
+var nickelPlate = <thermalfoundation:material:325>;
+var alumPlate = <thermalfoundation:material:324>;
+var leadPlate = <thermalfoundation:material:323>;
+var steelPlate = <thermalfoundation:material:352>;
 
 // * Calculation press
-recipes.addShapeless("appliedenergistics2_calculation_press", <appliedenergistics2:material:13>,
-	[	<minecraft:ender_chest>,
-		<ore:blockIron>,
-		<ore:crystalPureFluix>,
-		<appliedenergistics2:material:10>,
-		<srparasites:lurecomponent6> ]);
+Fabricator.addRecipe(chargedCertus*5,2, osmiumDust*5,4, leadPlate,1, certusBlock,3, <appliedenergistics2:material:13>);
 
 // * Engineering press
-recipes.addShapeless("appliedenergistics2_engineering_press", <appliedenergistics2:material:14>,
-	[	<minecraft:ender_chest>,
-		<ore:blockIron>,
-		<ore:crystalPureFluix>,
-		<ore:blockDiamond>,
-		<srparasites:lurecomponent6> ]);
+Fabricator.addRecipe(chargedCertus*5,2, osmiumDust*5,4, alumPlate,1, certusBlock,3, <appliedenergistics2:material:14>);
 
 // * Logic press
-recipes.addShapeless("appliedenergistics2_logic_press", <appliedenergistics2:material:15>,
-	[	<minecraft:ender_chest>,
-		<ore:blockIron>,
-		<ore:crystalPureFluix>,
-		<ore:blockGold>,
-		<srparasites:lurecomponent6> ]);
+Fabricator.addRecipe(chargedCertus*5,2, osmiumDust*5,4, nickelPlate,1, certusBlock,3, <appliedenergistics2:material:15>);
 
 // * Silicon press
-recipes.addShapeless("appliedenergistics2_silicon_press", <appliedenergistics2:material:19>,
-	[	<minecraft:ender_chest>,
-		<ore:blockIron>,
-		<ore:crystalPureFluix>,
-		<appliedenergistics2:material:5>,
-		<srparasites:lurecomponent6> ]);
+Fabricator.addRecipe(chargedCertus*5,2, osmiumDust*5,4, steelPlate,1, certusBlock,3, <appliedenergistics2:material:19>);
 
 // * ME Interface
 recipes.remove(<appliedenergistics2:interface>);

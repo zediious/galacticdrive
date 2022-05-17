@@ -244,21 +244,6 @@ recipes.addShapedMirrored("Ammo Press",
 [<thermalfoundation:material:128>, <techguns:itemshared:70>, <thermalfoundation:material:128>], 
 [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 
-// *** PARASITE DROP RECIPES ***
-
-// * Infected Flesh > Moldering Segment > Essential Segment
-// To be used as a necessary part for AE2 Presses
-
-// * Infected Flesh > Moldering Segment
-recipes.addShapeless(<srparasites:lurecomponent5>, [<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>,<srparasites:assimilated_flesh>]);
-
-// * Moldering Segment > Essential Segment
-recipes.addShapeless(<srparasites:lurecomponent6>, [<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>,<srparasites:lurecomponent5>]);
-
-// * Parasitic Bag > 9 Infected Flesh
-// 9 Infected Flesh already makes a Parastic Bag, but a reverse recipe is not present. This adds that recipe
-recipes.addShapeless(<srparasites:assimilated_flesh> * 9, [<srparasites:parasitecanister:3>]);
-
 // *** OTHER RECIPES AND BALANCE ***
 
 // * Modular Routers "Blank Module" requires Silver rather than Gold
@@ -284,6 +269,13 @@ recipes.addShaped("xnet_blue_connector", blueConnector,
         [<minecraft:redstone>, <ore:ingotSilver>, <minecraft:redstone>],
         [<ore:dyeBlue>, <minecraft:redstone>, <ore:dyeBlue>] ]);
 
+// * Change Techguns Elite Circuit to require similar resources as Mekanism Elite Circuit
+recipes.remove(<techguns:itemshared:66>);
+recipes.addShaped("techguns_elite_circuit", <techguns:itemshared:66>,
+    [   [<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>],
+        [<minecraft:redstone>, <ore:circuitBasic>, <minecraft:redstone>],
+        [<minecraft:redstone>, <ore:dustDiamond>, <minecraft:redstone>] ]);
+
 // * Create Industrial Foregoing Plastic Sheets using Mekanism HDPE Pellets with Thermal/Mekanism
 mods.thermalexpansion.Compactor.addStorageRecipe(<industrialforegoing:plastic>, <mekanism:polyethene>, 3000);
 mods.mekanism.compressor.addRecipe(<mekanism:polyethene>, <industrialforegoing:plastic>);
@@ -297,6 +289,12 @@ mods.mekanism.purification.addRecipe(<ore:dustEndstone>, <gas:oxygen>, <nuclearc
 
 // * Redstone block tinker basin recipe
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:redstone_block>, null, <liquid:redstone>, 900, true);
+
+// * Add Techguns Bio Mass to WarpDrive itemBioFiber OreDict
+<ore:itemBiofiber>.add(<techguns:itemshared:61>);
+
+// * Add WarpDrive itemBioFiber OreDict to Thermal itemBiomass OreDict
+<ore:itemBiomass>.addAll(<ore:itemBiofiber>);
 
 // * WarpDrive basic hull glass is considered as Hardened glass
 <ore:blockGlassHardened>.addAll(<ore:blockHull1_glass>);
