@@ -246,6 +246,18 @@ recipes.addShapedMirrored("Ammo Press",
 
 // *** OTHER RECIPES AND BALANCE ***
 
+// * Botania Mana Pool requires Silver Dust
+recipes.remove(<botania:pool>);
+recipes.remove(<botania:pool:2>);
+recipes.addShaped("botania_mana_pool", <botania:pool>,
+    [   [<ore:dustSilver>,       null,       <ore:dustSilver>],
+        [<ore:livingrock>,       null,       <ore:livingrock>],
+        [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>] ]);
+recipes.addShaped("botania_mana_pool_slab", <botania:pool:2>,
+    [   [<ore:dustSilver>,                     null,                    <ore:dustSilver>],
+        [<botania:livingrock0slab>,            null,           <botania:livingrock0slab>],
+        [<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>] ]);
+
 // * Modular Routers "Blank Module" requires Silver rather than Gold
 recipes.remove(<modularrouters:blank_module>);
 recipes.addShaped("mr_blank_module", <modularrouters:blank_module> * 4,
