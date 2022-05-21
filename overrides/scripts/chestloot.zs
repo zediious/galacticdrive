@@ -38,12 +38,6 @@ hilundPool1.addItemEntry(<techguns:combatshotgun>, 8);
 hilundPool1.addItemEntry(<atum:nuits_vanishing>, 4);
 hilundPool1.addItemEntry(<atum:anubiss_mercy>, 4);
 hilundPool1.addItemEntry(<bhc:red_heart_canister>, 6);
-// Cyberware Upgrades
-hilundPool1.addItemEntry(<cyberware:heart_upgrades>, 4);
-hilundPool1.addItemEntry(<cyberware:muscle_upgrades>, 4);
-hilundPool1.addItemEntry(<cyberware:leg_upgrades>, 4);
-hilundPool1.addItemEntry(<cyberware:lungs_upgrades>, 4, 4, [Functions.setMetadata(1, 1)], []);
-hilundPool1.addItemEntry(<cyberware:lower_organs_upgrades>, 4, 4, [Functions.setMetadata(3, 3)], []);
 // Resources
 hilundPool1.addItemEntry(<techguns:itemshared>, 26, 26, [Functions.setMetadata(98, 98)], []);
 hilundPool1.addItemEntry(<mekanism:dirtydust>, 32, 32, [Functions.setMetadata(2, 2)], []);

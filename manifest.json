@@ -68,12 +68,6 @@
             "required": true
         },
         {
-            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.29.jar)",
-            "fileID": 3366534,
-            "projectID": 283377,
-            "required": true
-        },
-        {
             "alias": "Diet Hoppers (diethopper-1.1.jar)",
             "fileID": 2482543,
             "projectID": 278385,
@@ -863,6 +857,12 @@
             "alias": "Topography (Topography-1.12.2-1.14.4.jar)",
             "fileID": 3065647,
             "projectID": 297878,
+            "required": true
+        },
+        {
+            "alias": "Matter Overdrive: Community Edition (MatterOverdrive-1.12.2-0.7.9-universal.jar)",
+            "fileID": 3763422,
+            "projectID": 557428,
             "required": true
         }
     ],
