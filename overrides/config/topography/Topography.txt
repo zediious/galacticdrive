@@ -11,3 +11,6 @@ gdPreset.registerDimension(-500, "planets/roikaWorldGen")
 
 // Registers the planet "Glacia" with dimension ID 111
 gdPreset.registerDimension(111, "planets/glaciaWorldGen")
+
+// Registers the planet "Moreitus" with dimension ID 110
+gdPreset.registerDimension(110, "planets/moreitusWorldGen")

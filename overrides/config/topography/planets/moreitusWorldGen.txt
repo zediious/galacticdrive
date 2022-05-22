@@ -1,0 +1,61 @@
+// This file defines Moreitus' world generation
+
+// Assigns Overworld generator
+worldGeneration = new OverworldGenerator()
+addGenerator(worldGeneration)
+
+// Use RTG biome generator
+useWorldTypeTerrain()
+
+// Generate caves
+caves = new VanillaCaveGenerator()
+addGenerator(caves)
+
+// Generate ravines
+ravines = new VanillaRavineGenerator()
+addGenerator(ravines)
+
+// Generate water lakes
+waterLake = new VanillaLakeGenerator(<minecraft:water>)
+addGenerator(waterLake)
+
+// Generate things like trees, plants, etc when applicable
+decoration = new VanillaDecorationGenerator()
+addGenerator(decoration)
+
+// Generate animals
+animals = new VanillaAnimalGenerator()
+addGenerator(animals)
+
+// Set custom Sky Renderer
+sky = setSkyRenderer()
+
+// Add Skybox image
+moreitusSkyDay = sky.addSkybox("planet:skybox/moreitus_skybox.png")
+
+// Disables clouds.
+disableClouds()
+
+// Sets brightness table (each integer is the brightness of each brightness level 1-16 in-game)
+setLightBrightnessTable([0.001, 0.0028, 0.0056, 0.0076, 0.0102, 0.0122, 0.0188, 0.0244, 0.0288, 0.0322, 0.0388, 0.0441, 0.0520, 0.0590, 0.0630, 0.0700])
+
+//Enables relight checks post-generation.
+enableRelightChecks()
+
+// Sets Fog color to a dark green
+setFogColor(#0e3315)
+
+// Add Land biomes to the dimension with a weight of 10
+addBiomes(["biomesoplenty:bayou","biomesoplenty:bamboo_forest"])
+
+// Sets "Hill" biome of added biomes to a BYG Grass Plateau.
+addHills(["biomesoplenty:bamboo_forest"], "biomesoplenty:overgrown_cliffs")
+
+// Sets "Hill" biome of BOP/BYG Bayou to BOP Mangrove
+addHills(["biomesoplenty:bayou"], "biomesoplenty:mangrove")
+
+// Sets River biome of the added Land biomes
+setRiver(["biomesoplenty:bayou","biomesoplenty:bayou_mangrove","biomesoplenty:bamboo_forest","biomesoplenty:overgrown_cliffs"], "minecraft:river")
+
+// Add Ocean biomes to the dimension
+addOceanBiomes("biomesoplenty:kelp_forest", 15)

@@ -248,9 +248,9 @@
             "required": true
         },
         {
-            "alias": "ReAuth (reauth-3.6.0.jar)",
-            "fileID": 2560638,
-            "projectID": 237701,
+            "alias": "OAuth (oauth-1.06.4.jar)",
+            "fileID": 3739783,
+            "projectID": 513857,
             "required": true
         },
         {
@@ -596,12 +596,6 @@
             "required": true
         },
         {
-            "alias": "Flan's Mod (Flan's Mod-1.12.2-5.10.0.jar)",
-            "fileID": 3278090,
-            "projectID": 317310,
-            "required": true
-        },
-        {
             "alias": "IvToolkit (IvToolkit-1.3.3-1.12.jar)",
             "fileID": 2443253,
             "projectID": 224535,
@@ -863,6 +857,18 @@
             "alias": "Matter Overdrive: Community Edition (MatterOverdrive-1.12.2-0.7.9-universal.jar)",
             "fileID": 3763422,
             "projectID": 557428,
+            "required": true
+        },
+        {
+            "alias": "Oh The Biomes You'll Go (BiomesYouGo1.7.1.jar)",
+            "fileID": 2833179,
+            "projectID": 247560,
+            "required": true
+        },
+        {
+            "alias": "YUNG's Better Caves (Forge) (bettercaves-1.12.2-2.0.4.jar)",
+            "fileID": 3003242,
+            "projectID": 340583,
             "required": true
         }
     ],

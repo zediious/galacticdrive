@@ -237,6 +237,12 @@ recipes.addShapedMirrored("Empty Air Canister",
 recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);
 furnace.addRecipe(<biomesoplenty:green_dye>, <minecraft:leaves2:1>);
 
+// * Paper from BOP Reed
+recipes.addShaped("reed_paper", <minecraft:paper> * 3,
+[[null, null, null],
+[<biomesoplenty:plant_1:8>,<biomesoplenty:plant_1:8>,<biomesoplenty:plant_1:8>], 
+[null, null, null]]);
+
 // * Techguns Ammo Press from Osmium instead of Lead
 recipes.addShapedMirrored("Ammo Press", 
 <techguns:basicmachine>, 
