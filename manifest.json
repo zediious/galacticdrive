@@ -860,9 +860,9 @@
             "required": true
         },
         {
-            "alias": "Oh The Biomes You'll Go (BiomesYouGo1.7.1.jar)",
-            "fileID": 2833179,
-            "projectID": 247560,
+            "alias": "Traverse Reforged (Traverse-1.12.2-1.6.0-69.jar)",
+            "fileID": 2613657,
+            "projectID": 267769,
             "required": true
         },
         {
