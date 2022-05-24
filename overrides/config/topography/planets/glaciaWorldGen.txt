@@ -44,19 +44,19 @@ disableSky()
 setFogColor(#cfe2f3)
 
 // Add Land biomes to the dimension with a weight of 10
-addBiomes(["biomesoplenty:alps_foothills","byg:balps","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"])
+addBiomes(["biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","traverse:glacier_spikes","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"])
 
 // Sets "Hill" biome of half the added biomes to a BOP Glacier.
 addHills(["biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest"], "biomesoplenty:glacier")
 
-// Sets "Hill" biome of half the added biomes to a BYG Glacier.
-addHills(["minecraft:mutated_ice_flats","minecraft:ice_mountains"], "byg:bglaciers")
+// Sets "Hill" biome of half the added biomes to a Traverse Glacier.
+addHills(["minecraft:mutated_ice_flats","minecraft:ice_mountains"], "traverse:glacier")
 
 // Sets "Hill" biome of BOP Alps Foothiils to the BOP Alps biome.
 addHills("biomesoplenty:alps_foothills", "biomesoplenty:alps")
 
 // Sets River biome of the added Land biomes
-setRiver(["biomesoplenty:alps","biomesoplenty:alps_foothills","byg:balps","minecraft:mutated_ice_flats","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest","biomesoplenty:glacier","byg:bglaciers"], "minecraft:frozen_river")
+setRiver(["biomesoplenty:alps","biomesoplenty:alps_foothills","minecraft:mutated_ice_flats","traverse:glacier_spikes","minecraft:ice_mountains","biomesoplenty:snowy_forest","biomesoplenty:snowy_coniferous_forest","biomesoplenty:glacier","traverse:glacier"], "minecraft:frozen_river")
 
 // Add Ocean biomes to the dimension
-addOceanBiomes("minecraft:frozen_ocean", 4)
+addOceanBiomes("minecraft:frozen_ocean", 14)

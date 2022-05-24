@@ -598,8 +598,9 @@
   {
     "dimension": 111,
     "mob": "lycanitesmobs:maug",
-    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer"],
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
     "maxcount": 18,
+    "maxheight": 130,
     "onjoin": true,
     "result": "allow"
   },
