@@ -1,1 +1,41 @@
+# Curse Client Files
 
+.curseclient
+minecraftinstance.json
+
+# Client files
+
+/.mixin.out
+/armourers_workshop
+/asm
+/backups
+/journeymap
+/llibrary
+/local
+/logs
+/mods
+/saves
+/tmp
+
+config/acronym/*
+config/opencomputers/*.recipes
+config/splash.properties
+config/AppliedEnergistics2/items.csv
+config/laser_drill_ores/default_ores.json
+config/littletiles-client.json
+config/jei/worldSettings.cfg
+config/oauth.cfg
+config/InvTweaks/InvTweaks.cfg
+config/worldedit/*
+resources/pack.mcmeta
+simple-rpc/server-entries.toml
+
+BotaniaVars.dat
+crafttweaker.log
+knownkeys.txt
+OpenComputersMod*.dll
+options.txt
+patchouli_data.json
+servers.dat
+usercache.json
+usernamecache.json
