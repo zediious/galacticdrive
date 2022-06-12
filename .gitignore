@@ -1,1 +1,8 @@
+# Curse Client Files
 
+.curseclient
+minecraftinstance.json
+
+# Client files
+
+/logs
