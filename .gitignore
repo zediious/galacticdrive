@@ -15,6 +15,7 @@ minecraftinstance.json
 /logs
 /mods
 /saves
+/tmp
 
 config/AppliedEnergistics2/items.csv
 config/laser_drill_ores/default_ores.json
