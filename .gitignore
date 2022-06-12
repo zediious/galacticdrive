@@ -17,12 +17,16 @@ minecraftinstance.json
 /saves
 /tmp
 
+config/creativecor*.json
 config/acronym/*
 config/opencomputers/*.recipes
 config/splash.properties
 config/AppliedEnergistics2/items.csv
 config/laser_drill_ores/default_ores.json
 config/littletiles-client.json
+config/littletiles.json
+config/machinemuse/missingConfigDoubles.txt
+config/icbmclassic/explosive_reg.json
 config/jei/worldSettings.cfg
 config/oauth.cfg
 config/InvTweaks/InvTweaks.cfg
