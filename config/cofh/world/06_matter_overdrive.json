@@ -1,0 +1,55 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"dilithium_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "matteroverdrive:dilithium_ore"
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 50,
+			"max-height": 70,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+		"tritanium_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "matteroverdrive:tritanium_ore"
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 50,
+			"max-height": 70,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		}
+	}
+}

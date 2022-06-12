@@ -1,0 +1,16 @@
+{
+	"name": "Poor-man's Energy",
+	"icon": "thermalexpansion:dynamo",
+	"category": "roika_category",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "text",
+			"text": "You don't have a lot of options for generating energy on this planet, and your reactor went kapoop causing your crash. Looks like you'll have to improvise.$(br2)Thermal Expansion's Steam Dynamo has had its recipe changed to not require Silver. This means you can use this as an early power generation."
+		},
+		{
+			"type": "text",
+			"text": "A Steam Dynamo requires a solid fuel source and water to generate energy. An Aqueous Accumulator can help you pump consistent water into the Dynamo. Connect the two with a Fluiduct after surrounding the sides of the Accumulator with water.$(br2)You are severely limited in terms of technology until you can travel to other planets and/or mine asteroids for advanced resources."
+		}
+	]
+}

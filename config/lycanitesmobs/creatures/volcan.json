@@ -1,0 +1,122 @@
+{
+  "name": "volcan",
+  "creatureType": "elemental",
+  "groups": [
+    "inferno"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVolcan",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelVolcan",
+  "loadDefault": false,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [
+      "lavaunderground"
+    ],
+    "disableSubspecies": false,
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "all"
+    ],
+    "spawnWeight": 8,
+    "dungeonWeight": 200,
+    "spawnAreaLimit": 1,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 0.8,
+  "height": 1.6,
+  "experience": 15,
+  "health": 180,
+  "defense": 8,
+  "armor": 12,
+  "speed": 22,
+  "damage": 22,
+  "attackSpeed": 0.8,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 1,
+  "sight": 32,
+  "knockbackResistance": 1,
+  "bagSize": 5,
+  "eggBackColor": "#270d03",
+  "eggForeColor": "#fba905",
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "element": "lava",
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "minecraft:stone",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:iron_ore",
+      "minAmount": 6,
+      "maxAmount": 14,
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:quartz",
+      "minAmount": 1,
+      "maxAmount": 8,
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:gold_ore",
+      "minAmount": 4,
+      "maxAmount": 8,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:coal",
+      "minAmount": 1,
+      "maxAmount": 18,
+      "chance": 0.4
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.1
+    }
+  ],
+  "sizeScale": 4.8,
+  "hitboxScale": 3.2,
+  "flags": [
+    {
+      "name": "blockMeltingRadius",
+      "value": 10
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+[general]
+	#The Client ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	clientID = 965415852465872936
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 12
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Galactic Drive is powering up!"
+	#The second line of text under the app name
+	state = "Modpack loading..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "gdicon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Parasites and space!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "gdicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is standing by"
+	#The second line of text under the app name
+	state = "In the Main Menu"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "gdicon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Parasites and space!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "gdicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is viewing available servers"
+	#The second line of text under the app name
+	state = "Searching for amigos"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "gdicon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Parasites and space!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "gdicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "gdicon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Parasites and space!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "gdicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing Singleplayer in %world%"
+	#The second line of text under the app name
+	state = "In a lonely world"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "gdicon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Parasites and space!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "gdicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Playing with amigos!"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "gdicon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Parasites and space!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "gdicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[generic]
+	#The first line of text under the app name
+	description = "Playing Galactic Drive"
+	#The second line of text under the app name
+	state = "Blasting off"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "gdicon"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Parasites and space!"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "gdicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[dimension_overrides]
+	enabled = true
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is on Earth"
+		state = ""
+		largeImageKey = "gdicon"
+		largeImageText = "On Earth"
+		smallImageKey = "gdicon"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is burning on Melgamar"
+		state = ""
+		largeImageKey = "gdicon"
+		largeImageText = "Parasites and space!"
+		smallImageKey = "gdicon"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is on Pluto"
+		state = ""
+		largeImageKey = "gdicon"
+		largeImageText = "Parasites and space!"
+		smallImageKey = "gdicon"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "tropicraft:tropics"
+		description = "Kicking back on Ryusta"
+		state = ""
+		largeImageKey = "gdicon"
+		largeImageText = "Parasites and space!"
+		smallImageKey = "gdicon"
+		smallImageText = "%mods% mods installed"
+
+

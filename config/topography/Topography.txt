@@ -1,0 +1,16 @@
+printDocumentation(false)
+
+// Sets Topography preset as default world type in "Create World" menu
+setAsDefaultWorldType()
+
+// Registers the Galactic Drive Solar System Topography preset
+gdPreset = registerPreset("Galactic Drive", "", "Galactic Drive Solar System", "RTG")
+
+// Registers the planet "Roika" with dimension ID -500
+gdPreset.registerDimension(-500, "planets/roikaWorldGen")
+
+// Registers the planet "Glacia" with dimension ID 111
+gdPreset.registerDimension(111, "planets/glaciaWorldGen")
+
+// Registers the planet "Moreitus" with dimension ID 110
+gdPreset.registerDimension(110, "planets/moreitusWorldGen")

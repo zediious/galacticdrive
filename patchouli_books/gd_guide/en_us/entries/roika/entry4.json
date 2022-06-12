@@ -1,0 +1,16 @@
+{
+	"name": "Prepare for Liftoff!",
+	"icon": "lycanitesmobs:whirlwindcharge",
+	"category": "roika_category",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "text",
+			"text": "In order to leave the planet, you need to use your Advanced Comptuer to jump your spaceship directly upwards. After a time, you and your ship will be teleported to space! To re-enter a planet, you simply jump down while you are over the planet.$(br2)Make sure you have gathered plenty of resources before leaving!"
+		},
+		{
+			"type": "text",
+			"text": "Asteroids contain many ores, but things such as Wood are hard to come by in the vacuum of space.$(br2)After you have reached space, you can look around and see each of the planets around. They are larger and more noticeable than the stars. Reference the map on our $(l:https://github.com/zediious/galacticdrive/wiki/The-Solar-System)(WIKI)$(/l) to determine your next steps!$(br2)Never forget how useful JEI is. Never!"
+		}
+	]
+}

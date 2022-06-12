@@ -68,12 +68,6 @@
             "required": true
         },
         {
-            "alias": "Robotic Parts (cyberware-1.12.2-0.2.11.29.jar)",
-            "fileID": 3366534,
-            "projectID": 283377,
-            "required": true
-        },
-        {
             "alias": "Diet Hoppers (diethopper-1.1.jar)",
             "fileID": 2482543,
             "projectID": 278385,
@@ -104,8 +98,8 @@
             "required": true
         },
         {
-            "alias": "ICBM - Classic (ICBM-classic-1.12.2-4.0.1b75.jar)",
-            "fileID": 2918052,
+            "alias": "ICBM - Classic (ICBM-classic-1.12.2-4.1.0b20211106011048.jar)",
+            "fileID": 3516968,
             "projectID": 244451,
             "required": true
         },
@@ -128,8 +122,8 @@
             "required": true
         },
         {
-            "alias": "LittleTiles (LittleTiles_v1.5.19_mc1.12.2.jar)",
-            "fileID": 3420128,
+            "alias": "LittleTiles (LittleTiles_v1.5.57_mc1.12.2.jar)",
+            "fileID": 3584330,
             "projectID": 257818,
             "required": true
         },
@@ -137,12 +131,6 @@
             "alias": "The Lost Cities (lostcities-1.12-2.0.22.jar)",
             "fileID": 2861574,
             "projectID": 269024,
-            "required": true
-        },
-        {
-            "alias": "MalisisAdvert (malisisadvert-1.12.2-6.1.0.jar)",
-            "fileID": 2526685,
-            "projectID": 228722,
             "required": true
         },
         {
@@ -188,8 +176,8 @@
             "required": true
         },
         {
-            "alias": "ModTweaker (modtweaker-4.0.20.4.jar)",
-            "fileID": 3368737,
+            "alias": "ModTweaker (modtweaker-4.0.20.5.jar)",
+            "fileID": 3488553,
             "projectID": 220954,
             "required": true
         },
@@ -206,8 +194,8 @@
             "required": true
         },
         {
-            "alias": "NuclearCraft (NuclearCraft-2.18z-1.12.2.jar)",
-            "fileID": 3328174,
+            "alias": "NuclearCraft (NuclearCraft-2.18zz-1.12.2.jar)",
+            "fileID": 3643158,
             "projectID": 226254,
             "required": true
         },
@@ -218,8 +206,8 @@
             "required": true
         },
         {
-            "alias": "OMLib (omlib-1.12.2-3.2.0-256.jar)",
-            "fileID": 3086478,
+            "alias": "OMLib (omlib-1.12.2-3.1.5-256.jar)",
+            "fileID": 3466259,
             "projectID": 254334,
             "required": true
         },
@@ -236,8 +224,8 @@
             "required": true
         },
         {
-            "alias": "Open Modular Turrets (openmodularturrets-1.12.2-3.2.0-379.jar)",
-            "fileID": 3092964,
+            "alias": "Open Modular Turrets (openmodularturrets-1.12.2-3.1.14-382.jar)",
+            "fileID": 3466431,
             "projectID": 224663,
             "required": true
         },
@@ -260,9 +248,9 @@
             "required": true
         },
         {
-            "alias": "ReAuth (reauth-3.6.0.jar)",
-            "fileID": 2560638,
-            "projectID": 237701,
+            "alias": "OAuth (oauth-1.06.4.jar)",
+            "fileID": 3739783,
+            "projectID": 513857,
             "required": true
         },
         {
@@ -278,14 +266,14 @@
             "required": true
         },
         {
-            "alias": "Spartan Shields (SpartanShields-1.12.2-1.5.4.jar)",
-            "fileID": 2712229,
+            "alias": "Spartan Shields (SpartanShields-1.12.2-1.5.5.jar)",
+            "fileID": 3567495,
             "projectID": 252239,
             "required": true
         },
         {
-            "alias": "Spartan Weaponry (SpartanWeaponry-1.12.2-beta-1.3.8.jar)",
-            "fileID": 2830166,
+            "alias": "Spartan Weaponry (SpartanWeaponry-1.12.2-1.4.1.jar)",
+            "fileID": 3634012,
             "projectID": 278141,
             "required": true
         },
@@ -338,8 +326,8 @@
             "required": true
         },
         {
-            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.23.jar)",
-            "fileID": 3366548,
+            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.28.jar)",
+            "fileID": 3762066,
             "projectID": 233565,
             "required": true
         },
@@ -356,8 +344,8 @@
             "required": true
         },
         {
-            "alias": "CreativeCore (CreativeCore_v1.10.62_mc1.12.2.jar)",
-            "fileID": 3419979,
+            "alias": "CreativeCore (CreativeCore_v1.10.70_mc1.12.2.jar)",
+            "fileID": 3626833,
             "projectID": 257814,
             "required": true
         },
@@ -368,8 +356,8 @@
             "required": true
         },
         {
-            "alias": "MysticalLib (mysticallib-1.12.2-1.10.0.jar)",
-            "fileID": 3243257,
+            "alias": "MysticalLib (mysticallib-1.12.2-1.13.0.jar)",
+            "fileID": 3483816,
             "projectID": 277064,
             "required": true
         },
@@ -380,20 +368,14 @@
             "required": true
         },
         {
-            "alias": "MalisisCore (malisiscore-1.12.2-6.5.1.jar)",
-            "fileID": 2680892,
-            "projectID": 223896,
-            "required": true
-        },
-        {
             "alias": "MTLib (MTLib-3.0.7.jar)",
             "fileID": 3308160,
             "projectID": 253211,
             "required": true
         },
         {
-            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.656.jar)",
-            "fileID": 3411555,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.674.jar)",
+            "fileID": 3642364,
             "projectID": 239197,
             "required": true
         },
@@ -419,12 +401,6 @@
             "alias": "Tropicraft (tropicraft-MC1.12.2-7.1.9.115.jar)",
             "fileID": 2713918,
             "projectID": 254794,
-            "required": true
-        },
-        {
-            "alias": "[ANGRY PIXEL] The Betweenlands (TheBetweenlands-3.7.3-universal.jar)",
-            "fileID": 3248202,
-            "projectID": 243363,
             "required": true
         },
         {
@@ -530,12 +506,6 @@
             "required": true
         },
         {
-            "alias": "Loading Screens (LoadingScreens-1.12.2-0.3.1.jar)",
-            "fileID": 2698971,
-            "projectID": 319264,
-            "required": true
-        },
-        {
             "alias": "More Overlays (moreoverlays-1.15.1-mc1.12.2.jar)",
             "fileID": 2745657,
             "projectID": 243478,
@@ -575,12 +545,6 @@
             "alias": "Nether Overload (netheroverload-1.12.2-0.0.7.jar)",
             "fileID": 2536586,
             "projectID": 264925,
-            "required": true
-        },
-        {
-            "alias": "Inventory Sorter (inventorysorter-1.12.2-1.13.3+57.jar)",
-            "fileID": 2546769,
-            "projectID": 240633,
             "required": true
         },
         {
@@ -626,15 +590,9 @@
             "required": true
         },
         {
-            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.0ALPHA18.jar)",
-            "fileID": 3421916,
+            "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.5.jar)",
+            "fileID": 3755305,
             "projectID": 348025,
-            "required": true
-        },
-        {
-            "alias": "Flan's Mod (Flan's Mod-1.12.2-5.10.0.jar)",
-            "fileID": 3278090,
-            "projectID": 317310,
             "required": true
         },
         {
@@ -662,8 +620,8 @@
             "required": true
         },
         {
-            "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.7.2.jar)",
-            "fileID": 2935745,
+            "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.8.5.jar)",
+            "fileID": 3649418,
             "projectID": 224770,
             "required": true
         },
@@ -674,8 +632,8 @@
             "required": true
         },
         {
-            "alias": "Biomes O' Plenty (BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar)",
-            "fileID": 2842510,
+            "alias": "Biomes O' Plenty (BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar)",
+            "fileID": 3558882,
             "projectID": 220318,
             "required": true
         },
@@ -686,9 +644,231 @@
             "required": true
         },
         {
+            "alias": "Mob Sunscreen (mobsunscreen-1.12.2-2.1.3.jar)",
+            "fileID": 3039432,
+            "projectID": 298408,
+            "required": true
+        },
+        {
+            "alias": "LootTableTweaker (LootTableTweaker-1.12.2-1.1.17.jar)",
+            "fileID": 2644030,
+            "projectID": 261339,
+            "required": true
+        },
+        {
+            "alias": "LootTweaker (LootTweaker-0.3.1+MC1.12.2.jar)",
+            "fileID": 3507866,
+            "projectID": 255257,
+            "required": true
+        },
+        {
+            "alias": "More Loot Stuff (MoreLootStuff-1.12.2-0.0.5.jar)",
+            "fileID": 3117402,
+            "projectID": 284472,
+            "required": true
+        },
+        {
+            "alias": "GraveStone Mod (gravestone-1.10.3.jar)",
+            "fileID": 2744766,
+            "projectID": 238551,
+            "required": true
+        },
+        {
+            "alias": "No Worldgen 5 You (NoWorldgen5You-1.12.2-1.0.8.jar)",
+            "fileID": 2623496,
+            "projectID": 274782,
+            "required": true
+        },
+        {
+            "alias": "The Erebus (Erebus-1.0.32.jar)",
+            "fileID": 3211974,
+            "projectID": 220698,
+            "required": true
+        },
+        {
+            "alias": "BetterQuesting (BetterQuesting-3.5.329.jar)",
+            "fileID": 2950248,
+            "projectID": 238856,
+            "required": true
+        },
+        {
+            "alias": "Better Questing - Standard Expansion (StandardExpansion-3.4.173.jar)",
+            "fileID": 2863771,
+            "projectID": 238857,
+            "required": true
+        },
+        {
+            "alias": "Better Questing Tweaker (BQTweaker) (BQTweaker-1.3.3.jar)",
+            "fileID": 3626196,
+            "projectID": 423758,
+            "required": true
+        },
+        {
+            "alias": "Better Questing - Multiblock and Structure Integration (BQ_Multiblock_Structure_Integration-1.0.7.jar)",
+            "fileID": 3573675,
+            "projectID": 375285,
+            "required": true
+        },
+        {
+            "alias": "World Primer (worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar)",
+            "fileID": 2866063,
+            "projectID": 258911,
+            "required": true
+        },
+        {
+            "alias": "Simple Discord RPC (rpc-1.12.2-2.7.2.jar)",
+            "fileID": 3654849,
+            "projectID": 411816,
+            "required": true
+        },
+        {
+            "alias": "Pillar (Pillar-1.2-10.jar)",
+            "fileID": 2490795,
+            "projectID": 246695,
+            "required": true
+        },
+        {
+            "alias": "Shadowfacts' Forgelin (Forgelin-1.8.4.jar)",
+            "fileID": 2785465,
+            "projectID": 248453,
+            "required": true
+        },
+        {
+            "alias": "Tesla Core Lib (tesla-core-lib-1.12.2-1.0.18.jar)",
+            "fileID": 3438487,
+            "projectID": 254602,
+            "required": true
+        },
+        {
+            "alias": "Industrial Foregoing (industrialforegoing-1.12.2-1.12.13-237.jar)",
+            "fileID": 2745321,
+            "projectID": 266515,
+            "required": true
+        },
+        {
+            "alias": "McJtyLib (mcjtylib-1.12-3.5.4.jar)",
+            "fileID": 2745846,
+            "projectID": 233105,
+            "required": true
+        },
+        {
+            "alias": "XNet (xnet-1.12-1.8.2.jar)",
+            "fileID": 2745852,
+            "projectID": 260912,
+            "required": true
+        },
+        {
+            "alias": "Reborn Core (RebornCore-1.12.2-3.19.5-universal.jar)",
+            "fileID": 3330308,
+            "projectID": 237903,
+            "required": true
+        },
+        {
+            "alias": "Main Menu Scale (MainMenuScale-1.3.2.jar)",
+            "fileID": 2683258,
+            "projectID": 310375,
+            "required": true
+        },
+        {
+            "alias": "Elenai Dodge (ElenaiDodge-1.12.2-2.1.jar)",
+            "fileID": 3575333,
+            "projectID": 373104,
+            "required": true
+        },
+        {
+            "alias": "Gauges and Switches (rsgauges-1.12.2-1.2.6.jar)",
+            "fileID": 3732954,
+            "projectID": 296686,
+            "required": true
+        },
+        {
+            "alias": "Glassential (glassential-1.12.2-1.1.0.jar)",
+            "fileID": 2698826,
+            "projectID": 319194,
+            "required": true
+        },
+        {
+            "alias": "Tips (Tips-1.12.2-1.0.9.jar)",
+            "fileID": 2906537,
+            "projectID": 306549,
+            "required": true
+        },
+        {
+            "alias": "AutoRegLib (AutoRegLib-1.3-32.jar)",
+            "fileID": 2746011,
+            "projectID": 250363,
+            "required": true
+        },
+        {
+            "alias": "Morph-o-Tool (Morph-o-Tool-1.2-21.jar)",
+            "fileID": 2658176,
+            "projectID": 245287,
+            "required": true
+        },
+        {
+            "alias": "Modular Routers (modular-routers-1.12.2-3.3.0-33.jar)",
+            "fileID": 2954953,
+            "projectID": 250294,
+            "required": true
+        },
+        {
+            "alias": "B.A.S.E (base-1.12.2-3.14.0.jar)",
+            "fileID": 3440963,
+            "projectID": 246996,
+            "required": true
+        },
+        {
+            "alias": "ContentTweaker (ContentTweaker-1.12.2-4.10.0.jar)",
+            "fileID": 3331364,
+            "projectID": 237065,
+            "required": true
+        },
+        {
+            "alias": "Bad Wither No Cookie - Reloaded (badwithernocookiereloaded-1.12.2-3.4.18.jar)",
+            "fileID": 3045651,
+            "projectID": 261251,
+            "required": true
+        },
+        {
+            "alias": "KleeSlabs (KleeSlabs_1.12.2-5.4.12.jar)",
+            "fileID": 2733525,
+            "projectID": 241895,
+            "required": true
+        },
+        {
             "alias": "Armourer's Workshop (Armourers-Workshop-1.12.2-0.51.0.jar)",
             "fileID": 3101995,
             "projectID": 229523,
+            "required": true
+        },
+        {
+            "alias": "Comforts (Forge) (comforts-1.12.2-1.4.1.3.jar)",
+            "fileID": 2880613,
+            "projectID": 276951,
+            "required": true
+        },
+        {
+            "alias": "Topography (Topography-1.12.2-1.14.4.jar)",
+            "fileID": 3065647,
+            "projectID": 297878,
+            "required": true
+        },
+        {
+            "alias": "Matter Overdrive: Community Edition (MatterOverdrive-1.12.2-0.7.9-universal.jar)",
+            "fileID": 3763422,
+            "projectID": 557428,
+            "required": true
+        },
+        {
+            "alias": "Traverse Reforged (Traverse-1.12.2-1.6.0-69.jar)",
+            "fileID": 2613657,
+            "projectID": 267769,
+            "required": true
+        },
+        {
+            "alias": "YUNG's Better Caves (Forge) (bettercaves-1.12.2-2.0.4.jar)",
+            "fileID": 3003242,
+            "projectID": 340583,
             "required": true
         }
     ],
@@ -697,7 +877,7 @@
     "minecraft": {
         "modLoaders": [
             {
-                "id": "forge-14.23.5.2855",
+                "id": "forge-14.23.5.2860",
                 "primary": true
             }
         ],
@@ -705,5 +885,5 @@
     },
     "name": "Galactic Drive",
     "overrides": "overrides",
-    "version": "0.1alpha"
+    "version": "0.2alpha"
 }

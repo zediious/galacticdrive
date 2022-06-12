@@ -1,0 +1,20 @@
+{
+	"name": "Parasites you say?!?",
+	"icon": "srparasites:assimilated_flesh",
+	"category": "roika_category",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Beginning Galactic Drive is very similar to any other Minecraft playthough, punching trees and all. What makes things more difficult, however, is the parasite infestation!$(br2)Roika, the planet you are on, is much more tame compared to the rest of the system."
+		},
+		{
+			"type": "text",
+			"text": "Assimilated Mobs will spawn semi-commonly throughout the planet, with a special mob known as $(#ff0000)Beckons$() spawning due to parasite death. These tentacle-like creatures infect the land and spawn more parasites. The local Iron Golem population will help cull them.$(br2)You spawn with a shotgun and a little ammo. You cannot make more until you get to space, use it wisely!"
+		},
+		{
+			"type": "text",
+			"text": "You can find the following ores on Roika$(li)Vanilla Ores$(li)Copper and Tin$(br2)All other ores spawn on specific planets or can be found inside Asteroids in Space. To view the full ore distributions, visit our $(l:https://github.com/zediious/galacticdrive/wiki/The-Solar-System)(WIKI)$(/l)"
+		}
+	]
+}

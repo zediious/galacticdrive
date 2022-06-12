@@ -1,0 +1,24 @@
+{
+	"name": "Repairing your Spaceship",
+	"icon": "warpdrive:hull.advanced.plain:11",
+	"category": "roika_category",
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "WarpDrive ships can be made with any solid block. This is what makes them so flexible and allows you to make an entirely customized spaceship and space station.$(br2)Keep in mind, however, that certain parasites are able to break blocks. WarpDrive Hull blocks are immune to this block breaking, and are the safest"
+		},
+		{
+			"type": "text",
+			"text": "block to use to maintain safety on other planets.$(br2)Your crashed ship is made of Advanced Hull Blocks, which you can salvage to patch up your ship as much as possible. For further repairs, Basic Hulls can be made with Concrete, Iron Bars, and Ceramic.$(br2)Your ship also contains a Shuttle Ship Core, Advanced Computer, and a few fluxducts."
+		},
+		{
+			"type": "text",
+			"text": "Your ship is controlled using the Advanced Computer that is placed next to the Ship Core. Instructions for operating the ship are provided in the terminal, as well as on WarpDrive's $(l:https://github.com/LemADEC/WarpDrive/wiki/First-ship%2C-first-jump)(WIKI)$(/l)$(br2)In short, you need to set your ships dimensions using the Advanced Computer, so that the ship knows how big it is.$(br2)The Ship Core uses energy"
+		},
+		{
+			"type": "text",
+			"text": "each time you initiate a jump, or warp. In order to ensure you have enough energy to get to another planet, you may want to stock up on combustible fuel sources (Coal, Wood) before you jump off the planet."
+		}
+	]
+}

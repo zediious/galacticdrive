@@ -1,0 +1,86 @@
+{
+	"dimensions": [{
+		"dim": 111,
+		"worldinfo_onetime": {
+			"GameRules": {
+				"doDaylightCycle": "true",
+				"doWeatherCycle": false
+			}
+		},
+		"worldinfo": {
+			"raining": true
+		},
+		"override": true
+	},
+	{
+		"dim": -500,
+		"worldinfo_onetime": {
+			"RandomSeed": 5450064435555506562,
+			"SpawnX": 0,
+			"SpawnZ": 0,
+			"GameRules": {
+				"spawnRadius": "0"
+			}
+		},
+		"worldinfo": {
+			"jed": {
+				"CustomDayCycle": true,
+				"DayLength": 16000,
+				"NightLength": 6000
+			}
+		},
+		"override": true
+	},
+	{
+		"dim": 112,
+		"worldinfo": {
+			"jed": {
+				"SkyColor": "c9e523",
+				"FogColor": "afcb08",
+				"CloudColor": "403b17"
+			}
+		},
+		"colors": {
+			"FoliageColors": [
+				{ "biome": "nuclearcraft:nuclear_wasteland", "color": "c9e713" }
+			],
+			"GrassColors": [
+				{ "biome": "nuclearcraft:nuclear_wasteland", "color": "c9e713" }
+			]
+		},
+		"override": true
+	},
+	{
+		"dim": 0,
+		"worldinfo_onetime": {
+			"generatorName": "RTG",
+			"GameRules": {
+				"doDaylightCycle": "true"
+			}
+		},
+		"override": true
+	},
+	{
+		"dim": 4500,
+		"biome": "srparasites:biome_parasite",
+		"dimensiontype": {
+			"id": 4500,
+			"name": "Venus",
+			"suffix": "dim_4598",
+			"keeploaded": false,
+			"worldprovider": "WorldProviderSurfaceJED"
+		},
+		"worldinfo": {
+			"jed": {
+				"SkyColor": "c9e523",
+				"FogColor": "afcb08",
+				"CloudColor": "403b17"
+			}
+		},
+		"worldinfo_onetime": {
+			"generatorName": "default",
+			"RandomSeed": ""
+		},
+		"override": true
+	},]
+}
