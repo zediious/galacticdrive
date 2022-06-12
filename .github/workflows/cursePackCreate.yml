@@ -1,0 +1,84 @@
+# This is a basic workflow that is manually triggered
+
+name: Create CurseForge Modpack
+
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Person to greet'
+        # Default value if no value is explicitly provided
+        default: 'World'
+        # Input has to be provided for the workflow to run
+        required: true
+
+jobs:
+  # This workflow contains a single job called "greet"
+  createCurseModpack:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        repository: ShadowRaptorMC/galacticdrive
+        ref: develop
+
+    # Create directories for the Curse file structure, and move from repository locations to created directories.
+
+    # Root directories
+    - name: Create cursePack directory
+      run: mkdir cursePack
+    - name: Create overrides directory
+      run: mkdir cursePack/overrides
+
+    # config folder
+    - name: Create config directory in overrides directory
+      run: mkdir cursePack/overrides/config
+    - name: move config to overrides directory
+      run: mv config/* cursePack/overrides/config/
+
+    # patchouli_books folder
+    - name: Create patchouli_books directory in overrides directory
+      run: mkdir cursePack/overrides/patchouli_books
+    - name: move patchouli_books to overrides directory
+      run: mv patchouli_books/* cursePack/overrides/patchouli_books/
+
+    # pillar folder
+    - name: Create pillar directory in overrides directory
+      run: mkdir cursePack/overrides/pillar
+    - name: move pillar to overrides directory
+      run: mv pillar/* cursePack/overrides/pillar/
+
+    # resources folder
+    - name: Create resources directory in overrides directory
+      run: mkdir cursePack/overrides/resources
+    - name: move resources to overrides directory
+      run: mv resources/* cursePack/overrides/resources/
+
+    # scripts folder
+    - name: Create scripts directory in overrides directory
+      run: mkdir cursePack/overrides/scripts
+    - name: move scripts to overrides directory
+      run: mv scripts/* cursePack/overrides/scripts/
+
+    # structures folder
+    - name: Create structures directory in overrides directory
+      run: mkdir cursePack/overrides/structures
+    - name: move structures to overrides directory
+      run: mv structures/* cursePack/overrides/structures/
+
+    # warpDrive_schematics folder
+    - name: Create warpDrive_schematics directory in overrides directory
+      run: mkdir cursePack/overrides/warpDrive_schematics
+    - name: move warpDrive_schematics to overrides directory
+      run: mv warpDrive_schematics/* cursePack/overrides/warpDrive_schematics/
+
+    - name: Move manifest.json to overrides directory
+      run: mv manifest.json cursePack/manifest.json
+
+    - uses: actions/upload-artifact@v3
+      with:
+       name: GalacticDrive-development
+       path: cursePack
