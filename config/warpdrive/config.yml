@@ -297,6 +297,9 @@ general {
     # Enable experimental refresh during jump to prevent duping, use at your own risk
     B:enable_experimental_refresh=false
 
+    # Enable experimental tile entity unloading during jump to force a cleanup, required for IC2 Classic, may cause issues with other mods
+    B:enable_experimental_unload=false
+
     # Enable fast blockstate placement, skipping light computation. Disable if you have world implementations conflicts
     B:enable_fast_set_blockstate=false
 
@@ -431,8 +434,14 @@ laser_cannon {
     # Delay while booster beams are accepted, before actually scanning
     I:emit_scan_delay_ticks=1
 
-    # Energy attenuation when going through a broken block
+    # Energy attenuation when going through air blocks (on a planet or any gas in space)
     D:energy_attenuation_per_air_block=2.0E-4
+
+    # Energy attenuation when going through a broken block
+    D:energy_attenuation_per_broken_block=0.23
+
+    # Energy attenuation when going through void blocks (in space or hyperspace)
+    D:energy_attenuation_per_void_block=5.0E-6
 
     # Minimum damage to entity hit (measured in half hearts)
     I:entity_hit_base_damage=3
@@ -533,8 +542,6 @@ logging {
 
     # Chunk loading logs, enable it to report chunk loaders updates
     B:enable_chunk_loading_logs=true
-
-    # Report in logs when a chunk is reloaded shortly after being unloaded, usually associated with server lag.
     B:enable_chunk_reloading_logs=false
 
     # Detailed collection logs to help debug the mod, enable it before reporting a bug
@@ -548,6 +555,9 @@ logging {
 
     # EntityFX logs, enable it to dump entityFX registry updates
     B:enable_entity_fx_logs=false
+
+    # Report in logs when a chunk is reloaded shortly after being unloaded, usually associated with server lag.
+    B:enable_experimental_chunk_reloading_logs=false
 
     # Detailed force field logs to help debug the mod, enable it before reporting a bug
     B:enable_force_field_logs=false
