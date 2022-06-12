@@ -1,21 +1,10 @@
-# This is a basic workflow that is manually triggered
 
 name: Create CurseForge Modpack
 
 on:
   workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
-
+   
 jobs:
-  # This workflow contains a single job called "greet"
   createCurseModpack:
     runs-on: ubuntu-latest
 
@@ -74,10 +63,10 @@ jobs:
       run: mkdir cursePack/overrides/warpDrive_schematics
     - name: move warpDrive_schematics to overrides directory
       run: mv warpDrive_schematics/* cursePack/overrides/warpDrive_schematics/
-
+    # manifest.json
     - name: Move manifest.json to overrides directory
       run: mv manifest.json cursePack/manifest.json
-
+    # Upload cursePack directory as archive/artifact
     - uses: actions/upload-artifact@v3
       with:
        name: GalacticDrive-development
