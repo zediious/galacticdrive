@@ -9,6 +9,7 @@ minecraftinstance.json
 /armourers_workshop
 /asm
 /backups
+/encyclopedia-servers
 /journeymap
 /llibrary
 /local
@@ -46,3 +47,6 @@ config/InvTweaks/InvTweaks.cfg
 config/worldedit/*
 resources/pack.mcmeta
 OpenComputersMod*.dll
+
+# Do not ignore server files
+!/server_files
