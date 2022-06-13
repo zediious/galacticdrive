@@ -2,7 +2,8 @@
 name: Create CurseForge Modpack
 
 on:
-  workflow_dispatch:
+  push:
+    - develop
    
 jobs:
   createCurseModpack:
