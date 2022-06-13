@@ -1,5 +1,5 @@
 
-name: Create CurseForge Modpack
+name: Create CurseForge Modpack and Server
 
 on:
   push:
@@ -73,3 +73,18 @@ jobs:
       with:
        name: GalacticDrive-development
        path: cursePack
+
+  createServerPack:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        repository: ShadowRaptorMC/galacticdrive
+        ref: develop
+
+    - name: Create root directory
+      run: mkdir serverPack
+
+    - name: Move server files to created directory
+      run: mv server_files/* serverPack/
