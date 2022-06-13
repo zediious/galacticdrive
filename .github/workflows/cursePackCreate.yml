@@ -3,7 +3,8 @@ name: Create CurseForge Modpack
 
 on:
   push:
-    - develop
+    branches:
+      - develop
    
 jobs:
   createCurseModpack:
