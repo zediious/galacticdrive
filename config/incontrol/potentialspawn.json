@@ -65,6 +65,36 @@
         "weight": 12,
         "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:arisaur",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:maka",
+        "weight": 6,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "lycanitesmobs:wildkin",
+        "weight": 12,
+        "groupcountmin": 3,
+        "groupcountmax": 5
+      },
+      {
+        "mob": "lycanitesmobs:nymph",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:wisp",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   },

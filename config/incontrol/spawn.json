@@ -216,6 +216,53 @@
   // *************
   {
     "dimension": -500,
+    "mob": "lycanitesmobs:arisaur",
+    "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
+    "maxcount": 6,
+    "maxheight": 70,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:maka",
+    "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
+    "maxcount": 8,
+    "maxheight": 70,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:wildkin",
+    "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand","biomesoplenty:mud","minecraft:gravel"],
+    "biome": "Land of Lakes",
+    "isnotcolliding": true,
+    "maxcount": 12,
+    "maxheight": 70,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:nymph",
+    "block": ["biomesoplenty:grass","biomesoplenty:leaves"],
+    "biome": "Cherry Blossom Grove",
+    "maxcount": 2,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:wisp",
+    "block": ["biomesoplenty:grass","biomesoplenty:leaves"],
+    "biome": "Cherry Blossom Grove",
+    "maxcount": 2,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
     "mob": "minecraft:villager_golem",
     "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
     "maxcount": 14,
@@ -721,15 +768,6 @@
   {
     "mod": "srparasites",
     "dimension": ["1","66"],
-    "onjoin": true,
-    "result": "deny"
-  },
-  // *** Roika Lycanites Mobs denies ***
-  // Roika's Lycanite mobs are spawned naturally via the biome spawn weights.
-  // This prevents certain ones from spawning on Roika.
-  {
-    "dimension": -500,
-    "mob": ["lycanitesmobs:bobeko","lycanitesmobs:yale"],
     "onjoin": true,
     "result": "deny"
   },
