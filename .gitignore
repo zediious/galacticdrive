@@ -38,6 +38,7 @@ config/creativecor*.json
 config/acronym/*
 config/opencomputers/*.recipes
 config/splash.properties
+config/AppliedEnergistics2/VersionChecker.cfg
 config/AppliedEnergistics2/items.csv
 config/laser_drill_ores/default_ores.json
 config/littletiles.json
