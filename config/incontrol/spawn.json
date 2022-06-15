@@ -85,7 +85,14 @@
   // Deny some vanilla mobs on Glacia
   {
     "dimension": 111,
-    "mob": ["minecraft:squid","minecraft:pig","minecraft:cow"],
+    "mob": ["minecraft:squid","minecraft:pig","minecraft:cow","minecraft:sheep","minecraft:chicken"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  // Deny some vanilla mobs on Moreitus
+  {
+    "dimension": 110,
+    "mob": ["minecraft:pig","minecraft:cow","minecraft:sheep","minecraft:chicken","minecraft:zombie"],
     "onjoin": true,
     "result": "deny"
   },
@@ -763,6 +770,104 @@
     "mob": "mowziesmobs:ferrous_wroughtnaut",
     "onjoin": true,
     "result": "deny"
+  },
+  // ** MOREITUS ***
+  // *************
+  {
+    "dimension": 110,
+    "mob": "srparasites:ada_arachnida",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "maxcount": 4,
+    "minheight": 65,
+    "seesky": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "srparasites:ada_arachnida",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:quetzodracl",
+    "biome": "Overgrown Cliffs",
+    "maxcount": 5,
+    "seesky": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:shambler",
+    "block": ["minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Mangrove","Bayou","Bamboo Forest"],
+    "maxcount": 12,
+    "minheight": 65,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:geken",
+    "block": ["minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Mangrove","Bayou"],
+    "maxcount": 8,
+    "minheight": 65,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:ghoul",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "maxcount": 28,
+    "minheight": 65,
+    "mintime": 13000,
+    "maxtime": 23999,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:dawon",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Bamboo Forest"],
+    "maxcount": 8,
+    "minheight": 65,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:concapede",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Bamboo Forest"],
+    "maxcount": 4,
+    "minheight": 65,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:darkling",
+    "biome": ["Mangrove","Bayou","Overgrown Cliffs"],
+    "maxcount": 10,
+    "minheight": 65,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:aglebemu",
+    "block": ["biomesoplenty:log","biomesoplenty:mud"],
+    "biome": ["Mangrove"],
+    "maxcount": 10,
+    "onjoin": true,
+    "result": "allow"
   },
    // *** SRParasites deny on Pluto/Erebus
   {

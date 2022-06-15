@@ -431,5 +431,66 @@
         "groupcountmax": 2
       }
     ]
+  },
+  // *** MOREITUS ***
+  // **************
+  {
+    "dimension": 110,
+    "mobs": [
+      {
+        "mob": "srparasites:ada_arachnida",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:quetzodracl",
+        "weight": 18,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:shambler",
+        "weight": 12,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:geken",
+        "weight": 8,
+        "groupcountmin": 2,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "lycanitesmobs:ghoul",
+        "weight": 16,
+        "groupcountmin": 2,
+        "groupcountmax": 8
+      },
+      {
+        "mob": "lycanitesmobs:dawon",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:concapede",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:darkling",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
   }
 ]
