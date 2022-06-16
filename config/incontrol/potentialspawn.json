@@ -48,7 +48,7 @@
         "groupcountmax": 1
       },
       {
-        "mob": "srparasites:overlord",
+        "mob": "srparasites:anc_overlord",
         "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
