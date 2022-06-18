@@ -6,8 +6,7 @@ minecraftinstance.json
 # GDLauncher files
 
 /natives
-config.json
-config.bak.json
+config*.json
 
 # Client only directories and files
 
