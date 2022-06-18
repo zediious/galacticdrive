@@ -7,6 +7,7 @@ minecraftinstance.json
 
 /natives
 config.json
+config.bak.json
 
 # Client only directories and files
 
@@ -54,6 +55,9 @@ config/littletiles.json
 config/machinemuse/missingConfigDoubles.txt
 config/icbmclassic/explosive_reg.json
 config/InvTweaks/*
+config/InvTweaks.cfg
+config/InvTweaksRules.txt
+config/InvTweaksTree.txt
 config/worldedit/*
 resources/pack.mcmeta
 OpenComputersMod*.dll
