@@ -3,6 +3,11 @@
 .curseclient
 minecraftinstance.json
 
+# GDLauncher files
+
+/natives
+config.json
+
 # Client only directories and files
 
 /.mixin.out
@@ -48,7 +53,7 @@ config/laser_drill_ores/default_ores.json
 config/littletiles.json
 config/machinemuse/missingConfigDoubles.txt
 config/icbmclassic/explosive_reg.json
-config/InvTweaks/InvTweaks.cfg
+config/InvTweaks/*
 config/worldedit/*
 resources/pack.mcmeta
 OpenComputersMod*.dll
