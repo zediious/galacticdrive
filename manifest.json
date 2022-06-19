@@ -2,6 +2,12 @@
     "author": "ShadowRaptorMC",
     "files": [
         {
+            "alias": "Lycanites Redux (Resource Pack) (Lycanites Redux - v8.0.0.zip)",
+            "fileID": 3820692,
+            "projectID": 362705,
+            "required": true
+        },
+        {
             "alias": "AE2 Stuff (ae2stuff-0.7.0.4-mc1.12.2.jar)",
             "fileID": 2491032,
             "projectID": 225194,
