@@ -1014,6 +1014,13 @@
             "projectID": 340583,
             "downloadUrl": "https://media.forgecdn.net/files/3003/242/bettercaves-1.12.2-2.0.4.jar",
             "required": true
+        },
+        {
+            "alias": "Spawn at Squid (Water Spawn Fix) (SpawnAtSquid-1.0.jar)",
+            "fileID": 3496751,
+            "projectID": 538562,
+            "downloadUrl": "https://media.forgecdn.net/files/3496/751/SpawnAtSquid-1.0.jar",
+            "required": true
         }
     ],
     "manifestType": "minecraftModpack",

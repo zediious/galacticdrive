@@ -490,6 +490,12 @@
         "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:roa",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   }

@@ -869,6 +869,14 @@
     "onjoin": true,
     "result": "allow"
   },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:roa",
+    "biome": ["Kelp Forest"],
+    "maxcount": 10,
+    "onjoin": true,
+    "result": "allow"
+  },
    // *** SRParasites deny on Pluto/Erebus
   {
     "mod": "srparasites",
