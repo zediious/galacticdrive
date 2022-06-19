@@ -23,6 +23,7 @@ config*.json
 /local
 /logs
 /mods
+/resourcepacks
 /saves
 /tmp
 /simple-rpc

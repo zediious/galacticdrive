@@ -124,7 +124,7 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:carrier_heavy",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 3,
     "onjoin": true,
     "result": "allow"
@@ -138,7 +138,7 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:carrier_flying",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 4,
     "onjoin": true,
     "result": "allow"
@@ -152,7 +152,7 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:rupter",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 18,
     "onjoin": true,
     "result": "allow"
@@ -166,7 +166,7 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:grunt",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 4,
     "onjoin": true,
     "result": "allow"
@@ -180,7 +180,7 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:sim_enderman",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 3,
     "onjoin": true,
     "result": "allow"
@@ -194,7 +194,7 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:anc_dreadnaut",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 1,
     "onjoin": true,
     "result": "allow"
@@ -208,7 +208,7 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:anc_overlord",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 1,
     "onjoin": true,
     "result": "allow"
