@@ -190,13 +190,13 @@
     "mobs": [
       {
         "mob": "techguns:zombiepigmansoldier",
-        "weight": 26,
+        "weight": 6,
         "groupcountmin": 1,
         "groupcountmax": 6
       },
       {
         "mob": "mowziesmobs:naga",
-        "weight": 8,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -208,6 +208,36 @@
       },
       {
         "mob": "lycanitesmobs:volcan",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:grell",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:amalgalich",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:khalk",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:behemoth",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:salamander",
         "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1

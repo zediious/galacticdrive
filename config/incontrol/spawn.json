@@ -381,6 +381,7 @@
     "dimension": -1,
     "mob": "mowziesmobs:naga",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "biome": ["Nether Forest","Nether Hills"],
     "maxcount": 2,
     "minheight": 60,
     "seesky": true,
@@ -397,15 +398,10 @@
     "dimension": -1,
     "mob": "lycanitesmobs:afrit",
     "block": ["minecraft:netherrack","minecraft:soul_sand"],
+    "biome": ["Nether Swamp","Nether Plains"],
     "maxcount": 8,
     "onjoin": true,
     "result": "allow"
-  },
-  {
-    "dimension": -1,
-    "mob": "lycanitesmobs:afrit",
-    "onjoin": true,
-    "result": "deny"
   },
   {
     "dimension": -1,
@@ -418,9 +414,50 @@
   },
   {
     "dimension": -1,
-    "mob": "lycanitesmobs:volcan",
+    "mob": "lycanitesmobs:grell",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 12,
     "onjoin": true,
-    "result": "deny"
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:amalgalich",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 1,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:khalk",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "biome": ["Nether Swamp","Nether Forest"],
+    "maxcount": 4,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:behemoth",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "biome": ["Wither Ruins","Nether Plains"],
+    "maxcount": 4,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:salamander",
+    "maxheight": 55,
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
   },
   // *** ATUM ***
   // ************
