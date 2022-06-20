@@ -380,6 +380,24 @@
         "weight": 14,
         "groupcountmin": 2,
         "groupcountmax": 4
+      },
+      {
+        "mob": "minecraft:polar_bear",
+        "weight": 8,
+        "groupcountmin": 2,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:wendigo",
+        "weight": 4,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:arix",
+        "weight": 2,
+        "groupcountmin": 2,
+        "groupcountmax": 4
       }
     ]
   },

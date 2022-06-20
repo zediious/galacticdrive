@@ -609,7 +609,9 @@
     "dimension": 111,
     "mob": "mowziesmobs:frostmaw",
     "block": ["minecraft:snow_layer","minecraft:snow"],
+    "biome": ["Alps","AlpsFoothills"],
     "maxcount": 5,
+    "minheight": 60,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -651,10 +653,27 @@
   },
   {
     "dimension": 111,
+    "mob": "minecraft:polar_bear",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "maxcount": 10,
+    "minheight": 60,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "minecraft:polar_bear",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 111,
     "mob": "lycanitesmobs:maug",
     "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "biome": ["Glacier Spikes","Snowy Coniferous Forest","Ice Mountains","AlpsFoothills"],
     "maxcount": 18,
     "maxheight": 130,
+    "minheight": 60,
     "onjoin": true,
     "result": "allow"
   },
@@ -662,7 +681,21 @@
     "dimension": 111,
     "mob": "lycanitesmobs:frostweaver",
     "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 6,
+    "biome": ["Ice Mountains","Glacier Spikes"],
+    "maxcount": 4,
+    "minheight": 60,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  // Lower count for Frostweaver in other biomes
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:frostweaver",
+    "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "biome": ["Snowy Coniferous Forest","Snowy Forest","AlpsFoothills"],
+    "maxcount": 1,
+    "minheight": 60,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -671,7 +704,9 @@
     "dimension": 111,
     "mob": "lycanitesmobs:bobeko",
     "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "biome": ["Snowy Coniferous Forest"],
     "maxcount": 6,
+    "minheight": 60,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -679,8 +714,43 @@
   {
     "dimension": 111,
     "mob": "lycanitesmobs:warg",
-    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass"],
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "biome": ["Ice Plains Spikes","Snowy Forest","Ice Mountains","AlpsFoothills"],
     "maxcount": 10,
+    "minheight": 60,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:wendigo",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow","minecraft:snow_layer"],
+    "biome": ["Ice Plains Spikes","Glacier Spikes"],
+    "maxcount": 3,
+    "mintime": 13000,
+    "maxtime": 23999,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  // Lower count for Wendigo in other Biomes
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:wendigo",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow","minecraft:snow_layer"],
+    "biome": ["Snowy Coniferous Forest","Snowy Forest","AlpsFoothills","Ice Mountains"],
+    "maxcount": 1,
+    "mintime": 13000,
+    "maxtime": 23999,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:arix",
+    "maxcount": 8,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -888,7 +958,7 @@
   // This needs to be at the bottom to allow specific spawns.
   {
     "mod": "lycanitesmobs",
-    "dimension": ["0","17","-127","-1","1","110","111","112","4500","66"],
+    "dimension": ["0","17","-127","-1","1","110","111","112","-500","4500","66"],
     "onjoin": true,
     "result": "deny"
   }
