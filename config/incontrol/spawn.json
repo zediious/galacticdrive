@@ -878,8 +878,8 @@
     "onjoin": true,
     "result": "deny"
   },
-  // ** MOREITUS ***
-  // *************
+  // ** MOREITUS **
+  // **************
   {
     "dimension": 110,
     "mob": "srparasites:ada_arachnida",
@@ -981,6 +981,16 @@
     "mob": "lycanitesmobs:roa",
     "biome": ["Kelp Forest"],
     "maxcount": 10,
+    "onjoin": true,
+    "result": "allow"
+  },
+  // ** PLUTO **
+  // ***********
+  {
+    "dimension": 1,
+    "mob": "lycanitesmobs:spectre",
+    "block": ["minecraft:end_stone"],
+    "maxcount": 6,
     "onjoin": true,
     "result": "allow"
   },
