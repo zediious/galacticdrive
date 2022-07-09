@@ -8,6 +8,9 @@ minecraftinstance.json
 /natives
 config*.json
 
+# IDEA
+/.idea
+
 # Client only directories and files
 
 /.mixin.out
