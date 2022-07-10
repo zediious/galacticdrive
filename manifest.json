@@ -665,12 +665,6 @@
             "required": true
         },
         {
-            "alias": "It's the little things (itlt-1.12.x-1.0.4.jar)",
-            "fileID": 3330021,
-            "projectID": 232791,
-            "required": true
-        },
-        {
             "alias": "Bed Correction (originally BedFix) (bedfix_V1.2_1.12.2.jar)",
             "fileID": 3143614,
             "projectID": 427420,
