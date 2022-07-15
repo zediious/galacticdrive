@@ -178,7 +178,7 @@
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:sim_enderman",
     "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud","minecraft:end_stone"],
     "maxcount": 3,
@@ -186,7 +186,7 @@
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:sim_enderman",
     "onjoin": true,
     "result": "deny"
@@ -987,10 +987,33 @@
   // ** PLUTO **
   // ***********
   {
+    "dimension": ["1"],
+    "mob": "srparasites:sim_enderman",
+    "block": ["minecraft:end_stone"],
+    "maxcount": 10,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["1"],
+    "mob": "srparasites:sim_enderman",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
     "dimension": 1,
     "mob": "lycanitesmobs:spectre",
     "block": ["minecraft:end_stone"],
     "maxcount": 6,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 1,
+    "mob": "lycanitesmobs:epion",
+    "block": ["tconstruct:slime_dirt","tconstruct:slime_grass","erebus:wasp_nest"],
+    "maxcount": 5,
+    "perchunk": true,
     "onjoin": true,
     "result": "allow"
   },

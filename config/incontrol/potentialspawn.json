@@ -557,6 +557,12 @@
         "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:epion",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ]
   }
