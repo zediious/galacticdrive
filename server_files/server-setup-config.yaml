@@ -71,6 +71,8 @@ install:
               - 226447
               - 285742
               - 237701
+              - 362705
+              - 411816
 
     # The base path where the server should be installed to, ~ for current path
     baseInstallPath: GalacticDriveServer/
