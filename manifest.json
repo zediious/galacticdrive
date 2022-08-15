@@ -417,6 +417,7 @@
             "alias": "BdLib (bdlib-1.14.3.12-mc1.12.2.jar)",
             "fileID": 2518031,
             "projectID": 70496,
+            "downloadUrl": "https://edge.forgecdn.net/files/2518/031/bdlib-1.14.3.12-mc1.12.2.jar",
             "required": true
         },
         {
@@ -724,6 +725,7 @@
             "alias": "No Nether Portals (nonetherPortals_v1.0.0formc1.12.2.jar)",
             "fileID": 2573063,
             "projectID": 296057,
+            "downloadUrl": "https://edge.forgecdn.net/files/2573/063/nonetherPortals_v1.0.0formc1.12.2.jar",
             "required": true
         },
         {
@@ -772,6 +774,7 @@
             "alias": "LootTweaker (LootTweaker-0.3.1+MC1.12.2.jar)",
             "fileID": 3507866,
             "projectID": 255257,
+            "downloadUrl": "https://edge.forgecdn.net/files/3507/866/LootTweaker-0.3.1+MC1.12.2.jar",
             "required": true
         },
         {
@@ -834,6 +837,7 @@
             "alias": "World Primer (worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar)",
             "fileID": 2866063,
             "projectID": 258911,
+            "downloadUrl": "https://edge.forgecdn.net/files/2866/063/worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar",
             "required": true
         },
         {
@@ -923,6 +927,7 @@
             "alias": "AutoRegLib (AutoRegLib-1.3-32.jar)",
             "fileID": 2746011,
             "projectID": 250363,
+            "download": "https://edge.forgecdn.net/files/2746/011/AutoRegLib-1.3-32.jar",
             "required": true
         },
         {
